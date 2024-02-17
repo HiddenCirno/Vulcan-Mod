@@ -1,0 +1,499 @@
+{
+    "PersicariaTask1": {
+        "name": "初识",
+        "note": "",
+        "conditions": {
+            "PersicariaTask1Find1": "在战局中找到电线",
+            "PersicariaTask1Hand1": "上交电线",
+            "PersicariaTask1Find2": "在战局中找到电源线",
+            "PersicariaTask1Hand2": "上交电源线"
+        },
+        "description": "PersicariaTask1Desc",
+        "failMessageText": "PersicariaTask1Fail",
+        "startedMessageText": "PersicariaTask1Start",
+        "successMessageText": "PersicariaTask1Success",
+        "location": "any"
+    },
+    "PersicariaTecTask1": {
+        "name": "技术援助 - 1",
+        "note": "",
+        "conditions": {
+            "PersicariaTecTask1Find1": "在战局中找到印制电路板",
+            "PersicariaTecTask1Hand1": "上交印制电路板",
+            "PersicariaTecTask1Find2": "在战局中找到电容",
+            "PersicariaTecTask1Hand2": "上交电容",
+            "PersicariaTecTask1Find3": "在战局中找到电子元件",
+            "PersicariaTecTask1Hand3": "上交电子元件",
+            "PersicariaTecTask1Find4": "在战局中找到电线",
+            "PersicariaTecTask1Hand4": "上交电线"
+        },
+        "description": "PersicariaTecTask1Desc",
+        "failMessageText": "PersicariaTecTask1Fail",
+        "startedMessageText": "PersicariaTecTask1Start",
+        "successMessageText": "PersicariaTecTask1Success",
+        "location": "any"
+    },
+    "PersicariaTecTask2": {
+        "name": "技术援助 - 2",
+        "note": "",
+        "conditions": {
+            "PersicariaTecTask2Find1": "在战局中找到供电单元",
+            "PersicariaTecTask2Hand1": "上交供电单元",
+            "PersicariaTecTask2Find2": "在战局中找到DVD光驱",
+            "PersicariaTecTask2Hand2": "上交DVD光驱"
+        },
+        "description": "PersicariaTecTask2Desc",
+        "failMessageText": "PersicariaTecTask2Fail",
+        "startedMessageText": "PersicariaTecTask2Start",
+        "successMessageText": "PersicariaTecTask2Success",
+        "location": "any"
+    },
+    "PersicariaTecTask3": {
+        "name": "技术援助 - 3",
+        "note": "",
+        "conditions": {
+            "PersicariaTecTask3Find1": "在战局中找到军用COFDM无线信号发射器",
+            "PersicariaTecTask3Hand1": "上交军用COFDM无线信号发射器",
+            "PersicariaTecTask3Find2": "在战局中找到军用电源滤波器",
+            "PersicariaTecTask3Hand2": "上交军用电源滤波器"
+        },
+        "description": "PersicariaTecTask3Desc",
+        "failMessageText": "PersicariaTecTask3Fail",
+        "startedMessageText": "PersicariaTecTask3Start",
+        "successMessageText": "PersicariaTecTask3Success",
+        "location": "any"
+    },
+    "PersicariaTecTask4": {
+        "name": "技术援助 - 4",
+        "note": "",
+        "conditions": {
+            "PersicariaTecTask4Find1": "在战局中找到6-STEN-140-M军用电池",
+            "PersicariaTecTask4Hand1": "上交6-STEN-140-M军用电池",
+            "PersicariaTecTask4Find2": "在战局中找到军用电缆",
+            "PersicariaTecTask4Hand2": "上交军用电缆"
+        },
+        "description": "PersicariaTecTask4Desc",
+        "failMessageText": "PersicariaTecTask4Fail",
+        "startedMessageText": "PersicariaTecTask4Start",
+        "successMessageText": "PersicariaTecTask4Success",
+        "location": "any"
+    },
+    "PersicariaMedTask1": {
+        "name": "白衣天使 - 1",
+        "note": "",
+        "conditions": {
+            "PersicariaMedTask1Find1": "在战局中找到SJ6 TGLabs战斗兴奋剂注射器",
+            "PersicariaMedTask1Hand1": "上交SJ6 TGLabs战斗兴奋剂注射器"
+        },
+        "description": "PersicariaMedTask1Desc",
+        "failMessageText": "PersicariaMedTask1Fail",
+        "startedMessageText": "PersicariaMedTask1Start",
+        "successMessageText": "PersicariaMedTask1Success",
+        "location": "any"
+    },
+    "PersicariaMedTask2": {
+        "name": "白衣天使 - 2",
+        "note": "",
+        "conditions": {
+            "PersicariaMedTask2Find1": "在战局中找到SJ1 TGLabs战斗兴奋剂注射器",
+            "PersicariaMedTask2Hand1": "上交SJ1 TGLabs战斗兴奋剂注射器",
+            "PersicariaMedTask2Find2": "在战局中找到Cocktail “Obdolbos”",
+            "PersicariaMedTask2Hand2": "上交Cocktail “Obdolbos”"
+        },
+        "description": "PersicariaMedTask2Desc",
+        "failMessageText": "PersicariaMedTask2Fail",
+        "startedMessageText": "PersicariaMedTask2Start",
+        "successMessageText": "PersicariaMedTask2Success",
+        "location": "any"
+    },
+    "PersicariaMedTask3": {
+        "name": "白衣天使 - 3",
+        "note": "",
+        "conditions": {
+            "PersicariaMedTask3Find1": "在战局中找到TerraGroup实验室访问钥匙卡",
+            "PersicariaMedTask3Hand1": "上交TerraGroup实验室访问钥匙卡"
+        },
+        "description": "PersicariaMedTask3Desc",
+        "failMessageText": "PersicariaMedTask3Fail",
+        "startedMessageText": "PersicariaMedTask3Start",
+        "successMessageText": "PersicariaMedTask3Success",
+        "location": "any"
+    },
+    "PersicariaMedTask4": {
+        "name": "白衣天使 - 4",
+        "note": "",
+        "conditions": {
+            "PersicariaMedTask4Find1": "在战局中找到蓝色记号钥匙卡",
+            "PersicariaMedTask4Hand1": "上交蓝色记号钥匙卡"
+        },
+        "description": "PersicariaMedTask4Desc",
+        "failMessageText": "PersicariaMedTask4Fail",
+        "startedMessageText": "PersicariaMedTask4Start",
+        "successMessageText": "PersicariaMedTask4Success",
+        "location": "any"
+    },
+    "PersicariaWarTask1": {
+        "name": "战争世界 - 1",
+        "note": "",
+        "conditions": {
+            "PersicariaWarTask1Kill1": "消灭 Scav"
+        },
+        "description": "PersicariaWarTask1Desc",
+        "failMessageText": "PersicariaWarTask1Fail",
+        "startedMessageText": "PersicariaWarTask1Start",
+        "successMessageText": "PersicariaWarTask1Success",
+        "location": "any"
+    },
+    "PersicariaWarTask2": {
+        "name": "战争世界 - 2",
+        "note": "",
+        "conditions": {
+            "PersicariaWarTask2Kill1": "消灭 Scav"
+        },
+        "description": "PersicariaWarTask2Desc",
+        "failMessageText": "PersicariaWarTask2Fail",
+        "startedMessageText": "PersicariaWarTask2Start",
+        "successMessageText": "PersicariaWarTask2Success",
+        "location": "any"
+    },
+    "PersicariaWarTask3": {
+        "name": "战争世界 - 3",
+        "note": "",
+        "conditions": {
+            "PersicariaWarTask3Kill1": "消灭 Scav"
+        },
+        "description": "PersicariaWarTask3Desc",
+        "failMessageText": "PersicariaWarTask3Fail",
+        "startedMessageText": "PersicariaWarTask3Start",
+        "successMessageText": "PersicariaWarTask3Success",
+        "location": "any"
+    },
+    "PersicariaWarTask4": {
+        "name": "战争世界 - 4",
+        "note": "",
+        "conditions": {
+            "PersicariaWarTask4Kill1": "消灭 Scav"
+        },
+        "description": "PersicariaWarTask4Desc",
+        "failMessageText": "PersicariaWarTask4Fail",
+        "startedMessageText": "PersicariaWarTask4Start",
+        "successMessageText": "PersicariaWarTask4Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask1": {
+        "name": "我成了死神 - 金色天际线",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask1Kill1": "消灭 Reshala",
+            "PersicariaDeadTask1Hand1": "上交托卡列夫 TT-33 7.62x25 黄金手枪",
+            "PersicariaDeadTask1Hand2": "上交Reshala 包"
+        },
+        "description": "PersicariaDeadTask1Desc",
+        "failMessageText": "PersicariaDeadTask1Fail",
+        "startedMessageText": "PersicariaDeadTask1Start",
+        "successMessageText": "PersicariaDeadTask1Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask2": {
+        "name": "我成了死神 - 雄狮之眠",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask2Kill1": "消灭 Tagilla",
+            "PersicariaDeadTask2Hand1": "上交Crye Precision AVS MBAV（Tagilla特别版）"
+        },
+        "description": "PersicariaDeadTask2Desc",
+        "failMessageText": "PersicariaDeadTask2Fail",
+        "startedMessageText": "PersicariaDeadTask2Start",
+        "successMessageText": "PersicariaDeadTask2Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask3": {
+        "name": "我成了死神 - 量子装甲",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask3Kill1": "消灭 Sanitar",
+            "PersicariaDeadTask3Hand1": "上交蓝色记号钥匙卡",
+            "PersicariaDeadTask3Hand2": "上交粘有胶带的钥匙"
+        },
+        "description": "PersicariaDeadTask3Desc",
+        "failMessageText": "PersicariaDeadTask3Fail",
+        "startedMessageText": "PersicariaDeadTask3Start",
+        "successMessageText": "PersicariaDeadTask3Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask4": {
+        "name": "我成了死神 - 那个时髦的人",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask4Kill1": "消灭 Killa",
+            "PersicariaDeadTask4Hand1": "上交Maska 1Sсh头盔（Killa）"
+        },
+        "description": "PersicariaDeadTask4Desc",
+        "failMessageText": "PersicariaDeadTask4Fail",
+        "startedMessageText": "PersicariaDeadTask4Start",
+        "successMessageText": "PersicariaDeadTask4Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask5": {
+        "name": "我成了死神 - 狙击手的对决",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask5Kill1": "消灭 Shturman",
+            "PersicariaDeadTask5Hand1": "上交Shturman 钥匙"
+        },
+        "description": "PersicariaDeadTask5Desc",
+        "failMessageText": "PersicariaDeadTask5Fail",
+        "startedMessageText": "PersicariaDeadTask5Start",
+        "successMessageText": "PersicariaDeadTask5Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask6": {
+        "name": "我成了死神 - 钢铁雄心",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask6Kill1": "消灭 Glukhar"
+        },
+        "description": "PersicariaDeadTask6Desc",
+        "failMessageText": "PersicariaDeadTask6Fail",
+        "startedMessageText": "PersicariaDeadTask6Start",
+        "successMessageText": "PersicariaDeadTask6Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask8": {
+        "name": "我成了死神 - 掠食者之影",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask8Kill1": "消灭 Kaban"
+        },
+        "description": "PersicariaDeadTask8Desc",
+        "failMessageText": "PersicariaDeadTask8Fail",
+        "startedMessageText": "PersicariaDeadTask8Start",
+        "successMessageText": "PersicariaDeadTask8Success",
+        "location": "any"
+    },
+    "PersicariaDeadTask7": {
+        "name": "我成了死神 - 折断一把剑",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask7Kill1": "消灭 Knight",
+            "PersicariaDeadTask7Hand1": "上交Death Knight面具",
+            "PersicariaDeadTask7Kill2": "消灭 Birdeye",
+            "PersicariaDeadTask7Hand2": "上交Mystery Ranch NICE COMM 3 BVS稳固系统",
+            "PersicariaDeadTask7Kill3": "消灭 BigPipe",
+            "PersicariaDeadTask7Hand3": "上交Big Pipe的烟斗"
+        },
+        "description": "PersicariaDeadTask7Desc",
+        "failMessageText": "PersicariaDeadTask7Fail",
+        "startedMessageText": "PersicariaDeadTask7Start",
+        "successMessageText": "PersicariaDeadTask7Success",
+        "location": "any"
+    },
+    "PersicariaCodTask1": {
+        "name": "Remember, No Russian",
+        "note": "",
+        "conditions": {
+            "PersicariaCodTask1Kill1": "使用轻机枪击杀Scav"
+        },
+        "description": "PersicariaCodTask1Desc",
+        "failMessageText": "PersicariaCodTask1Fail",
+        "startedMessageText": "PersicariaCodTask1Start",
+        "successMessageText": "PersicariaCodTask1Success",
+        "location": "any"
+    },
+    "PersicariaBoxTask1": {
+        "name": "选择之间",
+        "note": "",
+        "conditions": {
+            "PersicariaBoxTask1Hand1": "交付Gamma安全箱"
+        },
+        "description": "PersicariaBoxTask1Desc",
+        "failMessageText": "PersicariaBoxTask1Fail",
+        "startedMessageText": "PersicariaBoxTask1Start",
+        "successMessageText": "PersicariaBoxTask1Success",
+        "location": "any"
+    },
+    "PersicariaBoxTask2": {
+        "name": "你今晚要和我一起回家",
+        "note": "",
+        "conditions": {
+            "PersicariaBoxTask2Hand1": "交付“凶狠跑刀崽”月光",
+            "PersicariaBoxTask2Hand2": "交付高浓缩咖啡方糖",
+            "PersicariaBoxTask2Hand3": "交付LEDX皮肤透照仪",
+            "PersicariaBoxTask2Hand4": "交付T H I C C物品箱"
+        },
+        "description": "PersicariaBoxTask2Desc",
+        "failMessageText": "PersicariaBoxTask2Fail",
+        "startedMessageText": "PersicariaBoxTask2Start",
+        "successMessageText": "PersicariaBoxTask2Success",
+        "location": "any"
+    },
+    "PersicariaKeyTask1": {
+        "name": "紧急封锁 - 1",
+        "note": "",
+        "conditions": {},
+        "description": "PersicariaKeyTask1Desc",
+        "failMessageText": "PersicariaKeyTask1Fail",
+        "startedMessageText": "PersicariaKeyTask1Start",
+        "successMessageText": "PersicariaKeyTask1Success",
+        "location": "any"
+    },
+    "PersicariaKeyTask2": {
+        "name": "紧急封锁 - 2",
+        "note": "",
+        "conditions": {
+            "PersicariaKeyTask2Hand1": "上交实验室钥匙卡·黄",
+            "PersicariaKeyTask2Hand2": "上交实验室钥匙卡·绿",
+            "PersicariaKeyTask2Hand3": "上交实验室钥匙卡·蓝",
+            "PersicariaKeyTask2Hand4": "上交实验室钥匙卡·紫",
+            "PersicariaKeyTask2Hand5": "上交实验室钥匙卡·红",
+            "PersicariaKeyTask2Hand6": "上交实验室钥匙卡·黑",
+            "PersicariaKeyTask2Hand7": "上交Object #11SR 钥匙卡",
+            "PersicariaKeyTask2Hand8": "上交Object #21WS 钥匙卡"
+        },
+        "description": "PersicariaKeyTask2Desc",
+        "failMessageText": "PersicariaKeyTask2Fail",
+        "startedMessageText": "PersicariaKeyTask2Start",
+        "successMessageText": "PersicariaKeyTask2Success",
+        "location": "any"
+    },
+    "PersicariaKeyTask3": {
+        "name": "紧急封锁 - 3",
+        "note": "",
+        "conditions": {},
+        "description": "PersicariaKeyTask3Desc",
+        "failMessageText": "PersicariaKeyTask3Fail",
+        "startedMessageText": "PersicariaKeyTask3Start",
+        "successMessageText": "PersicariaKeyTask3Success",
+        "location": "any"
+    },
+    "PersicariaCyberTask1": {
+        "name": "边缘行者",
+        "note": "",
+        "conditions": {
+            "PersicariaCyberTask1LvNeed1": "了解边缘行者的故事（等级达到70级）"
+        },
+        "description": "PersicariaCyberTask1Desc",
+        "failMessageText": "PersicariaCyberTask1Fail",
+        "startedMessageText": "PersicariaCyberTask1Start",
+        "successMessageText": "PersicariaCyberTask1Success",
+        "location": "any"
+    },
+    "PersicariaFinalTask1": {
+        "name": "五帝破空",
+        "note": "",
+        "conditions": {},
+        "description": "PersicariaFinalTask1Desc",
+        "failMessageText": "PersicariaFinalTask1Fail",
+        "startedMessageText": "PersicariaFinalTask1Start",
+        "successMessageText": "PersicariaFinalTask1Success",
+        "location": "any"
+    },
+    "PersicariaLeaveTask1": {
+        "name": "供货商 - 1",
+        "note": "",
+        "conditions": {
+            "PersicariaLeaveTask1Visit11": "在夜间的工厂找到货物投放地点",
+            "PersicariaLeaveTask1LeaveItem1": "将两个“Ptilopsis”火药藏匿在工厂的货物投放地点",
+            "PersicariaLeaveTask1LeaveItem2": "将两个“Violet”火药藏匿在工厂的货物投放地点",
+            "PersicariaLeaveTask1LeaveItem3": "将两个“Zaychik”火药藏匿在工厂的货物投放地点"
+        },
+        "description": "PersicariaLeaveTask1Desc",
+        "failMessageText": "PersicariaLeaveTask1Fail",
+        "startedMessageText": "PersicariaLeaveTask1Start",
+        "successMessageText": "PersicariaLeaveTask1Success",
+        "location": "any"
+    },
+    "PersicariaBladeTask1": {
+      "name": "锐气千刃",
+      "note": "",
+      "conditions": {
+          "PersicariaBladeTask1Kill1": "消灭任意敌人"
+      },
+      "description": "PersicariaBladeTask1Desc",
+      "failMessageText": "PersicariaBladeTask1Fail",
+      "startedMessageText": "PersicariaBladeTask1Start",
+      "successMessageText": "PersicariaBladeTask1Success",
+      "location": "any"
+  },
+  "太阳能维修": {
+    "name": "太阳能维修",
+    "note": "",
+    "conditions": {
+        "太阳能维修Find1": "在战局中找到有机玻璃片",
+        "太阳能维修Hand1": "上交有机玻璃片",
+        "太阳能维修Find2": "在战局中找到军用电路板",
+        "太阳能维修Hand2": "上交军用电路板",
+        "太阳能维修Find3": "在战局中找到相控阵单元",
+        "太阳能维修Hand3": "上交相控阵单元",
+        "太阳能维修Find4": "在战局中找6-STEN-140-M军用电池",
+        "太阳能维修Hand4": "上交6-STEN-140-M军用电池"
+    },
+    "description": "太阳能维修Desc",
+    "failMessageText": "太阳能维修Fail",
+    "startedMessageText": "太阳能维修Start",
+    "successMessageText": "太阳能维修Success",
+    "location": "any"
+},
+"星星不闪包退换": {
+  "name": "星星不闪包退换",
+  "note": "",
+  "conditions": {
+      "星星不闪包退换Hand1": "上交欧元"
+  },
+  "description": "星星不闪包退换Desc",
+  "failMessageText": "星星不闪包退换Fail",
+  "startedMessageText": "星星不闪包退换Start",
+  "successMessageText": "星星不闪包退换Success",
+  "location": "any"
+},
+"进化甲进度显示": {
+  "name": "进化护甲集成统计面板",
+  "note": "",
+  "conditions": {
+      "白甲-蓝甲进度": "完成进化所需的击杀数",
+      "蓝甲-紫甲进度": "完成进化所需的击杀数",
+      "紫甲-红甲进度": "完成进化所需的击杀数"
+  },
+  "description": "进化甲进度显示Desc",
+  "failMessageText": "进化甲进度显示Fail",
+  "startedMessageText": "进化甲进度显示Start",
+  "successMessageText": "进化甲进度显示Success",
+  "location": "any"
+},
+"白甲-蓝甲进度": {
+  "name": "进化护甲统计面板 - 1",
+  "note": "",
+  "conditions": {
+      "白甲-蓝甲进度": "完成进化所需的击杀数"
+  },
+  "description": "白甲-蓝甲进度Desc",
+  "failMessageText": "白甲-蓝甲进度Fail",
+  "startedMessageText": "白甲-蓝甲进度Start",
+  "successMessageText": "白甲-蓝甲进度Success",
+  "location": "any"
+},
+"蓝甲-紫甲进度": {
+  "name": "进化护甲统计面板 - 2",
+  "note": "",
+  "conditions": {
+      "蓝甲-紫甲进度": "完成进化所需的击杀数"
+  },
+  "description": "蓝甲-紫甲进度Desc",
+  "failMessageText": "蓝甲-紫甲进度Fail",
+  "startedMessageText": "蓝甲-紫甲进度Start",
+  "successMessageText": "蓝甲-紫甲进度Success",
+  "location": "any"
+},
+"紫甲-红甲进度": {
+  "name": "进化护甲统计面板 - 3",
+  "note": "",
+  "conditions": {
+      "紫甲-红甲进度": "完成进化所需的击杀数"
+  },
+  "description": "紫甲-红甲进度Desc",
+  "failMessageText": "紫甲-红甲进度Fail",
+  "startedMessageText": "紫甲-红甲进度Start",
+  "successMessageText": "紫甲-红甲进度Success",
+  "location": "any"
+}
+}

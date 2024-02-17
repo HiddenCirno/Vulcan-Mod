@@ -1,0 +1,433 @@
+{
+    "manifest": [
+        {
+            "key": "assets/content/VHIMedPen/textures/client_assets.bundle",
+			"dependencyKeys": []
+        },
+        {
+            "key": "assets/content/weapons/m32a1/textures/client_assets.bundle",
+			"dependencyKeys": []
+        },
+        {
+            "key": "assets/content/weapons/m32a1/client_assets.bundle",
+			"dependencyKeys": [
+            "assets/content/weapons/m32a1/textures/client_assets.bundle",
+            "cubemaps",
+            "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/headset_comtacii/item_equipment_headset_comtacii.bundle",
+			"dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "cubemaps",
+            "shaders"
+            ]
+        },
+        {
+            "key": "assets/ExSugar/textures/client_assets.bundle",
+			"dependencyKeys": []
+        },
+        {
+            "key": "assets/ExSugar/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/ExSugar/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/ExSugar/item_food_sugar_container.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/usable_items/item_crackers.bundle",
+                "assets/content/audio/weapons/usable_items/item_flakes.bundle",
+                "assets/content/audio/weapons/usable_items/item_tetrapak.bundle",
+                "assets/content/prefabs/muzzleflash_base.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/ExSugar/client_assets.bundle",
+                "assets/ExSugar/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/ExSugar/item_sugar_loot.bundle",
+			"dependencyKeys": [
+                "assets/ExSugar/client_assets.bundle",
+                "assets/ExSugar/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/Shadow/reciever_ar10_kac_sr25_upper_std.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/backpack_reshala/item_equipment_backpack_pilgrim.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/containers/Sigma/item_container_secured_kappa.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Bar/textures/client_assets.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Bar/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/Ex_Energy_Bar/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Bar/item_slickers_container.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/usable_items/item_slippers.bundle",
+                "assets/content/prefabs/muzzleflash_base.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/Ex_Energy_Bar/client_assets.bundle",
+                "assets/Ex_Energy_Bar/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Bar/item_slickers_loot.bundle",
+			"dependencyKeys": [
+                "assets/Ex_Energy_Bar/client_assets.bundle",
+                "assets/Ex_Energy_Bar/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Drink1/textures/client_assets.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Drink1/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/Ex_Energy_Drink1/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Drink1/item_drink_waterration_container.bundle",
+			"dependencyKeys": [
+                "assets/content/prefabs/muzzleflash_base.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/Ex_Energy_Drink1/client_assets.bundle",
+                "assets/Ex_Energy_Drink1/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/Ex_Energy_Drink1/item_drink_waterration_loot.bundle",
+			"dependencyKeys": [
+                "assets/Ex_Energy_Drink1/client_assets.bundle",
+                "assets/Ex_Energy_Drink1/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/barter/yellow_powder/item_other_powder.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/barter/white_powder/item_other_powder.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/barter/violet_powder/item_other_powder.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_Apex.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_PNC.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_Trans.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_Chengguan.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_Cirno.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_WanderingEarth.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/containers/Omega/item_container_secured_kappa.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "undead.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "beichen.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "heirloom_loba.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "shturman_suit.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "shturman_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "tagilla_top.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "tagilla_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "knight_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "bigpipe_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "glukhar_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "sanitar_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "birdeye_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "reshala_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "zryachiy_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "kaban_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armorshield/white/item_equipment_armor_gjel.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armorshield/cell/item_barter_electr_thermalmodule.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armorshield/blue/item_equipment_armor_gjel.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armorshield/violet/item_equipment_armor_gjel.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armorshield/red/item_equipment_armor_gjel.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "edgerunner.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "edgerunnerhand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_Beta.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "priest_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        }
+
+    ]
+
+}

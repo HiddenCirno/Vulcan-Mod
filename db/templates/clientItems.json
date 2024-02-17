@@ -1,0 +1,617 @@
+{
+    "data":{
+        "高浓缩咖啡方糖": {
+        "_id": "高浓缩咖啡方糖",
+        "_name": "",
+        "_parent": "5448e8d04bdc2ddf718b4569",
+        "_type": "Item",
+        "_props": {
+          "Name": "高浓缩咖啡方糖",
+          "ShortName": "咖啡方糖",
+          "Description": "浓度几乎达到工业级别的方糖块，究竟是什么公司会生产这种东西呢……",
+          "Weight": 0.5,
+          "BackgroundColor": "default",
+          "Width": 1,
+          "Height": 1,
+          "StackMaxSize": 1,
+          "Rarity": "Rare",
+          "SpawnChance": 9,
+          "CreditsPrice": 38000,
+          "ItemSound": "generic",
+          "Prefab": {
+            "path": "assets/ExSugar/item_sugar_loot.bundle",
+            "rcid": ""
+          },
+          "UsePrefab": {
+            "path": "assets/ExSugar/item_food_sugar_container.bundle",
+            "rcid": ""
+          },
+          "StackObjectsCount": 1,
+          "NotShownInSlot": false,
+          "ExaminedByDefault": false,
+          "ExamineTime": 1,
+          "IsUndiscardable": false,
+          "IsUnsaleable": false,
+          "IsUnbuyable": false,
+          "IsUngivable": false,
+          "IsLockedafterEquip": false,
+          "QuestItem": false,
+          "LootExperience": 10,
+          "ExamineExperience": 10,
+          "HideEntrails": false,
+          "RepairCost": 0,
+          "RepairSpeed": 0,
+          "ExtraSizeLeft": 0,
+          "ExtraSizeRight": 0,
+          "ExtraSizeUp": 0,
+          "ExtraSizeDown": 0,
+          "ExtraSizeForceAdd": false,
+          "MergesWithChildren": false,
+          "CanSellOnRagfair": true,
+          "CanRequireOnRagfair": true,
+          "ConflictingItems": [],
+          "FixedPrice": false,
+          "Unlootable": false,
+          "UnlootableFromSlot": "FirstPrimaryWeapon",
+          "UnlootableFromSide": [],
+          "ChangePriceCoef": 1,
+          "AllowSpawnOnLocations": [],
+          "SendToClient": false,
+          "AnimationVariantsNumber": 0,
+          "DiscardingBlock": false,
+          "RagFairCommissionModifier": 1,
+          "IsAlwaysAvailableForInsurance": false,
+          "foodUseTime": 9,
+          "foodEffectType": "afterUse",
+          "MaxResource": 70,
+          "StimulatorBuffs": "Buffs_ExSugar",
+          "effects_health": {
+            "Energy": {
+              "value": 140
+            },
+            "Hydration": {
+              "value": -105
+            }
+          },
+          "effects_damage": []
+        },
+        "_proto": "544fb6cc4bdc2d34748b456e"
+      }
+    },
+    "Vulcan活力因子激活血清": {
+      "_id": "Vulcan活力因子激活血清",
+      "_name": "eTG_change",
+      "_parent": "5448f3a64bdc2d60728b456a",
+      "_type": "Item",
+      "_props": {
+        "Name": "Vulcan-活力因子激活血清",
+        "ShortName": "Vulcan-1C",
+        "Description": "火神重工下属生命科学分部夏花研究所研发的实验品血清，造价极为昂贵，能够在短时间内加速新陈代谢反应，大幅提升机体造血能力。\n尽管这种血清造价高昂，但其最终依然被作为单兵配置大规模列装。\n“生命比这种药物更加珍贵，夏花研究所可以生产血清，但无法创造生命。”",
+        "Weight": 0.05,
+        "BackgroundColor": "violet",
+        "Width": 1,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "Rarity": "Rrare",
+        "SpawnChance": 1,
+        "CreditsPrice": 800000,
+        "ItemSound": "med_stimulator",
+        "Prefab": {
+          "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj1_loot.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj1_container.bundle",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 20,
+        "ExamineExperience": 8,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": true,
+        "ConflictingItems": [],
+        "FixedPrice": false,
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "ChangePriceCoef": 1,
+        "SendToClient": false,
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "medUseTime": 2,
+        "medEffectType": "duringUse",
+        "MaxHpResource": 2,
+        "hpResourceRate": 0,
+        "StimulatorBuffs": "Buffs_VHI0E001C",
+        "effects_health": {
+          "Energy": {
+            "value": -50
+          },
+          "Hydration": {
+            "value": -50
+          }
+        },
+        "effects_damage": 
+          {
+          "Pain": {
+            "delay": 0,
+            "duration": 120,
+            "fadeOut": 0,
+                      "cost": 0
+          },
+          "Contusion": {
+            "delay": 0,
+            "duration": 0,
+            "fadeOut": 0,
+                      "cost": 0
+          }
+          }
+      },
+      "_proto": "544fb3f34bdc2d03748b456a"
+    },
+    "Vulcan实验型再生促进血清": {
+      "_id": "Vulcan实验型再生促进血清",
+      "_name": "SJ6_TGLabs",
+      "_parent": "5448f3a64bdc2d60728b456a",
+      "_type": "Item",
+      "_props": {
+        "Name": "Vulcan-实验型再生促进血清",
+        "ShortName": "Vulcan-1A",
+        "Description": "火神重工下属生命科学分部夏花研究所研发的实验品血清，通过刺激细胞再分化过程提升人体自愈能力，用于战场快速治疗出血、疼痛、挫伤等轻微伤势。",
+        "Weight": 0.05,
+        "BackgroundColor": "violet",
+        "Width": 1,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "Rarity": "Rrare",
+        "SpawnChance": 3,
+        "CreditsPrice": 34000,
+        "ItemSound": "med_stimulator",
+        "Prefab": {
+          "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj6_loot.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj6_container.bundle",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 20,
+        "ExamineExperience": 8,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": true,
+        "ConflictingItems": [],
+        "FixedPrice": false,
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "ChangePriceCoef": 1,
+        "AllowSpawnOnLocations": [
+          "laboratory",
+          "Shoreline",
+          "RezervBase",
+          "Interchange"
+        ],
+        "SendToClient": false,
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "medUseTime": 2,
+        "medEffectType": "duringUse",
+        "MaxHpResource": 2,
+        "hpResourceRate": 0,
+        "StimulatorBuffs": "Buffs_VHI0E001A",
+        "effects_health": {
+          "Energy": {
+            "value": -10
+          },
+          "Hydration": {
+            "value": -10
+          }
+        },
+        "effects_damage": 
+          {
+          "LightBleeding": {
+            "delay": 0,
+            "duration": 180,
+            "fadeOut": 0,
+                      "cost": 0
+          },
+          "HeavyBleeding": {
+            "delay": 0,
+            "duration": 180,
+            "fadeOut": 0,
+                      "cost": 0
+          },
+          "Pain": {
+            "delay": 0,
+            "duration": 180,
+            "fadeOut": 0,
+                      "cost": 0
+          },
+          "Contusion": {
+            "delay": 0,
+            "duration": 0,
+            "fadeOut": 0,
+                      "cost": 0
+          }
+          }
+      },
+      "_proto": "544fb3f34bdc2d03748b456a"
+    },
+    "Vulcan细胞活性刺激血清": {
+      "_id": "Vulcan细胞活性刺激血清",
+      "_name": "M.U.L.E",
+      "_parent": "5448f3a64bdc2d60728b456a",
+      "_type": "Item",
+      "_props": {
+        "Name": "Vulcan-细胞活性刺激血清",
+        "ShortName": "Vulcan-1B",
+        "Description": "火神重工下属生命科学分部夏花研究所研发的实验品血清，利用诺克石化合物诱导细胞大幅度加速分化（注：血细胞对于诺克石化合物不会产生反应，本血清无法治愈出血。），能够在短时间内治愈肢体、骨折伤。",
+        "Weight": 0.05,
+        "BackgroundColor": "violet",
+        "Width": 1,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "Rarity": "Rrare",
+        "SpawnChance": 1,
+        "CreditsPrice": 220000,
+        "ItemSound": "med_stimulator",
+        "Prefab": {
+          "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_loot.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_container.bundle",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 40,
+        "ExamineExperience": 8,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": true,
+        "ConflictingItems": [],
+        "FixedPrice": false,
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "ChangePriceCoef": 1,
+        "AllowSpawnOnLocations": [
+          "factory4_night",
+          "laboratory",
+          "Lighthouse"
+        ],
+        "SendToClient": true,
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "medUseTime": 2,
+        "medEffectType": "duringUse",
+        "MaxHpResource": 5,
+        "hpResourceRate": 0,
+        "StimulatorBuffs": "",
+        "effects_health": {
+          "Energy": {
+            "value": -30
+          },
+          "Hydration": {
+            "value": -30
+          }
+        },
+        "effects_damage": {
+          "Fracture": {
+            "delay": 0,
+            "duration": 0,
+            "fadeOut": 0,
+            "healthPenaltyMin": 0,
+            "healthPenaltyMax": 0
+          },
+          "DestroyedPart": {
+            "delay": 0,
+            "duration": 0,
+            "fadeOut": 0,
+            "healthPenaltyMin": 60,
+            "healthPenaltyMax": 72
+          }
+        }
+      },
+      "_proto": "544fb3f34bdc2d03748b456a"
+    },
+    "Vulcan战场紧急手术套组": {
+      "_id": "Vulcan战场紧急手术套组",
+      "_name": "survival_first_aid_rollup_kit",
+      "_parent": "5448f3ac4bdc2dce718b4569",
+      "_type": "Item",
+      "_props": {
+        "Name": "Vulcan-战场紧急手术套组",
+        "ShortName": "手术套组",
+        "Description": "火神重工下属生命科学分部联合军事统合分部研发的一次性外科手术包，能够在恶劣的战场环境下快速进行开放式手术对伤员进行急救。",
+        "Weight": 1.0,
+        "BackgroundColor": "orange",
+        "Width": 2,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "Rarity": "Rare",
+        "SpawnChance": 3,
+        "CreditsPrice": 140000,
+        "ItemSound": "med_medkit",
+        "Prefab": {
+          "path": "assets/content/weapons/usable_items/item_meds_survival_first_aid_rollup_kit/item_meds_survival_first_aid_rollup_kit_loot.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "assets/content/weapons/usable_items/item_meds_survival_first_aid_rollup_kit/item_meds_survival_first_aid_rollup_kit_container.bundle",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 40,
+        "ExamineExperience": 2,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": true,
+        "ConflictingItems": [],
+        "FixedPrice": false,
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "ChangePriceCoef": 1,
+        "AllowSpawnOnLocations": [],
+        "SendToClient": true,
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "medUseTime": 5,
+        "medEffectType": "duringUse",
+        "MaxHpResource": 2,
+        "hpResourceRate": 0,
+        "StimulatorBuffs": "",
+        "effects_health": [],
+        "effects_damage": {
+          "Fracture": {
+            "delay": 0,
+            "duration": 0,
+            "fadeOut": 0,
+            "healthPenaltyMin": 0,
+            "healthPenaltyMax": 0
+          },
+          "DestroyedPart": {
+            "delay": 0,
+            "duration": 0,
+            "fadeOut": 0,
+            "healthPenaltyMin": 70,
+            "healthPenaltyMax": 90
+          }
+        }
+      },
+      "_proto": "544fb3364bdc2d34748b456a"
+    },
+    "Vulcan便携能量饮料包": {
+      "_id": "Vulcan便携能量饮料包",
+      "_name": "item_drink_waterration",
+      "_parent": "5448e8d64bdc2dce718b4568",
+      "_type": "Item",
+      "_props": {
+        "Name": "Vulcan-便携能量饮料包（荔枝口味）",
+        "ShortName": "便携饮料",
+        "Description": "火神重工下属民用技术分部出品的荔枝口味能量饮料，饮用方便、易于携带，采取特殊高分子合成可降解塑料作为包装，不易破损，绿色、环保、无污染。",
+        "Weight": 0.4,
+        "BackgroundColor": "violet",
+        "Width": 1,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "Rarity": "Rare",
+        "SpawnChance": 3,
+        "CreditsPrice": 27000,
+        "ItemSound": "food_bottle",
+        "Prefab": {
+          "path": "assets/Ex_Energy_Drink1/item_drink_waterration_loot.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "assets/Ex_Energy_Drink1/item_drink_waterration_container.bundle",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 10,
+        "ExamineExperience": 10,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": true,
+        "ConflictingItems": [],
+        "FixedPrice": false,
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "ChangePriceCoef": 1,
+        "AllowSpawnOnLocations": [],
+        "SendToClient": false,
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "foodUseTime": 2,
+        "foodEffectType": "afterUse",
+        "MaxResource": 1,
+        "StimulatorBuffs": "Buffs_Energy_Drink",
+        "effects_health": {
+          "Energy": {
+            "value": 20
+          },
+          "Hydration": {
+            "value": 100
+          }
+        },
+        "effects_damage": []
+      },
+      "_proto": "5448fee04bdc2dbc018b4567"
+    },
+    "Vulcan高能量蛋白棒": {
+      "_id": "Vulcan高能量蛋白棒",
+      "_name": "slippers",
+      "_parent": "5448e8d04bdc2ddf718b4569",
+      "_type": "Item",
+      "_props": {
+        "Name": "Vulcan-草莓口味蛋白棒",
+        "ShortName": "能量棒",
+        "Description": "火神重工下属民用技术分部出品的能量食品，相较于传统的蛋白棒特别注重了口味调配，保证口感的同时能够补充大量能量，通常与便携能量饮料包搭配食用。",
+        "Weight": 0.2,
+        "BackgroundColor": "violet",
+        "Width": 1,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "Rarity": "Rare",
+        "SpawnChance": 6,
+        "CreditsPrice": 23000,
+        "ItemSound": "generic",
+        "Prefab": {
+          "path": "assets/Ex_Energy_Bar/item_slickers_loot.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "assets/Ex_Energy_Bar/item_slickers_container.bundle",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 10,
+        "ExamineExperience": 10,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": true,
+        "ConflictingItems": [],
+        "FixedPrice": false,
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "ChangePriceCoef": 1,
+        "AllowSpawnOnLocations": [],
+        "SendToClient": false,
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "foodUseTime": 2,
+        "foodEffectType": "afterUse",
+        "MaxResource": 1,
+        "StimulatorBuffs": "Buffs_Energy_Chocolate",
+        "effects_health": {
+          "Energy": {
+            "value": 110
+          },
+          "Hydration": {
+            "value": -30
+          }
+        },
+        "effects_damage": []
+      }
+    }
+}

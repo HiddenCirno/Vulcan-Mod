@@ -1,0 +1,239 @@
+{
+    "PersicariaTask": {
+        
+        "QuestName": "PersicariaTask",
+		"traderId": "Persicaria",
+        "_id": "PersicariaTask",	
+        "image": "/files/quest/icon/city.png",		
+        "templateId": "PersicariaTask successMessageText",  
+        "description": "PersicariaTask description",
+        "failMessageText": "PersicariaTask failMessageText",
+		"startedMessageText": "PersicariaTask startedMessageText",
+        "successMessageText": "PersicariaTask successMessageText",
+        "name": "PersicariaTask name",
+        "note": "PersicariaTask note",		
+        "type": "Completion",
+		"secretQuest": false, 
+        "canShowNotificationsInGame": true,
+        "conditions": {          
+            "AvailableForStart": [],
+			"AvailableForFinish": [
+		{
+        "_parent": "FindItem",
+        "_props": {
+          "target": ["5c052f6886f7746b1e3db148"],
+          "value": "1",
+          "index": 1,
+          "parentId": "",
+          "id": "PersicariaTask0Find0",
+          "minDurability": 0,
+          "visibilityConditions": [],
+          "maxDurability": 0,
+		  "dynamicLocale": false,
+          "dogtagLevel": 0
+        },
+		"dynamicLocale": false
+        },
+        {
+        "_parent": "HandoverItem",
+        "_props": {
+          "target": ["VHIServerVersionTestMedPen"],
+          "value": "1",
+          "index": 1,
+          "parentId": "",
+          "id": "PersicariaTask0Hand0",
+          "minDurability": 0,
+          "visibilityConditions": [],
+          "maxDurability": 0,
+		  "dynamicLocale": false,
+          "dogtagLevel": 0
+        },
+		"dynamicLocale": false
+        }
+            ],
+            "Fail": []
+        },             
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",       
+        "restartable": false,
+        "rewards": {           
+            "Started": [
+
+
+            ],
+            "Success": [
+                {
+                  "value": "2000",
+                  "id": "PersicariaTaskRw1",
+                  "type": "Experience",
+                  "index": 0
+                },
+                {
+                  "value": "0.02",
+                  "id": "PersicariaTaskRw2",
+                  "type": "TraderStanding",
+                  "index": 1,
+                  "target": "Persicaria"
+                },
+                {
+                  "value": "20000",
+                  "id": "PersicariaTaskRw3",
+                  "type": "Item",
+                  "index": 2,
+                  "target": "PersicariaTaskRw31",
+                  "items": [
+                    {
+                      "_id": "PersicariaTaskRw31",
+                      "_tpl": "5449016a4bdc2d6f028b456f",
+                      "upd": {
+                        "StackObjectsCount": 20000
+                      }
+                    }
+                  ]
+                }
+                
+            ],
+			"Fail": []
+        }       
+
+    },
+    "PersicariaTask2": {
+        
+        "QuestName": "PersicariaTask2",
+		"traderId": "Persicaria",
+        "_id": "PersicariaTask2",	
+        "image": "/files/quest/icon/city.png",		
+        "templateId": "PersicariaTask2 successMessageText",  
+        "description": "PersicariaTask2 description",
+        "failMessageText": "PersicariaTask2 failMessageText",
+		"startedMessageText": "PersicariaTask2 startedMessageText",
+        "successMessageText": "PersicariaTask2 successMessageText",
+        "name": "PersicariaTask2 name",
+        "note": "PersicariaTask2 note",		
+        "type": "Completion",
+		"secretQuest": false, 
+        "canShowNotificationsInGame": true,
+        "conditions": {          
+            "AvailableForStart": [
+                
+        {
+            "_parent": "Quest",
+            "_props": {
+              "id": "",
+              "index": 1,
+              "parentId": "",
+              "dynamicLocale": false,
+              "target": "PersicariaTask",
+              "status": [
+                4
+              ]
+            },
+            "dynamicLocale": false
+          }
+
+
+            ],
+			"AvailableForFinish": [
+		{
+        "_parent": "FindItem",
+        "_props": {
+          "target": ["VHIServerVersionTestMedPen"],
+          "value": "2",
+          "index": 0,
+          "parentId": "",
+          "id": "PersicariaTask2Find0",
+          "minDurability": 0,
+          "visibilityConditions": [],
+          "maxDurability": 0,
+		  "dynamicLocale": false,
+          "dogtagLevel": 0
+        },
+		"dynamicLocale": false
+        },
+        {
+        "_parent": "HandoverItem",
+        "_props": {
+          "target": ["VHIServerVersionTestMedPen"],
+          "value": "2",
+          "index": 1,
+          "parentId": "",
+          "id": "PersicariaTask2Hand0",
+          "minDurability": 0,
+          "visibilityConditions": [],
+          "maxDurability": 0,
+		  "dynamicLocale": false,
+          "dogtagLevel": 0
+        },
+		"dynamicLocale": false
+        }
+        
+        
+            ],
+            "Fail": []
+        },             
+        "instantComplete": false,
+        "isKey": false,
+        "location": "bigmap",       
+        "restartable": false,
+        "rewards": {           
+            "Started": [],
+            "Success": [
+                {
+                  "value": "2000",
+                  "id": "PersicariaTask2Rw1",
+                  "type": "Experience",
+                  "index": 0
+                },
+                {
+                  "value": "0.1",
+                  "id": "PersicariaTask2Rw2",
+                  "type": "TraderStanding",
+                  "index": 1,
+                  "target": "Persicaria"
+                },
+                {
+                  "value": "20000",
+                  "id": "PersicariaTask2Rw3",
+                  "type": "Item",
+                  "index": 2,
+                  "target": "PersicariaTask2Rw31",
+                  "items": [
+                    {
+                      "_id": "PersicariaTask2Rw31",
+                      "_tpl": "5449016a4bdc2d6f028b456f",
+                      "upd": {
+                        "StackObjectsCount": 20000
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "PersicariaTask2Rw4",
+                  "type": "AssortmentUnlock",
+                  "index": 3,
+                  "target": "PersicariaTask2Rw41",
+                  "items": [
+                    {
+                      "_id": "PersicariaTask2Rw41",
+                      "_tpl": "手术包",
+                      "parentId": "hideout",
+                      "slotId": "hideout"
+                    }
+                  ],
+                  "loyaltyLevel": 2,
+                  "traderId": "Persicaria"
+                }
+                
+            ],
+			"Fail": []
+        }       
+
+
+
+
+    }
+
+
+
+}

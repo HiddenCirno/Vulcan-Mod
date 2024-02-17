@@ -1,0 +1,21 @@
+{
+  "started": {},
+  "success": {
+    "止血针2":"PersicariaMedTask2",
+    "骨折针2":"PersicariaMedTask4",
+    "手术套组2":"PersicariaMedTask3",
+    "转轮榴弹发射器":"PersicariaWarTask3",
+    "万能钥匙卡":"PersicariaKeyTask3",
+    "曼恩抑制剂":"PersicariaCyberTask1",
+    "稳定血清":"PersicariaMedTask4",
+    "外勤公文包":"PersicariaTecTask4",
+    "白卡1":"PersicariaMedTask3",
+    "大武器箱2":"PersicariaDeadTask4",
+    "大物品箱2":"PersicariaDeadTask7",
+    "蓝甲":"白甲-蓝甲进度",
+    "紫甲":"蓝甲-紫甲进度",
+    "红甲":"紫甲-红甲进度"
+    
+  },
+  "fail": {}
+}

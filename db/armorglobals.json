@@ -1,0 +1,10 @@
+{
+    "TungstenSteel": {
+        "Destructibility": 0.6,
+        "MinRepairDegradation": 0.08,
+        "MaxRepairDegradation": 0.12,
+        "ExplosionDestructibility": 0.5,
+        "MinRepairKitDegradation": 0.06,
+        "MaxRepairKitDegradation": 0.10
+      }
+}

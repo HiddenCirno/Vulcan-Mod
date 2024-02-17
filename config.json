@@ -1,0 +1,10 @@
+{
+    "FireworkGrenade": false,
+    "FeatherFall": false,
+    "NoQuestNeed": false,
+    "MoreVoice": true,
+    "ExamineByDefault": false,
+    "QuestRequire": false,
+    "MainQuest": false,
+    "HideoutInfo": true
+}

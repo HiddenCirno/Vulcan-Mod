@@ -1,0 +1,57 @@
+{
+    "Name": "M993-1",
+    "Data": {
+        "_id": "M993_1",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 3,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "布洛妮娅火药",
+                "count": 3,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "薇尔莉特火药",
+                "count": 2,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "61bf7c024770ee6f9c6b8b53",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3639286f7741777737013",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+              "questId": "60e71c11d54b755a3b53eb65",
+              "type": "QuestComplete"
+            }
+        ],
+        "productionTime": 57600,
+        "boosters": null,
+        "endProduct": "5efb0c1bd79ff02a1f5e68d9",
+        "continuous": false,
+        "count": 40,
+        "productionLimitCount": 0,
+        "needFuelForAllProductionTime": false,
+        "locked": true,
+        "isEncoded": false
+    }
+}

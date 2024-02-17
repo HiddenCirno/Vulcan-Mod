@@ -1,0 +1,51 @@
+{
+    "Name": "SSAAP-1",
+    "Data": {
+        "_id": "SSAAP_1",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 3,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "布洛妮娅火药",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "白火药",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d0379a886f77420407aa271",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+              "questId": "5c0bd01e86f7747cdd799e56",
+              "type": "QuestComplete"
+            }
+        ],
+        "productionTime": 46800,
+        "boosters": null,
+        "endProduct": "601949593ae8f707c4608daa",
+        "continuous": false,
+        "count": 120,
+        "productionLimitCount": 0,
+        "needFuelForAllProductionTime": false,
+        "locked": true,
+        "isEncoded": false
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "PolarisTask1": {
+        "name": "Open Your World",
+        "note": "",
+        "conditions": {
+            "PolarisTask1LvNeed1":"加入天环"
+        },
+        "description": "PolarisTask1Desc",
+        "failMessageText": "PolarisTask1Fail",
+        "startedMessageText": "PolarisTask1Start",
+        "successMessageText": "PolarisTask1Success",
+        "location": "any"
+    },
+    "PolarisTask2": {
+        "name": "打开你的世界",
+        "note": "",
+        "conditions": {
+            "PolarisTask2LvNeed1":"领取天环的正式身份"
+        },
+        "description": "PolarisTask2Desc",
+        "failMessageText": "PolarisTask2Fail",
+        "startedMessageText": "PolarisTask2Start",
+        "successMessageText": "PolarisTask2Success",
+        "location": "any"
+    }
+}

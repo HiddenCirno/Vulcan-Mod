@@ -1,0 +1,32 @@
+{
+    "Name": "一包糖-咖啡方糖",
+    "Data": {
+      "_id": "咖啡方糖 - 1",
+      "areaType": 8,
+      "requirements": [
+        {
+          "templateId": "59e3577886f774176a362503",
+          "count": 3,
+          "isFunctional": false,
+          "type": "Item"
+        },
+        {
+          "templateId": "575146b724597720a27126d5",
+          "count": 1,
+          "isFunctional": false,
+          "type": "Item"
+        },
+        {
+          "areaType": 8,
+          "requiredLevel": 3,
+          "type": "Area"
+        }
+      ],
+      "productionTime": 1800,
+      "boosters": null,
+      "endProduct": "高浓缩咖啡方糖",
+      "continuous": false,
+      "count": 1,
+      "productionLimitCount": 0
+    }
+  }

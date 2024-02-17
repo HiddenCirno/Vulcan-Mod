@@ -1,0 +1,63 @@
+{
+    "Name": "摔炮_RGN",
+    "Data": {
+        "_id": "摔炮_RGN",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "白火药",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af51086f7746d3f3c3402",
+                "count": 2,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5448be9a4bdc2dfd2f8b456a",
+                "count": 2,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc87386f77449db3db94e",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1c819a86f774771b0acd6c",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+              "questId": "5c0d190cd09282029f5390d8",
+              "type": "QuestComplete"
+            }
+        ],
+        "productionTime": 10800,
+        "boosters": null,
+        "endProduct": "617fd91e5539a84ec44ce155",
+        "continuous": false,
+        "count": 2,
+        "productionLimitCount": 0,
+        "needFuelForAllProductionTime": false,
+        "locked": true,
+        "isEncoded": false
+    }
+}

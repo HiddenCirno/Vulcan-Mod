@@ -1,0 +1,6199 @@
+{
+  "PersicariaTask1": {
+    "QuestName": "PersicariaTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaTask1 successMessageText",
+    "description": "PersicariaTask1 description",
+    "failMessageText": "PersicariaTask1 failMessageText",
+    "startedMessageText": "PersicariaTask1 startedMessageText",
+    "successMessageText": "PersicariaTask1 successMessageText",
+    "name": "PersicariaTask1 name",
+    "note": "PersicariaTask1 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c06779c86f77426e00dd782"
+            ],
+            "value": "2",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTask1Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c06779c86f77426e00dd782"
+            ],
+            "value": "2",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTask1Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "59e36c6f86f774176c10a2a7"
+            ],
+            "value": "2",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTask1Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "59e36c6f86f774176c10a2a7"
+            ],
+            "value": "2",
+            "index": 3,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTask1Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "2000",
+          "id": "PersicariaTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "PersicariaTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "20000",
+          "id": "PersicariaTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 20000
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaTecTask1": {
+    "QuestName": "PersicariaTecTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaTecTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaTecTask1 successMessageText",
+    "description": "PersicariaTecTask1 description",
+    "failMessageText": "PersicariaTecTask1 failMessageText",
+    "startedMessageText": "PersicariaTecTask1 startedMessageText",
+    "successMessageText": "PersicariaTecTask1 successMessageText",
+    "name": "PersicariaTecTask1 name",
+    "note": "PersicariaTecTask1 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "590a3b0486f7743954552bdb"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "590a3b0486f7743954552bdb"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c06782b86f77426df5407d2"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c06782b86f77426df5407d2"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "6389c70ca33d8c4cdf4932c6"
+            ],
+            "value": "1",
+            "index": 4,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Find3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "6389c70ca33d8c4cdf4932c6"
+            ],
+            "value": "1",
+            "index": 5,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Hand3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c06779c86f77426e00dd782"
+            ],
+            "value": "1",
+            "index": 6,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Find4",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c06779c86f77426e00dd782"
+            ],
+            "value": "1",
+            "index": 7,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask1Hand4",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "3500",
+          "id": "PersicariaTecTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "PersicariaTecTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "34000",
+          "id": "PersicariaTecTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaTecTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaTecTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 34000
+              }
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "id": "PersicariaTecTask1Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaTecTask1Rw41",
+          "items": [
+            {
+              "_id": "PersicariaTecTask1Rw41",
+              "_tpl": "590c657e86f77412b013051d",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaTecTask2": {
+    "QuestName": "PersicariaTecTask2",
+    "traderId": "Persicaria",
+    "_id": "PersicariaTecTask2",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaTecTask2 successMessageText",
+    "description": "PersicariaTecTask2 description",
+    "failMessageText": "PersicariaTecTask2 failMessageText",
+    "startedMessageText": "PersicariaTecTask2 startedMessageText",
+    "successMessageText": "PersicariaTecTask2 successMessageText",
+    "name": "PersicariaTecTask2 name",
+    "note": "PersicariaTecTask2 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5734781f24597737e04bf32a"
+            ],
+            "value": "2",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask2Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5734781f24597737e04bf32a"
+            ],
+            "value": "2",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask2Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "4200",
+          "id": "PersicariaTecTask2Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "PersicariaTecTask2Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "40000",
+          "id": "PersicariaTecTask2Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaTecTask2Rw31",
+          "items": [
+            {
+              "_id": "PersicariaTecTask2Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 40000
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaTecTask3": {
+    "QuestName": "PersicariaTecTask3",
+    "traderId": "Persicaria",
+    "_id": "PersicariaTecTask3",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaTecTask3 successMessageText",
+    "description": "PersicariaTecTask3 description",
+    "failMessageText": "PersicariaTecTask3 failMessageText",
+    "startedMessageText": "PersicariaTecTask3 startedMessageText",
+    "successMessageText": "PersicariaTecTask3 successMessageText",
+    "name": "PersicariaTecTask3 name",
+    "note": "PersicariaTecTask3 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaTecTask2LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 12,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c052f6886f7746b1e3db148"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask3Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c052f6886f7746b1e3db148"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask3Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5d0378d486f77420421a5ff4"
+            ],
+            "value": "1",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask3Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d0378d486f77420421a5ff4"
+            ],
+            "value": "1",
+            "index": 3,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask3Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "6900",
+          "id": "PersicariaTecTask3Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.06",
+          "id": "PersicariaTecTask3Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "140000",
+          "id": "PersicariaTecTask3Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaTecTask3Rw31",
+          "items": [
+            {
+              "_id": "PersicariaTecTask3Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 140000
+              }
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "id": "PersicariaTecTask3Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaTecTask3Rw41",
+          "items": [
+            {
+              "_id": "PersicariaTecTask3Rw41",
+              "_tpl": "5d03794386f77420415576f5",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaTecTask3Rw42",
+              "_tpl": "5d03794386f77420415576f5",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaTecTask3Rw43",
+              "_tpl": "5d03794386f77420415576f5",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaTecTask3Rw44",
+              "_tpl": "5d03794386f77420415576f5",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaTecTask4": {
+    "QuestName": "PersicariaTecTask4",
+    "traderId": "Persicaria",
+    "_id": "PersicariaTecTask4",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaTecTask4 successMessageText",
+    "description": "PersicariaTecTask4 description",
+    "failMessageText": "PersicariaTecTask4 failMessageText",
+    "startedMessageText": "PersicariaTecTask4 startedMessageText",
+    "successMessageText": "PersicariaTecTask4 successMessageText",
+    "name": "PersicariaTecTask4 name",
+    "note": "PersicariaTecTask4 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaTecTask2LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 16,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "6086c852c945025d41566124",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5d03794386f77420415576f5"
+            ],
+            "value": "4",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask4Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d03794386f77420415576f5"
+            ],
+            "value": "4",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask4Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5d0375ff86f774186372f685"
+            ],
+            "value": "2",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask4Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d0375ff86f774186372f685"
+            ],
+            "value": "2",
+            "index": 3,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaTecTask4Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "8100",
+          "id": "PersicariaTecTask4Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.06",
+          "id": "PersicariaTecTask4Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "220000",
+          "id": "PersicariaTecTask4Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaTecTask4Rw31",
+          "items": [
+            {
+              "_id": "PersicariaTecTask4Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 220000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "PersicariaTecTask4Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaTecTask4Rw41",
+          "items": [
+            {
+              "_id": "PersicariaTecTask4Rw41",
+              "_tpl": "5b6d9ce188a4501afc1b2b25",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "id": "PersicariaTecTask4Rw5",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 4,
+          "target": "PersicariaTecTask4Rw51",
+          "items": [
+            {
+              "_id": "PersicariaTecTask4Rw51",
+              "_tpl": "5c05308086f7746b2101e90b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaTecTask4Rw52",
+              "_tpl": "5c05308086f7746b2101e90b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaTecTask4Rw53",
+              "_tpl": "5c05308086f7746b2101e90b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaWarTask3Rw4",
+          "type": "AssortmentUnlock",
+          "index": 5,
+          "target": "PersicariaWarTask3Rw41",
+          "items": [
+            {
+              "_id": "PersicariaWarTask3Rw41",
+              "_tpl": "外勤公文包"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaMedTask1": {
+    "QuestName": "PersicariaMedTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaMedTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaMedTask1 successMessageText",
+    "description": "PersicariaMedTask1 description",
+    "failMessageText": "PersicariaMedTask1 failMessageText",
+    "startedMessageText": "PersicariaMedTask1 startedMessageText",
+    "successMessageText": "PersicariaMedTask1 successMessageText",
+    "name": "PersicariaMedTask1 name",
+    "note": "PersicariaMedTask1 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaMedTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 6,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c0e531d86f7747fa23f4d42"
+            ],
+            "value": "3",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask1Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c0e531d86f7747fa23f4d42"
+            ],
+            "value": "3",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask1Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "5500",
+          "id": "PersicariaMedTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "PersicariaMedTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "74000",
+          "id": "PersicariaMedTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaMedTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaMedTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 74000
+              }
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "id": "PersicariaMedTask1Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaMedTask1Rw41",
+          "items": [
+            {
+              "_id": "PersicariaMedTask1Rw41",
+              "_tpl": "Vulcan实验型再生促进血清",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask1Rw42",
+              "_tpl": "Vulcan实验型再生促进血清",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask1Rw43",
+              "_tpl": "Vulcan实验型再生促进血清",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaMedTask2": {
+    "QuestName": "PersicariaMedTask2",
+    "traderId": "Persicaria",
+    "_id": "PersicariaMedTask2",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaMedTask2 successMessageText",
+    "description": "PersicariaMedTask2 description",
+    "failMessageText": "PersicariaMedTask2 failMessageText",
+    "startedMessageText": "PersicariaMedTask2 startedMessageText",
+    "successMessageText": "PersicariaMedTask2 successMessageText",
+    "name": "PersicariaMedTask2 name",
+    "note": "PersicariaMedTask2 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaMedTask2LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 14,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c0e531286f7747fa54205c2"
+            ],
+            "value": "2",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask2Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c0e531286f7747fa54205c2"
+            ],
+            "value": "2",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask2Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5ed5166ad380ab312177c100"
+            ],
+            "value": "2",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask2Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5ed5166ad380ab312177c100"
+            ],
+            "value": "2",
+            "index": 3,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask2Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "7200",
+          "id": "PersicariaMedTask2Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "PersicariaMedTask2Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "163000",
+          "id": "PersicariaMedTask2Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaMedTask2Rw31",
+          "items": [
+            {
+              "_id": "PersicariaMedTask2Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 163000
+              }
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "id": "PersicariaMedTask2Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaMedTask2Rw41",
+          "items": [
+            {
+              "_id": "PersicariaMedTask2Rw41",
+              "_tpl": "Vulcan战场紧急手术套组",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask2Rw42",
+              "_tpl": "Vulcan战场紧急手术套组",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask2Rw43",
+              "_tpl": "Vulcan战场紧急手术套组",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask2Rw44",
+              "_tpl": "Vulcan战场紧急手术套组",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask2Rw45",
+              "_tpl": "Vulcan战场紧急手术套组",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaMedTask2Rw5",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "PersicariaMedTask2Rw51",
+          "items": [
+            {
+              "_id": "PersicariaMedTask2Rw51",
+              "_tpl": "Vulcan实验型再生促进血清"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaMedTask3": {
+    "QuestName": "PersicariaMedTask3",
+    "traderId": "Persicaria",
+    "_id": "PersicariaMedTask3",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaMedTask3 successMessageText",
+    "description": "PersicariaMedTask3 description",
+    "failMessageText": "PersicariaMedTask3 failMessageText",
+    "startedMessageText": "PersicariaMedTask3 startedMessageText",
+    "successMessageText": "PersicariaMedTask3 successMessageText",
+    "name": "PersicariaMedTask3 name",
+    "note": "PersicariaMedTask3 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaMedTask3LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 20,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5c94bbff86f7747ee735c08f"
+            ],
+            "value": "3",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask3Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c94bbff86f7747ee735c08f"
+            ],
+            "value": "3",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask3Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "13600",
+          "id": "PersicariaMedTask3Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "PersicariaMedTask3Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "370000",
+          "id": "PersicariaMedTask3Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaMedTask3Rw31",
+          "items": [
+            {
+              "_id": "PersicariaMedTask3Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 370000
+              }
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "id": "PersicariaMedTask3Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaMedTask3Rw41",
+          "items": [
+            {
+              "_id": "PersicariaMedTask3Rw41",
+              "_tpl": "Vulcan细胞活性刺激血清",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask3Rw42",
+              "_tpl": "Vulcan细胞活性刺激血清",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaMedTask3Rw43",
+              "_tpl": "Vulcan细胞活性刺激血清",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaMedTask3Rw5",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "PersicariaMedTask3Rw51",
+          "items": [
+            {
+              "_id": "PersicariaMedTask3Rw51",
+              "_tpl": "Vulcan战场紧急手术套组"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "traderId": "Persicaria"
+        },
+        {
+          "id": "PersicariaMedTask3Rw6",
+          "type": "AssortmentUnlock",
+          "index": 5,
+          "target": "PersicariaMedTask3Rw61",
+          "items": [
+            {
+              "_id": "PersicariaMedTask3Rw61",
+              "_tpl": "5c94bbff86f7747ee735c08f"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaMedTask4": {
+    "QuestName": "PersicariaMedTask4",
+    "traderId": "Persicaria",
+    "_id": "PersicariaMedTask4",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaMedTask4 successMessageText",
+    "description": "PersicariaMedTask4 description",
+    "failMessageText": "PersicariaMedTask4 failMessageText",
+    "startedMessageText": "PersicariaMedTask4 startedMessageText",
+    "successMessageText": "PersicariaMedTask4 successMessageText",
+    "name": "PersicariaMedTask4 name",
+    "note": "PersicariaMedTask4 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaMedTask4LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 24,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5efde6b4f5448336730dbd61"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask4Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5efde6b4f5448336730dbd61"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaMedTask4Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "19200",
+          "id": "PersicariaMedTask4Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "PersicariaMedTask4Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "130000",
+          "id": "PersicariaMedTask4Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaMedTask4Rw31",
+          "items": [
+            {
+              "_id": "PersicariaMedTask4Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 130000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaMedTask4Rw5",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "target": "PersicariaMedTask4Rw51",
+          "items": [
+            {
+              "_id": "PersicariaMedTask4Rw51",
+              "_tpl": "Vulcan细胞活性刺激血清"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        },
+        {
+          "id": "PersicariaMedTask4Rw6",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "PersicariaMedTask4Rw61",
+          "items": [
+            {
+              "_id": "PersicariaMedTask4Rw61",
+              "_tpl": "Vulcan再生促进血清改进型"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaWarTask1": {
+    "QuestName": "PersicariaWarTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaWarTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaWarTask1 successMessageText",
+    "description": "PersicariaWarTask1 description",
+    "failMessageText": "PersicariaWarTask1 failMessageText",
+    "startedMessageText": "PersicariaWarTask1 startedMessageText",
+    "successMessageText": "PersicariaWarTask1 successMessageText",
+    "name": "PersicariaWarTask1 name",
+    "note": "PersicariaWarTask1 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaWarTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 22,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaWarTask1K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "PersicariaWarTask1K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaWarTask1Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "9300",
+          "id": "PersicariaWarTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "PersicariaWarTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "321000",
+          "id": "PersicariaWarTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaWarTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaWarTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 321000
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaWarTask2": {
+    "QuestName": "PersicariaWarTask2",
+    "traderId": "Persicaria",
+    "_id": "PersicariaWarTask2",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaWarTask2 successMessageText",
+    "description": "PersicariaWarTask2 description",
+    "failMessageText": "PersicariaWarTask2 failMessageText",
+    "startedMessageText": "PersicariaWarTask2 startedMessageText",
+    "successMessageText": "PersicariaWarTask2 successMessageText",
+    "name": "PersicariaWarTask2 name",
+    "note": "PersicariaWarTask2 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaWarTask2K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "PersicariaWarTask2K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaWarTask2Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "15200",
+          "id": "PersicariaWarTask2Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.03",
+          "id": "PersicariaWarTask2Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "830000",
+          "id": "PersicariaWarTask2Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaWarTask2Rw31",
+          "items": [
+            {
+              "_id": "PersicariaWarTask2Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "PersicariaWarTask2Rw32",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 330000
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaWarTask3": {
+    "QuestName": "PersicariaWarTask3",
+    "traderId": "Persicaria",
+    "_id": "PersicariaWarTask3",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaWarTask3 successMessageText",
+    "description": "PersicariaWarTask3 description",
+    "failMessageText": "PersicariaWarTask3 failMessageText",
+    "startedMessageText": "PersicariaWarTask3 startedMessageText",
+    "successMessageText": "PersicariaWarTask3 successMessageText",
+    "name": "PersicariaWarTask3 name",
+    "note": "PersicariaWarTask3 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaWarTask3K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "PersicariaWarTask3K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaWarTask3Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "32700",
+          "id": "PersicariaWarTask3Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.05",
+          "id": "PersicariaWarTask3Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "1320000",
+          "id": "PersicariaWarTask3Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaWarTask3Rw31",
+          "items": [
+            {
+              "_id": "PersicariaWarTask3Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "PersicariaWarTask3Rw32",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "PersicariaWarTask3Rw33",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 320000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaWarTask4Rw4",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "target": "PersicariaWarTask4Rw4",
+          "items": [
+            {
+              "_id": "PersicariaWarTask4Rw4",
+              "_tpl": "6275303a9f372d6ea97f9ec7"
+            },
+            {
+              "_id": "转轮榴弹握把",
+              "_tpl": "5a339805c4a2826c6e06d73d",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "转轮榴弹枪托",
+              "_tpl": "5fce16961f152d4312622bc9",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "转轮榴弹弹仓",
+              "_tpl": "627bce33f21bc425b06ab967",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "转轮榴弹前握把",
+              "_tpl": "5fce0cf655375d18a253eff0",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_foregrip"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaWarTask4": {
+    "QuestName": "PersicariaWarTask4",
+    "traderId": "Persicaria",
+    "_id": "PersicariaWarTask4",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaWarTask4 successMessageText",
+    "description": "PersicariaWarTask4 description",
+    "failMessageText": "PersicariaWarTask4 failMessageText",
+    "startedMessageText": "PersicariaWarTask4 startedMessageText",
+    "successMessageText": "PersicariaWarTask4 successMessageText",
+    "name": "PersicariaWarTask4 name",
+    "note": "PersicariaWarTask4 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaWarTask4LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 81,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaWarTask4K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "PersicariaWarTask4K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaWarTask4Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "500",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "655360",
+          "id": "PersicariaWarTask4Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaWarTask4Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "9000000",
+          "id": "PersicariaWarTask4Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaWarTask4Rw31",
+          "items": [
+            {
+              "_id": "PersicariaWarTask4Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 9000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaWarTask4Rw4",
+          "type": "AssortmentUnlock",
+          "index": 0,
+          "target": "PersicariaWarTask4Rw4",
+          "items": [
+            {
+              "_id": "PersicariaWarTask4Rw4",
+              "_tpl": "6275303a9f372d6ea97f9ec7"
+            },
+            {
+              "_id": "转轮榴弹握把",
+              "_tpl": "5a339805c4a2826c6e06d73d",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "转轮榴弹枪托",
+              "_tpl": "5fce16961f152d4312622bc9",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "转轮榴弹弹仓",
+              "_tpl": "627bce33f21bc425b06ab967",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "转轮榴弹前握把",
+              "_tpl": "5fce0cf655375d18a253eff0",
+              "parentId": "PersicariaWarTask4Rw4",
+              "slotId": "mod_foregrip"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask1": {
+    "QuestName": "PersicariaDeadTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask1 successMessageText",
+    "description": "PersicariaDeadTask1 description",
+    "failMessageText": "PersicariaDeadTask1 failMessageText",
+    "startedMessageText": "PersicariaDeadTask1 startedMessageText",
+    "successMessageText": "PersicariaDeadTask1 successMessageText",
+    "name": "PersicariaDeadTask1 name",
+    "note": "PersicariaDeadTask1 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask1K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossBully"
+                    ],
+                    "id": "PersicariaDeadTask1K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask1Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5b3b713c5acfc4330140bd8d"
+            ],
+            "value": "4",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask1Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "Reshala背包"
+            ],
+            "value": "2",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask1Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask1Rw4",
+          "index": 3,
+          "target": "Surgery",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask2": {
+    "QuestName": "PersicariaDeadTask2",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask2",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask2 successMessageText",
+    "description": "PersicariaDeadTask2 description",
+    "failMessageText": "PersicariaDeadTask2 failMessageText",
+    "startedMessageText": "PersicariaDeadTask2 startedMessageText",
+    "successMessageText": "PersicariaDeadTask2 successMessageText",
+    "name": "PersicariaDeadTask2 name",
+    "note": "PersicariaDeadTask2 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask2K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossTagilla"
+                    ],
+                    "id": "PersicariaDeadTask2K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask2Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "609e860ebd219504d8507525"
+            ],
+            "value": "4",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask2Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask2Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask2Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask2Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask2Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask2Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask2Rw4",
+          "index": 3,
+          "target": "Charisma",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask3": {
+    "QuestName": "PersicariaDeadTask3",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask3",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask3 successMessageText",
+    "description": "PersicariaDeadTask3 description",
+    "failMessageText": "PersicariaDeadTask3 failMessageText",
+    "startedMessageText": "PersicariaDeadTask3 startedMessageText",
+    "successMessageText": "PersicariaDeadTask3 successMessageText",
+    "name": "PersicariaDeadTask3 name",
+    "note": "PersicariaDeadTask3 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask3K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
+                    "id": "PersicariaDeadTask3K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask3Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5efde6b4f5448336730dbd61"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask3Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5eff09cd30a7dc22fd1ddfed"
+            ],
+            "value": "1",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask3Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask3Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask3Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask3Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask3Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask3Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask3Rw4",
+          "index": 3,
+          "target": "StressResistance",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask4": {
+    "QuestName": "PersicariaDeadTask4",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask4",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask4 successMessageText",
+    "description": "PersicariaDeadTask4 description",
+    "failMessageText": "PersicariaDeadTask4 failMessageText",
+    "startedMessageText": "PersicariaDeadTask4 startedMessageText",
+    "successMessageText": "PersicariaDeadTask4 successMessageText",
+    "name": "PersicariaDeadTask4 name",
+    "note": "PersicariaDeadTask4 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask4K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossKilla"
+                    ],
+                    "id": "PersicariaDeadTask4K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask4Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c0e874186f7745dc7616606"
+            ],
+            "value": "8",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask4Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask4Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask4Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask4Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask4Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask4Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask4Rw4",
+          "index": 3,
+          "target": "Immunity",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        },
+        {
+          "id": "PersicariaDeadTask4Rw4",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "PersicariaMedTask3Rw41",
+          "items": [
+            {
+              "_id": "PersicariaMedTask3Rw41",
+              "_tpl": "5b6d9ce188a4501afc1b2b25"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask5": {
+    "QuestName": "PersicariaDeadTask5",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask5",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask5 successMessageText",
+    "description": "PersicariaDeadTask5 description",
+    "failMessageText": "PersicariaDeadTask5 failMessageText",
+    "startedMessageText": "PersicariaDeadTask5 startedMessageText",
+    "successMessageText": "PersicariaDeadTask5 successMessageText",
+    "name": "PersicariaDeadTask5 name",
+    "note": "PersicariaDeadTask5 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask5K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossKojaniy"
+                    ],
+                    "id": "PersicariaDeadTask5K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask5Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d08d21286f774736e7c94c3"
+            ],
+            "value": "6",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask5Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask5Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask5Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask5Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask5Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask5Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask5Rw4",
+          "index": 3,
+          "target": "HideoutManagement",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask6": {
+    "QuestName": "PersicariaDeadTask6",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask6",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask6 successMessageText",
+    "description": "PersicariaDeadTask6 description",
+    "failMessageText": "PersicariaDeadTask6 failMessageText",
+    "startedMessageText": "PersicariaDeadTask6 startedMessageText",
+    "successMessageText": "PersicariaDeadTask6 successMessageText",
+    "name": "PersicariaDeadTask6 name",
+    "note": "PersicariaDeadTask6 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask6K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossGluhar"
+                    ],
+                    "id": "PersicariaDeadTask6K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask6Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask6Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask6Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask6Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask6Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask6Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask6Rw4",
+          "index": 3,
+          "target": "Vitality",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask8": {
+    "QuestName": "PersicariaDeadTask8",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask8",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask8 successMessageText",
+    "description": "PersicariaDeadTask8 description",
+    "failMessageText": "PersicariaDeadTask8 failMessageText",
+    "startedMessageText": "PersicariaDeadTask8 startedMessageText",
+    "successMessageText": "PersicariaDeadTask8 successMessageText",
+    "name": "PersicariaDeadTask8 name",
+    "note": "PersicariaDeadTask8 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask8K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossBoar"
+                    ],
+                    "id": "PersicariaDeadTask8K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask8Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "900000",
+          "id": "PersicariaDeadTask8Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaDeadTask8Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "5000000",
+          "id": "PersicariaDeadTask8Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask8Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask8Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 5000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask8Rw4",
+          "index": 3,
+          "target": "Search",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaDeadTask7": {
+    "QuestName": "PersicariaDeadTask7",
+    "traderId": "Persicaria",
+    "_id": "PersicariaDeadTask7",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaDeadTask7 successMessageText",
+    "description": "PersicariaDeadTask7 description",
+    "failMessageText": "PersicariaDeadTask7 failMessageText",
+    "startedMessageText": "PersicariaDeadTask7 startedMessageText",
+    "successMessageText": "PersicariaDeadTask7 successMessageText",
+    "name": "PersicariaDeadTask7 name",
+    "note": "PersicariaDeadTask7 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaDeadTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 42,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask7K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "bossKnight"
+                    ],
+                    "id": "PersicariaDeadTask7K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask7Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "62963c18dbc8ab5f0d382d0b"
+            ],
+            "value": "5",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask7Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask7K2",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "followerBirdEye"
+                    ],
+                    "id": "PersicariaDeadTask7K2"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask7Kill2",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "628bc7fb408e2b2e9c0801b1"
+            ],
+            "value": "6",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask7Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaDeadTask7K3",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "savageRole": [
+                      "followerBigPipe"
+                    ],
+                    "id": "PersicariaDeadTask7K3"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaDeadTask7Kill3",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "62a61bbf8ec41a51b34758d2"
+            ],
+            "value": "4",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "PersicariaDeadTask7Hand3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "2700000",
+          "id": "PersicariaDeadTask7Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.3",
+          "id": "PersicariaDeadTask7Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "15000000",
+          "id": "PersicariaDeadTask7Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaDeadTask7Rw31",
+          "items": [
+            {
+              "_id": "PersicariaDeadTask7Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 15000000
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaDeadTask7Rw4",
+          "index": 3,
+          "target": "MagDrills",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        },
+        {
+          "id": "PersicariaDeadTask7Rw5",
+          "index": 4,
+          "target": "RecoilControl",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        },
+        {
+          "id": "PersicariaDeadTask7Rw6",
+          "index": 5,
+          "target": "Troubleshooting",
+          "type": "Skill",
+          "unknown": false,
+          "value": "5100"
+        },
+        {
+          "id": "PersicariaDeadTask4Rw7",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "PersicariaMedTask3Rw71",
+          "items": [
+            {
+              "_id": "PersicariaMedTask3Rw71",
+              "_tpl": "5c0a840b86f7742ffa4f2482"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaCodTask1": {
+    "QuestName": "PersicariaCodTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaCodTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaCodTask1 successMessageText",
+    "description": "PersicariaCodTask1 description",
+    "failMessageText": "PersicariaCodTask1 failMessageText",
+    "startedMessageText": "PersicariaCodTask1 startedMessageText",
+    "successMessageText": "PersicariaCodTask1 successMessageText",
+    "name": "PersicariaCodTask1 name",
+    "note": "PersicariaCodTask1 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaCodTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 40,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaCodTask1K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "weapon": [
+                      "5beed0f50db834001c062b12"
+                    ],
+                    "id": "PersicariaCodTask1K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaCodTask1Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "66000",
+          "id": "PersicariaCodTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.05",
+          "id": "PersicariaCodTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "500000",
+          "id": "PersicariaCodTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaCodTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaCodTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "PersicariaCodTask1Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaCodTask1Rw41",
+          "items": [
+            {
+              "_id": "PersicariaCodTask1Rw41",
+              "_tpl": "6275303a9f372d6ea97f9ec7",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "转轮榴弹握把",
+              "_tpl": "5a339805c4a2826c6e06d73d",
+              "parentId": "PersicariaCodTask1Rw41",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "转轮榴弹枪托",
+              "_tpl": "5fce16961f152d4312622bc9",
+              "parentId": "PersicariaCodTask1Rw41",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "转轮榴弹弹仓",
+              "_tpl": "627bce33f21bc425b06ab967",
+              "parentId": "PersicariaCodTask1Rw41",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "转轮榴弹前握把",
+              "_tpl": "5fce0cf655375d18a253eff0",
+              "parentId": "PersicariaCodTask1Rw41",
+              "slotId": "mod_foregrip"
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaBoxTask1": {
+    "QuestName": "PersicariaBoxTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaBoxTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaBoxTask1 successMessageText",
+    "description": "PersicariaBoxTask1 description",
+    "failMessageText": "PersicariaBoxTask1 failMessageText",
+    "startedMessageText": "PersicariaBoxTask1 startedMessageText",
+    "successMessageText": "PersicariaBoxTask1 successMessageText",
+    "name": "PersicariaBoxTask1 name",
+    "note": "PersicariaBoxTask1 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaBoxTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 50,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5857a8bc2459772bad15db29"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaBoxTask1Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "1600000",
+          "id": "PersicariaBoxTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.1",
+          "id": "PersicariaBoxTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaBoxTask2": {
+    "QuestName": "PersicariaBoxTask2",
+    "traderId": "Persicaria",
+    "_id": "PersicariaBoxTask2",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaBoxTask2 successMessageText",
+    "description": "PersicariaBoxTask2 description",
+    "failMessageText": "PersicariaBoxTask2 failMessageText",
+    "startedMessageText": "PersicariaBoxTask2 startedMessageText",
+    "successMessageText": "PersicariaBoxTask2 successMessageText",
+    "name": "PersicariaBoxTask2 name",
+    "note": "PersicariaBoxTask2 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaBoxTask2LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 60,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaMedTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d1b376e86f774252519444e"
+            ],
+            "value": "100",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaBoxTask2Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "高浓缩咖啡方糖"
+            ],
+            "value": "100",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaBoxTask2Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c0530ee86f774697952d952"
+            ],
+            "value": "20",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaBoxTask2Hand3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c0a840b86f7742ffa4f2482"
+            ],
+            "value": "3",
+            "index": 3,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaBoxTask2Hand4",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "2000000",
+          "id": "PersicariaBoxTask2Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "1",
+          "id": "PersicariaBoxTask2Rw2",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 1,
+          "target": "PersicariaBoxTask2Rw21",
+          "items": [
+            {
+              "_id": "PersicariaBoxTask2Rw21",
+              "_tpl": "Sigma安全箱",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaKeyTask1": {
+    "QuestName": "PersicariaKeyTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaKeyTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaKeyTask1 successMessageText",
+    "description": "PersicariaKeyTask1 description",
+    "failMessageText": "PersicariaKeyTask1 failMessageText",
+    "startedMessageText": "PersicariaKeyTask1 startedMessageText",
+    "successMessageText": "PersicariaKeyTask1 successMessageText",
+    "name": "PersicariaKeyTask1 name",
+    "note": "PersicariaKeyTask1 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaKeyTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "200000",
+          "id": "PersicariaKeyTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "id": "PersicariaKeyTask1Rw2",
+          "type": "AssortmentUnlock",
+          "index": 3,
+          "target": "PersicariaKeyTask1Rw21",
+          "items": [
+            {
+              "_id": "PersicariaKeyTask1Rw21",
+              "_tpl": "Vulcan细胞活性刺激血清"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        },
+        {
+          "id": "PersicariaKeyTask1Rw3",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "PersicariaKeyTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaKeyTask1Rw31",
+              "_tpl": "Vulcan战场紧急手术套组"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaKeyTask2": {
+    "QuestName": "PersicariaKeyTask2",
+    "traderId": "Persicaria",
+    "_id": "PersicariaKeyTask2",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaKeyTask2 successMessageText",
+    "description": "PersicariaKeyTask2 description",
+    "failMessageText": "PersicariaKeyTask2 failMessageText",
+    "startedMessageText": "PersicariaKeyTask2 startedMessageText",
+    "successMessageText": "PersicariaKeyTask2 successMessageText",
+    "name": "PersicariaKeyTask2 name",
+    "note": "PersicariaKeyTask2 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaKeyTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c1d0d6d86f7744bb2683e1f"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c1d0dc586f7744baf2e7b79"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c1d0c5f86f7744bb2683cf0"
+            ],
+            "value": "1",
+            "index": 2,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c1e495a86f7743109743dfb"
+            ],
+            "value": "1",
+            "index": 3,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand4",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c1d0efb86f7744baf2e7b7b"
+            ],
+            "value": "1",
+            "index": 4,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand5",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5c1d0f4986f7744bb01837fa"
+            ],
+            "value": "1",
+            "index": 5,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand6",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5e42c81886f7742a01529f57"
+            ],
+            "value": "1",
+            "index": 6,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand7",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5e42c83786f7742a021fdf3c"
+            ],
+            "value": "1",
+            "index": 7,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "PersicariaKeyTask2Hand8",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "400000",
+          "id": "PersicariaKeyTask2Rw1",
+          "type": "Experience",
+          "index": 0
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaKeyTask3": {
+    "QuestName": "PersicariaKeyTask3",
+    "traderId": "Persicaria",
+    "_id": "PersicariaKeyTask3",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaKeyTask3 successMessageText",
+    "description": "PersicariaKeyTask3 description",
+    "failMessageText": "PersicariaKeyTask3 failMessageText",
+    "startedMessageText": "PersicariaKeyTask3 startedMessageText",
+    "successMessageText": "PersicariaKeyTask3 successMessageText",
+    "name": "PersicariaKeyTask3 name",
+    "note": "PersicariaKeyTask3 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaKeyTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaKeyTask2LvNeed",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 20,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "2000000",
+          "id": "PersicariaKeyTask3Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "1",
+          "id": "PersicariaKeyTask3Rw2",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 1,
+          "target": "PersicariaKeyTask3Rw21",
+          "items": [
+            {
+              "_id": "PersicariaKeyTask3Rw21",
+              "_tpl": "HackKeyCard",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "PersicariaKeyTask3Rw3",
+          "type": "AssortmentUnlock",
+          "index": 2,
+          "target": "PersicariaKeyTask3Rw31",
+          "items": [
+            {
+              "_id": "PersicariaKeyTask3Rw31",
+              "_tpl": "HackKeyCard"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaCyberTask1": {
+    "QuestName": "PersicariaCyberTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaCyberTask1",
+    "image": "/files/quest/icon/david.png",
+    "templateId": "PersicariaCyberTask1 successMessageText",
+    "description": "PersicariaCyberTask1 description",
+    "failMessageText": "PersicariaCyberTask1 failMessageText",
+    "startedMessageText": "PersicariaCyberTask1 startedMessageText",
+    "successMessageText": "PersicariaCyberTask1 successMessageText",
+    "name": "PersicariaCyberTask1 name",
+    "note": "PersicariaCyberTask1 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "TraderLoyalty",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "PersicariaCyberTask1LLRNeeded",
+            "index": 0,
+            "parentId": "",
+            "target": "Persicaria",
+            "value": 4,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaCyberTask1LvNeed1",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 70,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "2000000",
+          "id": "PersicariaCyberTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "id": "PersicariaCyberTask1Rw3",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "target": "PersicariaCyberTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaCyberTask1Rw31",
+              "_tpl": "曼恩的抑制剂"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaFinalTask1": {
+    "QuestName": "PersicariaFinalTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaFinalTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaFinalTask1 successMessageText",
+    "description": "PersicariaFinalTask1 description",
+    "failMessageText": "PersicariaFinalTask1 failMessageText",
+    "startedMessageText": "PersicariaFinalTask1 startedMessageText",
+    "successMessageText": "PersicariaFinalTask1 successMessageText",
+    "name": "PersicariaFinalTask1 name",
+    "note": "PersicariaFinalTask1 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaFinalTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 70,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask1",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 2,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 3,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 4,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 5,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask5",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 6,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask6",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 7,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask8",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 8,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaDeadTask7",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "1",
+          "id": "PersicariaFinalTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 0,
+          "target": "PersicariaFinalTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaFinalTask1Rw31",
+              "_tpl": "云图计划臂带",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "PersicariaFinalTask1Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 1,
+          "target": "PersicariaFinalTask1Rw41",
+          "items": [
+            {
+              "_id": "PersicariaFinalTask1Rw41",
+              "_tpl": "Omega安全箱",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaLeaveTask1": {
+    "QuestName": "PersicariaLeaveTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaLeaveTask1",
+    "image": "/files/quest/icon/city.png",
+    "templateId": "PersicariaLeaveTask1 successMessageText",
+    "description": "PersicariaLeaveTask1 description",
+    "failMessageText": "PersicariaLeaveTask1 failMessageText",
+    "startedMessageText": "PersicariaLeaveTask1 startedMessageText",
+    "successMessageText": "PersicariaLeaveTask1 successMessageText",
+    "name": "PersicariaLeaveTask1 name",
+    "note": "PersicariaLeaveTask1 note",
+    "type": "Multi",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaLeaveTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 28,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaTecTask4",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaLeaveTask1Counter1",
+              "conditions": [
+                {
+                  "_parent": "VisitPlace",
+                  "_props": {
+                    "target": "ter_017_area_1",
+                    "value": "1",
+                    "id": "PersicariaLeaveTask1Visit1"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaLeaveTask1Visit11",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Exploration",
+            "doNotResetIfCounterCompleted": false,
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "PersicariaLeaveTask1LeaveItem1",
+            "index": 1,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "plantTime": 30,
+            "zoneId": "ter_017_area_1",
+            "target": [
+              "白火药"
+            ],
+            "value": "2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "PersicariaLeaveTask1LeaveItem2",
+            "index": 2,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "plantTime": 30,
+            "zoneId": "ter_017_area_1",
+            "target": [
+              "薇尔莉特火药"
+            ],
+            "value": "2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "LeaveItemAtLocation",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "PersicariaLeaveTask1LeaveItem3",
+            "index": 3,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "plantTime": 30,
+            "zoneId": "ter_017_area_1",
+            "target": [
+              "布洛妮娅火药"
+            ],
+            "value": "2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "55f2d3fd4bdc2d5f408b4567",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "18000",
+          "id": "PersicariaLeaveTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "PersicariaLeaveTask1Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "650000",
+          "id": "PersicariaLeaveTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "PersicariaLeaveTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaLeaveTask1Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "PersicariaLeaveTask1Rw32",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 150000
+              }
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "id": "PersicariaLeaveTask1Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "PersicariaLeaveTask1Rw41",
+          "items": [
+            {
+              "_id": "PersicariaLeaveTask1Rw41",
+              "_tpl": "Vulcan再生促进血清改进型",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaLeaveTask1Rw42",
+              "_tpl": "Vulcan再生促进血清改进型",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaLeaveTask1Rw43",
+              "_tpl": "Vulcan再生促进血清改进型",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaLeaveTask1Rw44",
+              "_tpl": "Vulcan再生促进血清改进型",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaLeaveTask1Rw45",
+              "_tpl": "Vulcan再生促进血清改进型",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "PersicariaLeaveTask1Rw46",
+              "_tpl": "Vulcan再生促进血清改进型",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "PersicariaBladeTask1": {
+    "QuestName": "PersicariaBladeTask1",
+    "traderId": "Persicaria",
+    "_id": "PersicariaBladeTask1",
+    "image": "/files/quest/icon/apex.png",
+    "templateId": "PersicariaBladeTask1 successMessageText",
+    "description": "PersicariaBladeTask1 description",
+    "failMessageText": "PersicariaBladeTask1 failMessageText",
+    "startedMessageText": "PersicariaBladeTask1 startedMessageText",
+    "successMessageText": "PersicariaBladeTask1 successMessageText",
+    "name": "PersicariaBladeTask1 name",
+    "note": "PersicariaBladeTask1 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PersicariaBladeTask1LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 49,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask3",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "PersicariaBladeTask1K1",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "PersicariaBladeTask1K11"
+                  }
+                }
+              ]
+            },
+            "id": "PersicariaBladeTask1Kill1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "1000",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "161028",
+          "id": "PersicariaBladeTask1Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "1",
+          "id": "PersicariaBladeTask1Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 1,
+          "target": "PersicariaBladeTask1Rw31",
+          "items": [
+            {
+              "_id": "PersicariaBladeTask1Rw31",
+              "_tpl": "Apex臂带",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "太阳能维修": {
+    "QuestName": "太阳能维修",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "_id": "太阳能维修",
+    "image": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+    "templateId": "太阳能维修 successMessageText",
+    "description": "太阳能维修 description",
+    "failMessageText": "太阳能维修 failMessageText",
+    "startedMessageText": "太阳能维修 startedMessageText",
+    "successMessageText": "太阳能维修 successMessageText",
+    "name": "太阳能维修 name",
+    "note": "太阳能维修 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "5ac3464c86f7741d651d6877",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "太阳能维修LvNeed",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 36,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "59e366c186f7741778269d85"
+            ],
+            "value": "12",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Find1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "59e366c186f7741778269d85"
+            ],
+            "value": "12",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5d0376a486f7747d8050965c"
+            ],
+            "value": "4",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Find2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d0376a486f7747d8050965c"
+            ],
+            "value": "4",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Hand2",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5d03775b86f774203e7e0c4b"
+            ],
+            "value": "2",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Find3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d03775b86f774203e7e0c4b"
+            ],
+            "value": "2",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Hand3",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "target": [
+              "5d03794386f77420415576f5"
+            ],
+            "value": "1",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Find4",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "5d03794386f77420415576f5"
+            ],
+            "value": "1",
+            "index": 1,
+            "parentId": "",
+            "onlyFoundInRaid": true,
+            "id": "太阳能维修Hand4",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "49000",
+          "id": "太阳能维修Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "太阳能维修Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "5a7c2eca46aef81a7ca2145d"
+        },
+        {
+          "value": "920000",
+          "id": "太阳能维修Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "太阳能维修Rw31",
+          "items": [
+            {
+              "_id": "太阳能维修Rw31",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 500000
+              }
+            },
+            {
+              "_id": "太阳能维修Rw32",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 420000
+              }
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "id": "太阳能维修Rw4",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 3,
+          "target": "太阳能维修Rw41",
+          "items": [
+            {
+              "_id": "太阳能维修Rw41",
+              "_tpl": "57347ca924597744596b4e71",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "太阳能维修Rw42",
+              "_tpl": "57347ca924597744596b4e71",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "太阳能维修Rw43",
+              "_tpl": "57347ca924597744596b4e71",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "太阳能维修Rw44",
+              "_tpl": "57347ca924597744596b4e71",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "太阳能维修Rw45",
+              "_tpl": "57347ca924597744596b4e71",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "太阳能维修Rw46",
+              "_tpl": "57347ca924597744596b4e71",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "星星不闪包退换": {
+    "QuestName": "星星不闪包退换",
+    "traderId": "Persicaria",
+    "_id": "星星不闪包退换",
+    "image": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+    "templateId": "星星不闪包退换 successMessageText",
+    "description": "星星不闪包退换 description",
+    "failMessageText": "星星不闪包退换 failMessageText",
+    "startedMessageText": "星星不闪包退换 startedMessageText",
+    "successMessageText": "星星不闪包退换 successMessageText",
+    "name": "星星不闪包退换 name",
+    "note": "星星不闪包退换 note",
+    "type": "PickUp",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "太阳能维修",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "target": [
+              "569668774bdc2da2298b4568"
+            ],
+            "value": "200000",
+            "index": 0,
+            "parentId": "",
+            "onlyFoundInRaid": false,
+            "id": "星星不闪包退换Hand1",
+            "minDurability": 0,
+            "visibilityConditions": [],
+            "maxDurability": 0,
+            "dynamicLocale": false,
+            "dogtagLevel": 0
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "127000",
+          "id": "星星不闪包退换Rw1",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.02",
+          "id": "星星不闪包退换Rw2",
+          "type": "TraderStanding",
+          "index": 1,
+          "target": "Persicaria"
+        },
+        {
+          "value": "1",
+          "id": "星星不闪包退换Rw3",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 2,
+          "target": "星星不闪包退换Rw31",
+          "items": [
+            {
+              "_id": "星星不闪包退换Rw31",
+              "_tpl": "太阳能模块",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "进化甲进度显示": {
+    "QuestName": "进化甲进度显示",
+    "traderId": "Persicaria",
+    "_id": "进化甲进度显示",
+    "image": "/files/quest/icon/apex.png",
+    "templateId": "进化甲进度显示 successMessageText",
+    "description": "进化甲进度显示 description",
+    "failMessageText": "进化甲进度显示 failMessageText",
+    "startedMessageText": "进化甲进度显示 startedMessageText",
+    "successMessageText": "进化甲进度显示 successMessageText",
+    "name": "进化甲进度显示 name",
+    "note": "进化甲进度显示 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "进化甲进度显示LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 26,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "白甲-蓝甲进度",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "白甲-蓝甲进度"
+                  }
+                }
+              ]
+            },
+            "id": "白甲-蓝甲进度",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "蓝甲-紫甲进度",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "蓝甲-紫甲进度"
+                  }
+                }
+              ]
+            },
+            "id": "蓝甲-紫甲进度",
+            "index": 1,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "45",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "紫甲-红甲进度",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "紫甲-红甲进度"
+                  }
+                }
+              ]
+            },
+            "id": "紫甲-红甲进度",
+            "index": 2,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "20",
+          "id": "进化甲进度显示Rw1",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 0,
+          "target": "进化甲进度显示Rw11",
+          "items": [
+            {
+              "_id": "进化甲进度显示Rw11",
+              "_tpl": "护盾模组",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            },
+            {
+              "_id": "进化甲进度显示Rw12",
+              "_tpl": "护盾模组",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            },
+            {
+              "_id": "进化甲进度显示Rw13",
+              "_tpl": "护盾模组",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            },
+            {
+              "_id": "进化甲进度显示Rw14",
+              "_tpl": "护盾模组",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            },
+            {
+              "_id": "进化甲进度显示Rw15",
+              "_tpl": "护盾模组",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "白甲-蓝甲进度": {
+    "QuestName": "白甲-蓝甲进度",
+    "traderId": "Persicaria",
+    "_id": "白甲-蓝甲进度",
+    "image": "/files/quest/icon/apex.png",
+    "templateId": "白甲-蓝甲进度 successMessageText",
+    "description": "白甲-蓝甲进度 description",
+    "failMessageText": "白甲-蓝甲进度 failMessageText",
+    "startedMessageText": "白甲-蓝甲进度 startedMessageText",
+    "successMessageText": "白甲-蓝甲进度 successMessageText",
+    "name": "白甲-蓝甲进度 name",
+    "note": "白甲-蓝甲进度 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "白甲-蓝甲进度LvNeed",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 26,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PersicariaWarTask2",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "白甲-蓝甲进度",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "白甲-蓝甲进度"
+                  }
+                }
+              ]
+            },
+            "id": "白甲-蓝甲进度",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "1",
+          "id": "白甲-蓝甲进度Rw1",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 0,
+          "target": "白甲-蓝甲进度Rw11",
+          "items": [
+            {
+              "_id": "白甲-蓝甲进度Rw11",
+              "_tpl": "蓝甲",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "白甲-蓝甲进度Rw11-蓝甲护盾0",
+              "_tpl": "护盾模组",
+              "parentId": "白甲-蓝甲进度Rw11",
+              "slotId": "mod_tactical_000"
+            },
+            {
+              "_id": "白甲-蓝甲进度Rw11-蓝甲护盾1",
+              "_tpl": "护盾模组",
+              "parentId": "白甲-蓝甲进度Rw11",
+              "slotId": "mod_tactical_001"
+            },
+            {
+              "_id": "白甲-蓝甲进度Rw11-蓝甲护盾2",
+              "_tpl": "护盾模组",
+              "parentId": "白甲-蓝甲进度Rw11",
+              "slotId": "mod_tactical_002"
+            }
+          ]
+        },
+        {
+          "id": "白甲-蓝甲进度Rw2",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "target": "白甲-蓝甲进度Rw21",
+          "items": [
+            {
+              "_id": "白甲-蓝甲进度Rw21",
+              "_tpl": "蓝甲"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "蓝甲-紫甲进度": {
+    "QuestName": "蓝甲-紫甲进度",
+    "traderId": "Persicaria",
+    "_id": "蓝甲-紫甲进度",
+    "image": "/files/quest/icon/apex.png",
+    "templateId": "蓝甲-紫甲进度 successMessageText",
+    "description": "蓝甲-紫甲进度 description",
+    "failMessageText": "蓝甲-紫甲进度 failMessageText",
+    "startedMessageText": "蓝甲-紫甲进度 startedMessageText",
+    "successMessageText": "蓝甲-紫甲进度 successMessageText",
+    "name": "蓝甲-紫甲进度 name",
+    "note": "蓝甲-紫甲进度 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "白甲-蓝甲进度",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "蓝甲-紫甲进度",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "蓝甲-紫甲进度"
+                  }
+                }
+              ]
+            },
+            "id": "蓝甲-紫甲进度",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "45",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "1",
+          "id": "蓝甲-紫甲进度Rw1",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 0,
+          "target": "蓝甲-紫甲进度Rw11",
+          "items": [
+            {
+              "_id": "蓝甲-紫甲进度Rw11",
+              "_tpl": "紫甲",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "蓝甲-紫甲进度Rw11-紫甲护盾0",
+              "_tpl": "护盾模组",
+              "parentId": "蓝甲-紫甲进度Rw11",
+              "slotId": "mod_tactical_000"
+            },
+            {
+              "_id": "蓝甲-紫甲进度Rw11-紫甲护盾1",
+              "_tpl": "护盾模组",
+              "parentId": "蓝甲-紫甲进度Rw11",
+              "slotId": "mod_tactical_001"
+            },
+            {
+              "_id": "蓝甲-紫甲进度Rw11-紫甲护盾2",
+              "_tpl": "护盾模组",
+              "parentId": "蓝甲-紫甲进度Rw11",
+              "slotId": "mod_tactical_002"
+            },
+            {
+              "_id": "蓝甲-紫甲进度Rw11-紫甲护盾3",
+              "_tpl": "护盾模组",
+              "parentId": "蓝甲-紫甲进度Rw11",
+              "slotId": "mod_tactical_003"
+            }
+          ]
+        },
+        {
+          "id": "蓝甲-紫甲进度Rw2",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "target": "蓝甲-紫甲进度Rw21",
+          "items": [
+            {
+              "_id": "蓝甲-紫甲进度Rw21",
+              "_tpl": "紫甲"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "紫甲-红甲进度": {
+    "QuestName": "紫甲-红甲进度",
+    "traderId": "Persicaria",
+    "_id": "紫甲-红甲进度",
+    "image": "/files/quest/icon/apex.png",
+    "templateId": "紫甲-红甲进度 successMessageText",
+    "description": "紫甲-红甲进度 description",
+    "failMessageText": "紫甲-红甲进度 failMessageText",
+    "startedMessageText": "紫甲-红甲进度 startedMessageText",
+    "successMessageText": "紫甲-红甲进度 successMessageText",
+    "name": "紫甲-红甲进度 name",
+    "note": "紫甲-红甲进度 note",
+    "type": "Elimination",
+    "secretQuest": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "蓝甲-紫甲进度",
+            "status": [
+              4
+            ]
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "紫甲-红甲进度",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Any",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "紫甲-红甲进度"
+                  }
+                }
+              ]
+            },
+            "id": "紫甲-红甲进度",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "restartable": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "1",
+          "id": "紫甲-红甲进度Rw1",
+          "type": "Item",
+          "findInRaid": true,
+          "index": 0,
+          "target": "紫甲-红甲进度Rw11",
+          "items": [
+            {
+              "_id": "紫甲-红甲进度Rw11",
+              "_tpl": "红甲",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "紫甲-红甲进度Rw11-红甲护盾0",
+              "_tpl": "护盾模组",
+              "parentId": "紫甲-红甲进度Rw11",
+              "slotId": "mod_tactical_000"
+            },
+            {
+              "_id": "紫甲-红甲进度Rw11-红甲护盾1",
+              "_tpl": "护盾模组",
+              "parentId": "紫甲-红甲进度Rw11",
+              "slotId": "mod_tactical_001"
+            },
+            {
+              "_id": "紫甲-红甲进度Rw11-红甲护盾2",
+              "_tpl": "护盾模组",
+              "parentId": "紫甲-红甲进度Rw11",
+              "slotId": "mod_tactical_002"
+            },
+            {
+              "_id": "紫甲-红甲进度Rw11-红甲护盾3",
+              "_tpl": "护盾模组",
+              "parentId": "紫甲-红甲进度Rw11",
+              "slotId": "mod_tactical_003"
+            },
+            {
+              "_id": "紫甲-红甲进度Rw11-红甲护盾4",
+              "_tpl": "护盾模组",
+              "parentId": "紫甲-红甲进度Rw11",
+              "slotId": "mod_tactical_004"
+            }
+          ]
+        },
+        {
+          "id": "紫甲-红甲进度Rw2",
+          "type": "AssortmentUnlock",
+          "index": 1,
+          "target": "紫甲-红甲进度Rw21",
+          "items": [
+            {
+              "_id": "紫甲-红甲进度Rw21",
+              "_tpl": "红甲"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "traderId": "Persicaria"
+        }
+      ],
+      "Fail": []
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "屠宰场": {
+    "id": "屠宰场-7N37",
+    "questid": "63a9b36cc31b00242d28a99f",
+    "rewarddata": {
+      "id": "屠宰场-7N37",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "屠宰场-7N37-物品",
+      "items": [
+        {
+          "_id": "屠宰场-7N37-物品",
+          "_tpl": "5e023d48186a883be655e551",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  },
+  "狙击疯魔": {
+    "id": "狙击疯魔-338AP",
+    "questid": "5c0be13186f7746f016734aa",
+    "rewarddata": {
+      "id": "狙击疯魔-338AP",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "狙击疯魔-338AP-物品",
+      "items": [
+        {
+          "_id": "狙击疯魔-338AP-物品",
+          "_tpl": "5fc382a9d724d907e2077dab",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  },
+  "夜间扫荡": {
+    "id": "夜间扫荡-M993",
+    "questid": "60e71c11d54b755a3b53eb65",
+    "rewarddata": {
+      "id": "夜间扫荡-M993",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "夜间扫荡-M993-物品",
+      "items": [
+        {
+          "_id": "夜间扫荡-M993-物品",
+          "_tpl": "5efb0c1bd79ff02a1f5e68d9",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  },
+  "掠地攻城": {
+    "id": "掠地攻城-762AP",
+    "questid": "60e71b9bbd90872cb85440f3",
+    "rewarddata": {
+      "id": "掠地攻城-762AP",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "掠地攻城-762AP-物品",
+      "items": [
+        {
+          "_id": "掠地攻城-762AP-物品",
+          "_tpl": "601aa3d2b2bcb34913271e6d",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  },
+  "彻夜难眠": {
+    "id": "彻夜难眠-556AP",
+    "questid": "5c0bd01e86f7747cdd799e56",
+    "rewarddata": {
+      "id": "彻夜难眠-556AP",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "彻夜难眠-556AP-物品",
+      "items": [
+        {
+          "_id": "彻夜难眠-556AP-物品",
+          "_tpl": "601949593ae8f707c4608daa",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  },
+  "掷弹兵1": {
+    "id": "掷弹兵1-摔炮-RGO",
+    "questid": "5c0d190cd09282029f5390d8",
+    "rewarddata": {
+      "id": "掷弹兵1-摔炮-RGO",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "掷弹兵1-摔炮-RGO-物品",
+      "items": [
+        {
+          "_id": "掷弹兵1-摔炮-RGO-物品",
+          "_tpl": "618a431df1eb8e24b8741deb",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  },
+  "掷弹兵2": {
+    "id": "掷弹兵2-摔炮-RGN",
+    "questid": "5c0d190cd09282029f5390d8",
+    "rewarddata": {
+      "id": "掷弹兵2-摔炮-RGN",
+      "type": "ProductionScheme",
+      "index": 1,
+      "target": "掷弹兵2-摔炮-RGN-物品",
+      "items": [
+        {
+          "_id": "掷弹兵2-摔炮-RGN-物品",
+          "_tpl": "617fd91e5539a84ec44ce155",
+          "upd": {
+            "StackObjectsCount": 1,
+            "SpawnedInSession": true
+          }
+        }
+      ],
+      "loyaltyLevel": 3,
+      "traderId": "10"
+    }
+  }
+}

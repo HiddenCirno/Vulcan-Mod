@@ -1,0 +1,69 @@
+{
+    "Name": "338AP-1",
+    "Data": {
+        "_id": "338AP_1",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 3,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c639286f774151567fa95",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "布洛妮娅火药",
+                "count": 6,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "白火药",
+                "count": 4,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d0379a886f77420407aa271",
+                "count": 4,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "60391a8b3364dc22b04d0ce5",
+                "count": 4,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+              "questId": "5c0be13186f7746f016734aa",
+              "type": "QuestComplete"
+            }
+        ],
+        "productionTime": 100800,
+        "boosters": null,
+        "endProduct": "5fc382a9d724d907e2077dab",
+        "continuous": false,
+        "count": 10,
+        "productionLimitCount": 0,
+        "needFuelForAllProductionTime": false,
+        "locked": true,
+        "isEncoded": false
+    }
+}

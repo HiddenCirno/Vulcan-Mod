@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "_id": "VHIServerVersionTestMedPen",
+      "_tpl": "VHIServerVersionTestMedPen",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "BuyRestrictionMax": 5,
+        "BuyRestrictionCurrent": 0,
+        "StackObjectsCount": 20
+      }
+    },
+    {
+      "_id": "VHIServerVersionTestMedPen1",
+      "_tpl": "VHIServerVersionTestMedPen",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "StackObjectsCount": 2000000,
+        "UnlimitedCount": true
+      }
+    },
+    {
+      "_id": "手术包",
+      "_tpl": "手术包",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "StackObjectsCount": 2000000,
+        "UnlimitedCount": true
+      }
+    },
+    {
+      "_id": "手术包2",
+      "_tpl": "手术包",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "StackObjectsCount": 2000000,
+        "UnlimitedCount": true
+      }
+    },
+    {
+      "_id": "手术包3",
+      "_tpl": "VHIServerVersionTestMedPen",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "StackObjectsCount": 2000000,
+        "UnlimitedCount": true
+      }
+    },
+    {
+      "_id": "TestBackpack1",
+      "_tpl": "TestBackpack",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "StackObjectsCount": 2000000,
+        "UnlimitedCount": true
+      }
+    }
+],
+  "barter_scheme": {
+    "VHIServerVersionTestMedPen": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "VHIServerVersionTestMedPen1": [
+      [
+        {
+          "count": 1,
+          "_tpl": "57347b8b24597737dd42e192"
+        },
+        {
+          "count": 1,
+          "_tpl": "56742c284bdc2d98058b456d"
+        }
+      ]
+    ],
+    "手术包": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "手术包2": [
+      [
+        {
+          "count": 4000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "手术包3": [
+      [
+        {
+          "count": 3000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "TestBackpack1": [
+      [
+        {
+          "count": 3000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ]
+  },
+  "loyal_level_items": {
+    "VHIServerVersionTestMedPen": 1,
+    "VHIServerVersionTestMedPen1": 1,
+    "手术包": 1,
+    "手术包2": 2,
+    "手术包3": 2,
+    "TestBackpack1": 2
+
+  }
+}

@@ -1,0 +1,82 @@
+{
+    "2": {
+        "requirements": [
+          {
+            "templateId": "5696686a4bdc2da3298b456a",
+            "count": 50000,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "traderId": "Persicaria",
+            "loyaltyLevel": 4,
+            "type": "TraderLoyalty"
+          },
+          {
+            "templateId": "5d0375ff86f774186372f685",
+            "count": 15,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "templateId": "59e366c186f7741778269d85",
+            "count": 30,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "templateId": "5d0378d486f77420421a5ff4",
+            "count": 15,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "templateId": "5c05308086f7746b2101e90b",
+            "count": 15,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "templateId": "5d03775b86f774203e7e0c4b",
+            "count": 10,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "templateId": "5d03794386f77420415576f5",
+            "count": 6,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          },
+          {
+            "templateId": "6389c85357baa773a825b356",
+            "count": 2,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+          }
+        ],
+        "bonuses": [
+          {
+            "value": -75,
+            "passive": true,
+            "production": false,
+            "visible": true,
+            "type": "FuelConsumption"
+          }
+        ],
+        "slots": 0,
+        "constructionTime": 604800,
+        "description": "",
+        "autoUpgrade": false,
+        "displayInterface": true,
+        "improvements": []
+    }
+}

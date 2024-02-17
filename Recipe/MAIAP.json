@@ -1,0 +1,57 @@
+{
+    "Name": "MAIAP-1",
+    "Data": {
+        "_id": "MAIAP_1",
+        "areaType": 10,
+        "requirements": [
+            {
+                "areaType": 10,
+                "requiredLevel": 3,
+                "type": "Area"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Tool"
+            },
+            {
+                "templateId": "薇尔莉特火药",
+                "count": 2,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "白火药",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d0379a886f77420407aa271",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "60391a8b3364dc22b04d0ce5",
+                "count": 1,
+                "isFunctional": false,
+                "type": "Item"
+            },
+            {
+              "questId": "60e71b9bbd90872cb85440f3",
+              "type": "QuestComplete"
+            }
+        ],
+        "productionTime": 46800,
+        "boosters": null,
+        "endProduct": "601aa3d2b2bcb34913271e6d",
+        "continuous": false,
+        "count": 120,
+        "productionLimitCount": 0,
+        "needFuelForAllProductionTime": false,
+        "locked": true,
+        "isEncoded": false
+    }
+}
