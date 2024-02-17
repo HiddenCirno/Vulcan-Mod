@@ -403,12 +403,12 @@
             ]
         },
         {
-            "key": "string",
+            "key": "nether_portal.pack",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
+            "key": "kolontay_hand.pack",
 			"dependencyKeys": [
             ]
         },

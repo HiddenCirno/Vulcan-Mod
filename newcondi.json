@@ -1,0 +1,230 @@
+[
+    {
+        "conditionType": "FindItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorFind1",
+        "index": 0,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "白火药"
+        ],
+        "countInRaid": false,
+        "value": "1",
+        "visibilityConditions": [],
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorHand1",
+        "index": 1,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "白火药"
+        ],
+        "value": "1",
+        "visibilityConditions": [],
+        "countInRaid": false,
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "FindItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorFind2",
+        "index": 0,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "布洛妮娅火药"
+        ],
+        "countInRaid": false,
+        "value": "1",
+        "visibilityConditions": [],
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorHand2",
+        "index": 1,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "布洛妮娅火药"
+        ],
+        "value": "1",
+        "visibilityConditions": [],
+        "countInRaid": false,
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "FindItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorFind3",
+        "index": 0,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "薇尔莉特火药"
+        ],
+        "countInRaid": false,
+        "value": "1",
+        "visibilityConditions": [],
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorHand3",
+        "index": 1,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "薇尔莉特火药"
+        ],
+        "value": "1",
+        "visibilityConditions": [],
+        "countInRaid": false,
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "FindItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorFind4",
+        "index": 0,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "不死图腾"
+        ],
+        "countInRaid": false,
+        "value": "1",
+        "visibilityConditions": [],
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorHand4",
+        "index": 1,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "不死图腾"
+        ],
+        "value": "1",
+        "visibilityConditions": [],
+        "countInRaid": false,
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "FindItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorFind5",
+        "index": 0,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "朱雀"
+        ],
+        "countInRaid": false,
+        "value": "1",
+        "visibilityConditions": [],
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorHand5",
+        "index": 1,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "朱雀"
+        ],
+        "value": "1",
+        "visibilityConditions": [],
+        "countInRaid": false,
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "FindItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorFind6",
+        "index": 0,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "阿萨兰之爪"
+        ],
+        "countInRaid": false,
+        "value": "1",
+        "visibilityConditions": [],
+        "globalQuestCounterId": ""
+    },
+    {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "id": "VulcanCollectorHand6",
+        "index": 1,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "parentId": "",
+        "isEncoded": false,
+        "onlyFoundInRaid": true,
+        "dynamicLocale": false,
+        "target": [
+            "阿萨兰之爪"
+        ],
+        "value": "1",
+        "visibilityConditions": [],
+        "countInRaid": false,
+        "globalQuestCounterId": ""
+    }
+]

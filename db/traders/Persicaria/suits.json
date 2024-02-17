@@ -546,5 +546,49 @@
     },
     "suiteId": "PriestLower",
     "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKolontayCoat",
+    "isActive": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask9"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KolontayCoat",
+    "tid": "Persicaria"
+  },
+  {
+    "_id": "SuitKolontayLower",
+    "isActive": true,
+    "requirements": {
+      "itemRequirements": [
+        {
+          "_tpl": "5449016a4bdc2d6f028b456f",
+          "count": 5000000,
+          "onlyFunctional": true
+        }
+      ],
+      "loyaltyLevel": 4,
+      "profileLevel": 50,
+      "questRequirements": [
+        "PersicariaDeadTask9"
+      ],
+      "skillRequirements": [],
+      "standing": 0
+    },
+    "suiteId": "KolontayLower",
+    "tid": "Persicaria"
   }
 ]

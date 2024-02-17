@@ -33,34 +33,40 @@
       "SecuredContainer": 100,
       "TacticalVest": 100
     },
-    "mods": {
-      "mod_gas_block": 100,
-      "mod_equipment": 100,
-      "mod_charge": 100,
-      "mod_foregrip": 100,
+    "weaponMods": {
       "mod_launcher": 0,
       "mod_magazine": 100,
-      "mod_mount": 100,
-      "mod_mount_000": 100,
-      "mod_mount_001": 100,
-      "mod_mount_002": 0,
-      "mod_mount_003": 100,
       "mod_muzzle": 100,
       "mod_reciever": 100,
       "mod_scope": 100,
       "mod_sight_front": 0,
       "mod_sight_rear": 100,
       "mod_stock": 100,
-      "mod_stock_000": 100,
-      "mod_stock_001": 100,
+      "mod_mount": 100,
       "mod_tactical": 100,
+      "mod_bipod": 100,
+      "mod_handguard": 100,
+      "mod_gas_block": 100,
+      "mod_charge": 100,
+      "mod_foregrip": 100,
+      "mod_mount_000": 100,
+      "mod_mount_001": 100,
+      "mod_mount_002": 0,
+      "mod_mount_003": 100,
       "mod_tactical_000": 0,
       "mod_tactical_001": 100,
       "mod_tactical_002": 0,
       "mod_tactical_003": 0,
-      "mod_bipod": 100,
-      "mod_handguard": 100,
+      "mod_stock_000": 100,
+      "mod_stock_001": 100,
       "mod_pistolgrip_000": 100
+    },
+    "equipmentMods": {
+      "mod_equipment": 100,
+      "front_plate": 100,
+      "back_plate": 100,
+      "left_side_plate": 100,
+      "right_side_plate": 100
     }
   },
   "difficulty": {
@@ -2230,6 +2236,44 @@
       ]
     },
     "mods": {
+      "545cdb794bdc2d3a198b456a": {
+        "Front_plate": [
+          "64afc71497cf3a403c01ff38"
+        ],
+        "Back_plate": [
+          "64afc71497cf3a403c01ff38"
+        ],
+        "Left_side_plate": [
+          "64afd81707e2cf40e903a316"
+        ],
+        "Right_side_plate": [
+          "64afd81707e2cf40e903a316"
+        ],
+        "Soft_armor_front": [
+          "6575ce3716c2762fba0057fd"
+        ],
+        "Soft_armor_back": [
+          "6575ce45dc9932aed601c616"
+        ],
+        "Soft_armor_left": [
+          "6575ce5016c2762fba005802"
+        ],
+        "soft_armor_right": [
+          "6575ce5befc786cd9101a671"
+        ],
+        "Collar": [
+          "6575ce6f16c2762fba005806"
+        ],
+        "Shoulder_l": [
+          "6575ce9db15fef3dd4051628"
+        ],
+        "Shoulder_r": [
+          "6575cea8b15fef3dd405162c"
+        ],
+        "Groin": [
+          "6575ce8bdc9932aed601c61e"
+        ]
+      },
       "64ca3d3954fc657e230529cc": {
         "mod_pistolgrip": [
           "64cbad529f7cf7f75c077fd5"
@@ -2287,6 +2331,15 @@
       "5aa7e276e5b5b000171d0647": {
         "mod_equipment": [
           "5aa7e373e5b5b000137b76f0"
+        ],
+        "Helmet_top": [
+          "657bc06daab96fccee08be9b"
+        ],
+        "Helmet_back": [
+          "657bc0d8a1c61ee0c303632f"
+        ],
+        "Helmet_ears": [
+          "657bc107aab96fccee08be9f"
         ]
       },
       "5fc22d7c187fea44d52eda44": {

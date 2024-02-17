@@ -42,7 +42,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         const FuncImporterUtil = container.resolve<ImporterUtil>("ImporterUtil")
         const staticRouterModService = container.resolve<StaticRouterModService>("StaticRouterModService");
         const traderConfig = configServer.getConfig<ITraderConfig>(ConfigTypes.TRADER);
-        const ModPath = PreAkiModLoader.getModPath("火神重工-理性重构")
+        const ModPath = PreAkiModLoader.getModPath("火神重工-重启")
         const DB = FuncImporterUtil.loadRecursive(`${ModPath}db/`)
         const ClientDB = FuncDatabaseServer.getTables();
         const imageRouter = container.resolve<ImageRouter>("ImageRouter");
@@ -73,7 +73,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         const ClientQuest = ClientDB.templates.quests
         const ClientItem = ClientDB.templates.items
         const ClientHideout = ClientDB.hideout.areas
-        const ModPath = PreAkiModLoader.getModPath("火神重工-理性重构")
+        const ModPath = PreAkiModLoader.getModPath("火神重工-重启")
         const imageFilepath = `./${ModPath}db/avatar/`;
         const iconPath = `${ModPath}images/quests/`
         const iconList = VFS.getFiles(iconPath);
@@ -334,7 +334,8 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         ]
         var key40 = [
             "5448ba0b4bdc2d02308b456c",//工厂钥匙
-            "63a39fc0af870e651d58e6ae"//15公寓钥匙
+            "63a39fc0af870e651d58e6ae",//15公寓钥匙
+            "6582dbf0b8d7830efc45016f"//休息室钥匙
         ]
         var key1 = [
             "5d08d21286f774736e7c94c3",//Shturman钥匙
@@ -367,27 +368,25 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         for (let mails in DB.locales["ch"].nsmail) {
             ClientDB.locales.global["ch"][mails] = DB.locales["ch"].nsmail[mails]
         }
+        /*
         //原版任务修改
         var sectantarr = [] //夜间扫荡
-        ClientQuest["5c0be13186f7746f016734aa"].conditions.AvailableForFinish[0]._props.value = 15 //狙击疯魔
-        ClientQuest["60e71c11d54b755a3b53eb65"].conditions.AvailableForFinish[0]._props.index = 2 //夜间扫荡
-        ClientQuest["60e71c11d54b755a3b53eb65"].conditions.AvailableForFinish[1]._props.index = 3
+        ClientQuest["5c0be13186f7746f016734aa"].conditions.AvailableForFinish[0].value = 15 //狙击疯魔
+        ClientQuest["60e71c11d54b755a3b53eb65"].conditions.AvailableForFinish[0].index = 2 //夜间扫荡
+        ClientQuest["60e71c11d54b755a3b53eb65"].conditions.AvailableForFinish[1].index = 3
         sectantarr.push(
             {
                 "_parent": "CounterCreator",
-                "_props": {
                     "counter": {
                         "id": "夜间扫荡祭祀击杀目标指示",
                         "conditions": [
                             {
-                                "_props": {
                                     "target": "Savage",
                                     "savageRole": [
                                         "sectantPriest"
                                     ],
                                     "id": "夜间扫荡祭祀击杀目标",
-                                    "dynamicLocale": false
-                                },
+                                    "dynamicLocale": false,
                                 "_parent": "Kills"
                             }
                         ]
@@ -400,27 +399,23 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                     "type": "Elimination",
                     "doNotResetIfCounterCompleted": false,
                     "value": "4",
-                    "visibilityConditions": []
-                },
+                    "visibilityConditions": [],
                 "dynamicLocale": false
             }
         )
         sectantarr.push(
             {
                 "_parent": "CounterCreator",
-                "_props": {
                     "counter": {
                         "id": "夜间扫荡战士击杀目标指示",
                         "conditions": [
                             {
-                                "_props": {
                                     "target": "Savage",
                                     "savageRole": [
                                         "sectantWarrior"
                                     ],
                                     "id": "夜间扫荡战士击杀目标",
-                                    "dynamicLocale": false
-                                },
+                                    "dynamicLocale": false,
                                 "_parent": "Kills"
                             }
                         ]
@@ -433,8 +428,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                     "type": "Elimination",
                     "doNotResetIfCounterCompleted": false,
                     "value": "10",
-                    "visibilityConditions": []
-                },
+                    "visibilityConditions": [],
                 "dynamicLocale": false
             }
         )
@@ -444,6 +438,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         ClientQuest["5d6fbc2886f77449d825f9d3"].rewards.Success[0].value = 500 //导师
         ClientQuest["60e71d23c1bfa3050473b8e6"].rewards.Success[1].value = 500 //致命校准
         ClientQuest["60e71d23c1bfa3050473b8e6"].rewards.Success[1].target = "Sniper" //致命校准
+        */
         //原版武器修改
         //AK12 
         var muzzlearr = [
@@ -598,127 +593,6 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
 
         }
         //#endregion
-        //捏人头部写入
-        for (let ct in ClientDB.templates.customization) {
-            var Local = ClientDB.locales.global["ch"]
-            var LocalEng = ClientDB.locales.global["en"]
-            var HeadTagilla = "5d5f8ba486f77431254e7fd2" //NoMesh
-            var HeadKnight = "62875ad50828252c7a28b95c"
-            var HeadBirdeye = "628b57d800f171376e7b2634"
-            var HeadBigPipe = "6287b0d239d8207cb27d66c7"
-            var HeadShturman = "5d5f8ba486f77431254e7fd2" //NoMesh
-            var HeadSanitar = "5e99767c86f7741ac7399393"
-            var HeadReshala = "5d28b01486f77429242fc898"
-            var HeadKilla = "5d28b03e86f7747f7e69ab8a"
-            var HeadGlukhar = "5d5e805d86f77439eb4c2d0e"
-            var HeadZryachiy = "636129784aa74b8fe30ab418"
-            var HeadKaban = "64809e3077c11aeac5078e3c"
-            var HeadScav_1 = "5cc2e4d014c02e000d0115f8"
-            var HeadScav_2 = "5cde9ff17d6c8b0474535daa"
-            var HeadScav_3 = "5f68c4a7c174a17c0f4c8945"
-            var HeadScav_4 = "5f68c4c217d579077152a252"
-            var HeadScav_5 = "5d28afe786f774292668618d"
-            var Side = ClientDB.templates.customization[ct]._props.Side
-            var Name = ClientDB.templates.customization[ct]._props.Name
-            var ID = ClientDB.templates.customization[ct]._id
-            switch (ID) {
-                case HeadKnight:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Knight"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadBirdeye:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Birdeye"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadBigPipe:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "BigPipe"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadSanitar:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Sanitar"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadReshala:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Reshala"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadKilla:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Killa"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadGlukhar:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Glukhar"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadZryachiy:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Zryachiy"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadScav_1:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Scav-1"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadScav_2:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Scav-2"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadScav_3:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Scav-3"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadScav_4:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Scav-4"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-                case HeadScav_5:
-                    Side.push("Bear")
-                    Side.push("Usec")
-                    Name = "Scav-5"
-                    Local[ID + " Name"] = Name
-                    LocalEng[ID + " Name"] = Name
-                    break;
-
-
-
-
-            }
-        }
         //任务图片添加
         for (const icon of iconList) {
             const filename = VFS.stripExtension(icon);
@@ -769,6 +643,65 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 }
             }
         }
+        function convertQuest(obj) {
+            if (typeof obj !== 'object' || obj === null) {
+                return obj;
+            }
+
+            let copy = Array.isArray(obj) ? [] : {};
+
+            for (let key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    if (key === '_props') {
+                        Object.assign(copy, obj[key]);
+                    } else {
+                        copy[key] = convertQuest(obj[key]);
+                    }
+                }
+            }
+
+            return copy;
+        }
+        function questFileFix(obj) {
+            for (let a in obj) {
+                const A = obj[a].conditions.AvailableForStart
+                const B = obj[a].conditions.AvailableForFinish
+                const C = obj[a].conditions.Fail
+                if(B.length>0){
+                    for (var b = 0; b < B.length; b++){
+                        B[b].isEncoded = false;
+                        B[b].countInRaid = false;
+                        B[b].globalQuestCounterId = "";
+                    }
+                }
+                if(A.length>0){
+                    for (var b = 0; b < A.length; b++){
+                        A[b].globalQuestCounterId = "";
+                    }
+                }
+                obj[a].conditions.AvailableForFinish = convertQuest(obj[a].conditions.AvailableForFinish)
+            }
+            return obj
+        }
+        function questCondFix(obj) {
+            for (var i = 0; i < obj.length; i++) {
+                const B = obj[i]
+                        B.isEncoded = false;
+                        B.countInRaid = false;
+                        B.globalQuestCounterId = "";
+                obj[i] = convertQuest(obj[i])
+            }
+            return obj
+        }
+        ClientDB.locations.tarkovstreets.looseLoot.spawnpointsForced = []
+        //ClientDB.locations.tarkovstreets.looseLoot.spawnpoints = []
+        ClientDB.locations.tarkovstreets.looseLoot.spawnpointsForced.push(DB.templates.itemspawn.Forced[0])
+        CustomLog("开始执行任务文件转换")
+        var newquest = questFileFix(convertQuest(DB.quests))
+        var newcondi = questCondFix(DB.templates.QuestCondition["5c51aac186f77432ea65c552"].Conditions)
+        VFS.writeFile(`${ModPath}newquest.json`, JSON.stringify(newquest, null, 4))
+        VFS.writeFile(`${ModPath}newcondi.json`, JSON.stringify(newcondi, null, 4))
+        CustomLog("任务文件转换完成！")
         FixEuqipment("外勤公文包", "5d235bb686f77443f4331278")
         //Bot Modifier
         //#region  海关Bosa调整, Bot战利品生成
@@ -813,9 +746,10 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 //BossSpawn[i].BossZone = "ZoneCustoms"
             }
         }
-        //适配370的动态装备调整
+        //适配380的动态装备调整
         ClientDB.bots.types.bossbully.chances.equipment = DB.bots.types.Reshala.chances.equipment
-        ClientDB.bots.types.bossbully.chances.mods = DB.bots.types.Reshala.chances.mods
+        ClientDB.bots.types.bossbully.chances.weaponMods = DB.bots.types.Reshala.chances.weaponMods
+        ClientDB.bots.types.bossbully.chances.equipmentMods = DB.bots.types.Reshala.chances.equipmentMods
         ClientDB.bots.types.bossbully.experience.reward = DB.bots.types.Reshala.experience.reward
         ClientDB.bots.types.bossbully.health = DB.bots.types.Reshala.health
         ClientDB.bots.types.bossbully.inventory = DB.bots.types.Reshala.inventory
@@ -919,7 +853,8 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
             }
         }
         ClientDB.bots.types.followerbully.chances.equipment = DB.bots.types.ReshalaFollower.chances.equipment
-        ClientDB.bots.types.followerbully.chances.mods = DB.bots.types.ReshalaFollower.chances.mods
+        ClientDB.bots.types.followerbully.chances.weaponMods = DB.bots.types.ReshalaFollower.chances.weaponMods
+        ClientDB.bots.types.followerbully.chances.equipmentMods = DB.bots.types.ReshalaFollower.chances.equipmentMods
         ClientDB.bots.types.followerbully.experience.reward = DB.bots.types.ReshalaFollower.experience.reward
         ClientDB.bots.types.followerbully.health = DB.bots.types.ReshalaFollower.health
         ClientDB.bots.types.followerbully.inventory = DB.bots.types.ReshalaFollower.inventory
@@ -1017,7 +952,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
             }
         }
         //CustomAccess(SVCheck) //true
-        //CustomAccess(convertVersion(ServerVersion)) //370
+        //CustomAccess(convertVersion(ServerVersion)) //380
 
         //容器战利品(仍需验证)(已经生效)
         AddStaticLoot("高浓缩咖啡方糖", "59e3577886f774176a362503")
@@ -1051,6 +986,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
             }
         }
         //商人交易报价
+        /*
         for (let a in DB.templates.TraderAssort) {
             const TA = DB.templates.TraderAssort[a]
             const ID = TA.Items[0]._id
@@ -1089,6 +1025,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
             }
             CustomLog(`报价单处理完成: ${TA.Name}`)
         }
+        */
         //自定义控制台输出
         function CustomLog(string) {
             Logger.logWithColor("[Console]: " + string, "yellow");
@@ -1309,7 +1246,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
     }
     //添加商人头像
     private registerProfileImage(preAkiModLoader: PreAkiModLoader, imageRouter: ImageRouter): void {
-        const imageFilepath = `./${preAkiModLoader.getModPath("火神重工-理性重构")}db/avatar`;
+        const imageFilepath = `./${preAkiModLoader.getModPath("火神重工-重启")}db/avatar`;
         imageRouter.addRoute(baseJson.avatar.replace(".jpg", ""), `${imageFilepath}/Persicaria.jpg`);
         imageRouter.addRoute(NSBase.avatar.replace(".png", ""), `${imageFilepath}/Polaris.png`)
     }

@@ -271,6 +271,19 @@
         "successMessageText": "PersicariaDeadTask8Success",
         "location": "any"
     },
+    "PersicariaDeadTask9": {
+        "name": "我成了死神 - 吝啬鬼",
+        "note": "",
+        "conditions": {
+            "PersicariaDeadTask9Kill1": "消灭 Kolontay",
+            "PersicariaDeadTask9Hand1": "上交PR-Taran警棍"
+        },
+        "description": "PersicariaDeadTask9Desc",
+        "failMessageText": "PersicariaDeadTask9Fail",
+        "startedMessageText": "PersicariaDeadTask9Start",
+        "successMessageText": "PersicariaDeadTask9Success",
+        "location": "any"
+    },
     "PersicariaDeadTask7": {
         "name": "我成了死神 - 折断一把剑",
         "note": "",

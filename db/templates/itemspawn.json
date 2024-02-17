@@ -1,0 +1,34 @@
+{
+    "Forced":[
+        {
+            "locationId": "(176.7496 10.997 229.6932)",
+            "probability": 1,
+            "template": {
+                "Id": "(176.7496 10.997 229.6932)",
+                "IsStatic": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 176.7496,
+                    "y": 10.997,
+                    "z": 229.6932
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "NetherPortal",
+                "Items": [
+                    {
+                        "_id": "NetherPortal",
+                        "_tpl": "地狱门"
+                    }
+                ]
+            }
+        }
+    ]
+}
