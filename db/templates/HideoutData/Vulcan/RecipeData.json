@@ -1,0 +1,156 @@
+{
+    "Virtex处理器": {
+        "ID": "Virtex可编程处理器",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5c05308086f7746b2101e90b",
+        "OutputCount": 1,
+        "Time": 104400,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c139eb686f7747878361a6f",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "红石粉": 4,
+                "青金石": 2,
+                "荧石粉": 2,
+                "5c05300686f7746dce784e5d": 1
+            }
+        }
+    },
+    "M995_维和": {
+        "ID": "M995_维和",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "59e690b686f7746c9f75e848",
+        "OutputCount": 120,
+        "Time": 68400,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c0d4c12d09282029f539173",
+        "Require": {
+            "Tool": {
+                "544fb5454bdc2df8738b456a": 1,
+                "5af04b6486f774195a3ebb49": 1
+            },
+            "Item": {
+                "54527ac44bdc2d36668b4567": 120,
+                "白火药": 2,
+                "火药": 2,
+                "薇尔莉特火药": 1
+            }
+        }
+    },
+    "RGN_掷弹兵": {
+        "ID": "RGN_掷弹兵",
+        "Area": 10,
+        "AreaLevel": 2,
+        "Output": "617fd91e5539a84ec44ce155",
+        "OutputCount": 3,
+        "Time": 43200,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c0d190cd09282029f5390d8",
+        "Require": {
+            "Tool": {
+                "5d1b31ce86f7742523398394": 1,
+                "62a0a0bb621468534a797ad5": 1
+            },
+            "Item": {
+                "5e2af51086f7746d3f3c3402": 3,
+                "火药": 1,
+                "布洛妮娅火药": 1
+            }
+        }
+    },
+    "M381_租借2": {
+        "ID": "M381_租借2",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5ede474b0c226a66f5402622",
+        "OutputCount": 2,
+        "Time": 21600,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {
+                "590c639286f774151567fa95": 1,
+                "62a0a0bb621468534a797ad5": 1
+            },
+            "Item": {
+                "58d3db5386f77426186285a0": 2,
+                "火药": 1,
+                "红石粉": 1,
+                "白火药": 1
+            }
+        }
+    },
+    "545_7n39": {
+        "ID": "545_7n39",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5c0d5e4486f77478390952fe",
+        "OutputCount": 120,
+        "Time": 61200,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {
+                "590c639286f774151567fa95": 1,
+                "5af04b6486f774195a3ebb49": 1
+            },
+            "Item": {
+                "56dff061d2720bb5668b4567": 120,
+                "火药": 2,
+                "红石粉": 2,
+                "白火药": 2
+            }
+        }
+    },
+    "铝热剂_3级": {
+        "ID": "铝热剂_3级",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "60391a8b3364dc22b04d0ce5",
+        "OutputCount": 3,
+        "Time": 64800,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {
+                "5d40419286f774318526545f": 1,
+                "5d40425986f7743185265461": 1,
+                "5d4042a986f7743185265463": 1
+            },
+            "Item": {
+                "5bc9b156d4351e00367fbce9": 3,
+                "火药": 2,
+                "红石粉": 2,
+                "布洛妮娅火药": 1,
+                "白火药": 1
+            }
+        }
+    },
+    "维修套件充能": {
+        "ID": "维修套件充能",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "591094e086f7747caa7bb2ef",
+        "OutputCount": 1,
+        "Time": 86400,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "5c0d0f1886f77457b8210226",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "591094e086f7747caa7bb2ef": 1,
+                "青金石": 9
+            }
+        }
+    }
+}

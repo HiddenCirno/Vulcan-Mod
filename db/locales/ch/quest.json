@@ -1,6 +1,6 @@
 {
     "PersicariaTask1": {
-        "name": "初识",
+        "name": "重逢",
         "note": "",
         "conditions": {
             "PersicariaTask1Find1": "在战局中找到电线",
@@ -507,6 +507,70 @@
   "failMessageText": "紫甲-红甲进度Fail",
   "startedMessageText": "紫甲-红甲进度Start",
   "successMessageText": "紫甲-红甲进度Success",
+  "location": "any"
+},
+"风暴轮转": {
+  "name": "风暴轮转，日月恒常",
+  "note": "",
+  "conditions": {
+    "风暴轮转寻找物品1": "在海关找到风暴轮转之盐",
+    "风暴轮转寻找物品2": "在海关找到恒常日月之盐",
+      "风暴轮转上交物品1": "回收风暴轮转之盐",
+      "风暴轮转上交物品2": "回收恒常日月之盐"
+  },
+  "description": "风暴轮转Desc",
+  "failMessageText": "风暴轮转Fail",
+  "startedMessageText": "风暴轮转Start",
+  "successMessageText": "风暴轮转Success",
+  "location": "any"
+},
+"序幕-契约战争": {
+  "name": "序幕 - 契约战争",
+  "note": "",
+  "conditions": {
+    "序幕-契约战争踩点1": "从EMERCOM检查点离开市中心"
+  },
+  "description": "序幕-契约战争Desc",
+  "failMessageText": "序幕-契约战争Fail",
+  "startedMessageText": "序幕-契约战争Start",
+  "successMessageText": "序幕-契约战争Success",
+  "location": "any"
+},
+"第二轮太阳": {
+  "name": "关键节点 - 第二轮太阳",
+  "note": "",
+  "conditions": {
+    "第二轮太阳等级需求1": "完成剧情节点（等级达到21级）"
+  },
+  "description": "第二轮太阳Desc",
+  "failMessageText": "第二轮太阳Fail",
+  "startedMessageText": "第二轮太阳Start",
+  "successMessageText": "第二轮太阳Success",
+  "location": "any"
+},
+"向着明天": {
+  "name": "关键节点 - 向着明天",
+  "note": "",
+  "conditions": {
+    "向着明天等级需求1": "完成剧情节点"
+  },
+  "description": "向着明天Desc",
+  "failMessageText": "向着明天Fail",
+  "startedMessageText": "向着明天Start",
+  "successMessageText": "向着明天Success",
+  "location": "any"
+},
+"阴影之下": {
+  "name": "阴影之下",
+  "note": "",
+  "conditions": {
+    "阴影之下寻找需求1": "在实验室找到TerraGroup与曙光制药的秘密记录",
+    "阴影之下上交需求1": "销毁相关的实验数据"
+  },
+  "description": "阴影之下Desc",
+  "failMessageText": "阴影之下Fail",
+  "startedMessageText": "阴影之下Start",
+  "successMessageText": "阴影之下Success",
   "location": "any"
 }
 }

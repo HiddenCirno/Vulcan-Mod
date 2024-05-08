@@ -12,12 +12,12 @@
     "discount_end": 0,
     "gridHeight": 160,
     "insurance": {
-      "availability": false,
+      "availability": true,
       "excluded_category": [],
-      "max_return_hour": 3,
+      "max_return_hour": 6,
       "max_storage_time": 168,
       "min_payment": 0,
-      "min_return_hour": 6
+      "min_return_hour": 3
     },
     "items_buy": {
       "category": [
@@ -50,7 +50,7 @@
         "buy_price_coef": 38,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
-        "insurance_price_coef": "8",
+        "insurance_price_coef": 8,
         "minLevel": 12,
         "minSalesSum": 750000,
         "minStanding": 0.2,
@@ -60,7 +60,7 @@
         "buy_price_coef": 32,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
-        "insurance_price_coef": "6",
+        "insurance_price_coef": 6,
         "minLevel": 23,
         "minSalesSum": 1600000,
         "minStanding": 0.35,
@@ -70,7 +70,7 @@
         "buy_price_coef": 26,
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
-        "insurance_price_coef": "4",
+        "insurance_price_coef": 4,
         "minLevel": 31,
         "minSalesSum": 2500000,
         "minStanding": 0.5,

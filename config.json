@@ -6,5 +6,6 @@
     "ExamineByDefault": false,
     "QuestRequire": false,
     "MainQuest": false,
-    "HideoutInfo": true
+    "HideoutInfo": true,
+    "Debug": false
 }

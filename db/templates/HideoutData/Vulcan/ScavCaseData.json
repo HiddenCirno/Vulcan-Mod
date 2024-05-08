@@ -1,0 +1,56 @@
+{
+    "钻石": {
+        "_id": "钻石",
+        "ProductionTime": 10800,
+        "Requirements": [
+            {
+                "templateId": "MC钻石",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "EndProducts": {
+            "Common": {
+                "min": "0",
+                "max": "1"
+            },
+            "Rare": {
+                "min": "1",
+                "max": "3"
+            },
+            "Superrare": {
+                "min": "0",
+                "max": "2"
+            }
+        }
+    },
+    "比特币": {
+        "_id": "比特币",
+        "ProductionTime": 28800,
+        "Requirements": [
+            {
+                "templateId": "59faff1d86f7746c51718c9c",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }
+        ],
+        "EndProducts": {
+            "Common": {
+                "min": "0",
+                "max": "0"
+            },
+            "Rare": {
+                "min": "0",
+                "max": "3"
+            },
+            "Superrare": {
+                "min": "4",
+                "max": "10"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "ID": "外勤公文包",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "外勤公文包",
+                "_tpl": "外勤公文包",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 100
+                }
+            }
+        ],
+        "Barter": {
+            "5d235bb686f77443f4331278": 4,
+            "590c60fc86f77412b13fddcf": 4,
+            "619cbf7d23893217ec30b689": 4,
+            "619cbf9e0a7c3a1a2731940a": 4
+        },
+        "TrustLevel": 4,
+        "Locked": false,
+        "Quest": ""
+    }
+]

@@ -398,6 +398,16 @@
             ]
         },
         {
+            "key": "assets/content/items/equipment/armband/item_equipment_armband_liubei.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
             "key": "priest_hand.pack",
 			"dependencyKeys": [
             ]
@@ -409,6 +419,239 @@
         },
         {
             "key": "kolontay_hand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "salt_storm.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "crystal_energy.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "crystal_lapotron.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "salt_daynight.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "powder_mc.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "diamond_mc.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "redstone.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "laps.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "dust_glowstone.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_zangai.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_green.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_wangchuan.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_shannanyubei.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_at.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_xingxi.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_wsrf.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_hongyi.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_whs.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_silent.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_kmyu.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_white.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_xiyang.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_shuiyue.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_mg.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_duanque.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_debut.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_intro.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_shuren.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_gys.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_fisher.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "coin_business.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/items/equipment/gpnvgblk/nvg_l3_gpnvg-18_anvis.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/items/equipment/glasses_6b34/glasses_6b34_glass_textures",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/dogtags_boss/zheton_army_textures.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/dogtags_boss/item_dogtags_bear.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/dogtags_boss/zheton_army_textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/dogtags_boss/item_dogtag_t2.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "string",
 			"dependencyKeys": [
             ]
         },
@@ -427,7 +670,7 @@
 			"dependencyKeys": [
             ]
         }
-
+        
     ]
 
 }
