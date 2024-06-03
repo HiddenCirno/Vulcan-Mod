@@ -63,6 +63,10 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         //this.registerProfileImage(PreAkiModLoader, imageRouter);
         //Traders[baseJson._id] = baseJson._id;
     }
+    public postAkiLoad(container: DependencyContainer): void {
+        const Logger = container.resolve<ILogger>("WinstonLogger");
+        Logger.logWithColor("[Console]: PostAkiLoadingAccess...", "yellow")
+    }
     public postDBLoad(container: DependencyContainer): void {
         const Logger = container.resolve<ILogger>("WinstonLogger");
         const PreAkiModLoader = container.resolve("PreAkiModLoader");
@@ -127,8 +131,8 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         this.initKeyEdit(container)
         common.Log("正在生成Boss……")
         common.waitForTime(2)
-        common.excludeLoot(DB.templates.items)
-        common.excludeAirDrop(DB.templates.airdropblacklist)
+        //common.excludeLoot(DB.templates.items)
+        common.excludeItemBlackList(DB.templates.airdropblacklist)
         this.initBotEdit(container)
         common.Log("正在加载藏身处……")
         common.waitForTime(2)
@@ -182,12 +186,15 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         公文包.push("62a09d3bcf4a99369e262447") //钥匙扣
         公文包.push("5783c43d2459774bbe137486") //钱包
         公文包.push("60b0f6c058e0b0481a09ad11") //WZ钱包
-        公文包.push("619cbf9e0a7c3a1a2731940a") //钥匙卡收纳盒
+        公文包.push("619cbf9e0a7c3a1a2731940a") //钥匙卡收纳盒 
         common.fixEuqipment("外勤公文包", "5d235bb686f77443f4331278")
         common.fixEuqipment("黑四眼", "5c0558060db834001b735271")
         common.fixEuqipment("Boss狗牌", "59f32bb586f774757e1e8442")
         common.fixEuqipment("Scav狗牌", "59f32bb586f774757e1e8442")
         common.fixEuqipment("邪教徒狗牌", "59f32bb586f774757e1e8442")
+        common.fixEuqipment("黑wmx200", "626becf9582c3e319310b837")
+        common.fixEuqipment("MEGA弹药箱", "5aafbde786f774389d0cbc0f")
+        common.fixEuqipment("迷你垃圾箱", "5aafbde786f774389d0cbc0f")
         //任务图片添加
         for (const icon of iconList) {
             const filename = VFS.stripExtension(icon);
@@ -266,6 +273,8 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         common.addStaticLoot("红石粉", "590a3b0486f7743954552bdb")
         common.addMapLoot("青金石", "590a391c86f774385a33c404")
         common.addStaticLoot("青金石", "590a391c86f774385a33c404")
+        common.addMapLoot("盒装闪光子弹", "657024aebfc87b3a3409322f")
+        common.addStaticLoot("盒装闪光子弹", "657024aebfc87b3a3409322f")
         //普通报价单处理
         //common.addAssort("Persicaria", "Beta臂带", 1, 1)
         //common.addAssort("Persicaria", "昭烈帝臂带", 1, 1)
@@ -643,14 +652,14 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 //ClientDB.locales.global["en"].quest[quests] = DB.locales["ch"].quest[quests]
                 //ClientDB.locales.global["ru"].quest[quests] = DB.locales["ch"].quest[quests]
                 if (Config.Debug) {
-                    Customcommon.Log("任务数据加载成功: " + DB.locales["ch"].quest[quests].name)
+                    common.Log("任务数据加载成功: " + DB.locales["ch"].quest[quests].name)
                 }
             }
         }
         function initQuest() {
             for (let quest in DB.templates.QuestData.Vulcan.initQuest) {
                 var Q = DB.templates.QuestData.Vulcan.initQuest[quest]
-                createQuest(Q.ID, Q.TraderID, Q.Type, Q.imagepath, Q.Location)
+                common.createQuest(Q.ID, Q.TraderID, Q.Type, Q.imagepath, Q.Location, Q.Restartable)
                 //ClientDB.templates.quests[quest] = DB.templates.quests[quest]
             }
         }
@@ -1086,11 +1095,6 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         //VFS.writeFile(`${ModPath}qctest.json`, JSON.stringify(QD, null, 4))
         */
 
-    }
-    public postAkiLoad(container: DependencyContainer): void {
-        const Logger = container.resolve<ILogger>("WinstonLogger");
-        Logger.logWithColor("[Console]: PostAkiLoadingAccess...", "yellow")
-        return;
     }
     //添加商人头像
     private registerProfileImage(preAkiModLoader: PreAkiModLoader, imageRouter: ImageRouter): void {
@@ -2271,6 +2275,10 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 BossName = "Kaban"
                 break;
             }
+            case "bosskojanly": {
+                BossName = "Shturman"
+                break;
+            }
             case "followerbigpipe": {
                 BossName = "Big Pipe"
                 break;
@@ -2321,7 +2329,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 AccountId: bot.sessionId,
                 ProfileId: bot._id,
                 Nickname: BossName,
-                Side: bot.Info.Side,
+                Side: "Bear",
                 Level: 100,
                 Time: getLocalDateTimeString(),
                 Status: Math.random() <= 0.9 ? "已死亡" : DeathStatus[Math.floor(Math.random() * DeathStatus.length)],
@@ -2337,7 +2345,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 AccountId: bot.sessionId,
                 ProfileId: bot._id,
                 Nickname: BossName,
-                Side: "Usec",
+                Side: "Bear",
                 Level: 100,
                 Time: getLocalDateTimeString(),
                 Status: Math.random() <= 0.9 ? "已死亡" : DeathStatus[Math.floor(Math.random() * DeathStatus.length)],
@@ -2353,7 +2361,7 @@ class Mod implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
                 AccountId: bot.sessionId,
                 ProfileId: bot._id,
                 Nickname: russianToLatinApproximation(bot.Info.Nickname),
-                Side: bot.Info.Side,
+                Side: "Usec",
                 Level: 99,
                 Time: getLocalDateTimeString(),
                 Status: "蒙主召唤",

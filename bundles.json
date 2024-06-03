@@ -587,51 +587,40 @@
             ]
         },
         {
-            "key": "assets/content/dogtags_boss/zheton_army_textures.bundle",
+            "key": "assets/content/dogtags/scav/item_dogtag_t2.bundle",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "assets/content/dogtags_boss/item_dogtags_bear.bundle",
+            "key": "assets/content/dogtags/sectant/item_dogtag_t2.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/dogtags/boss/item_dogtag_t2.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/items/mods/wmx200/tactical_all_insight_wmx200.bundle",
 			"dependencyKeys": [
                 "assets/commonassets/physics/physicsmaterials.bundle",
-                "assets/content/dogtags_boss/zheton_army_textures.bundle",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/hands/bear/bear_watch.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
                 "cubemaps",
                 "shaders"
             ]
         },
         {
-            "key": "assets/content/dogtags_boss/item_dogtag_t2.bundle",
+            "key": "coin_pig.pack",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
-			"dependencyKeys": [
-            ]
-        },
-        {
-            "key": "string",
-			"dependencyKeys": [
-            ]
-        },
-        {
-            "key": "string",
-			"dependencyKeys": [
-            ]
-        },
-        {
-            "key": "string",
-			"dependencyKeys": [
-            ]
-        },
-        {
-            "key": "string",
-			"dependencyKeys": [
-            ]
-        },
-        {
-            "key": "string",
+            "key": "coin_suli.pack",
 			"dependencyKeys": [
             ]
         },

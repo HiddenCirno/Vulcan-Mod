@@ -1,11 +1,14 @@
 {
     "name": "火神重工-重启",
-    "version": "2.4.0",
+    "version": "2.5.3",
     "main": "src/mod.js",
     "license": "VHIAccess",
     "author": "千叶玲花",
     "akiVersion": ">=3.8.0",
     "isBundleMod": true,
+	"modDependencies": {
+		"[火神之心]VulcanCore": ">1.1.0"
+	},
     "scripts": {
         "setup:environment": "npm i",
         "build:unzipped": "copyfiles -e \"./node_modules/**/*.*\" -e \"./dist/**/*.*\" -e \"./package-lock.json\" -e \"./tsconfig.json\" -e \"./README.txt\" -e \"./mod.code-workspace\" \"./**/*.*\" ./dist",

@@ -1,32 +1,5 @@
 {
-  "items": [
-    {
-    "_id": "狗牌测试交易1",
-    "_tpl": "不死图腾",
-    "parentId": "hideout",
-    "slotId": "hideout",
-    "upd": {
-      "StackObjectsCount": 9999999,
-      "BuyRestrictionMax": 99,
-      "BuyRestrictionCurrent": 0,
-      "UnlimitedCount": true
-    }
-  }
-],
-  "barter_scheme": {
-    "狗牌测试交易1": [
-    [
-      {
-        "count": 1,
-        "_tpl": "Boss狗牌",
-        "level": 100,
-        "side": "Any",
-        "name": "Knight"
-      }
-    ]
-  ]
-},
-  "loyal_level_items": {
-    "狗牌测试交易1": 1
-  }
+  "items": [],
+  "barter_scheme": {},
+  "loyal_level_items": {}
 }

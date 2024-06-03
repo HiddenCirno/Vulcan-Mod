@@ -4,6 +4,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaTecTask1": {
@@ -11,6 +12,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaTecTask2": {
@@ -18,6 +20,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaTecTask3": {
@@ -25,6 +28,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaTecTask4": {
@@ -32,6 +36,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaMedTask1": {
@@ -39,6 +44,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaMedTask2": {
@@ -46,6 +52,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaMedTask3": {
@@ -53,6 +60,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaMedTask4": {
@@ -60,6 +68,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaWarTask1": {
@@ -67,6 +76,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaWarTask2": {
@@ -74,6 +84,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaWarTask3": {
@@ -81,6 +92,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaWarTask4": {
@@ -88,6 +100,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask1": {
@@ -95,6 +108,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask2": {
@@ -102,6 +116,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask3": {
@@ -109,6 +124,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask4": {
@@ -116,6 +132,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask5": {
@@ -123,6 +140,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask6": {
@@ -130,6 +148,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask8": {
@@ -137,6 +156,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask9": {
@@ -144,6 +164,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaDeadTask7": {
@@ -151,6 +172,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaCodTask1": {
@@ -158,6 +180,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaBoxTask1": {
@@ -165,6 +188,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaBoxTask2": {
@@ -172,6 +196,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaKeyTask1": {
@@ -179,6 +204,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaKeyTask2": {
@@ -186,6 +212,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaKeyTask3": {
@@ -193,6 +220,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaCyberTask1": {
@@ -200,6 +228,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/david.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaFinalTask1": {
@@ -207,6 +236,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "PersicariaLeaveTask1": {
@@ -214,13 +244,15 @@
         "Type": "Multi",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
-        "Location": "55f2d3fd4bdc2d5f408b4567"
+        "Restartable": false,
+        "Location": "59fc81d786f774390775787e"
     },
     "PersicariaBladeTask1": {
         "ID": "PersicariaBladeTask1",
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/apex.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "太阳能维修": {
@@ -228,6 +260,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
         "TraderID": "5a7c2eca46aef81a7ca2145d",
+        "Restartable": false,
         "Location": "any"
     },
     "星星不闪包退换": {
@@ -235,6 +268,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "进化甲进度显示": {
@@ -242,6 +276,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/apex.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "白甲-蓝甲进度": {
@@ -249,6 +284,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/apex.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "蓝甲-紫甲进度": {
@@ -256,6 +292,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/apex.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "紫甲-红甲进度": {
@@ -263,6 +300,7 @@
         "Type": "Elimination",
         "imagepath": "/files/quest/icon/apex.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "风暴轮转": {
@@ -270,6 +308,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "56f40101d2720b2a4d8b45d6"
     },
     "序幕-契约战争": {
@@ -277,6 +316,7 @@
         "Type": "Completion",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "653e6760052c01c1c805532f"
     },
     "第二轮太阳": {
@@ -284,6 +324,7 @@
         "Type": "Completion",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "向着明天": {
@@ -291,6 +332,7 @@
         "Type": "Completion",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     },
     "阴影之下": {
@@ -298,6 +340,7 @@
         "Type": "PickUp",
         "imagepath": "/files/quest/icon/city.png",
         "TraderID": "Persicaria",
+        "Restartable": false,
         "Location": "any"
     }
 }

@@ -44562,7 +44562,7 @@
                     "items": [
                         {
                             "_id": "荧石换闪光弹RW1",
-                            "_tpl": "5e85a9f4add9fe03027d9bf1"
+                            "_tpl": "657024bdc5d7d4cb4d078564"
                         }
                     ],
                     "loyaltyLevel": 3,
@@ -56797,7 +56797,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "夜间扫荡祭祀击杀结果",
+                                "id": "夜间扫荡祭祀击杀指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "sectantPriest"
@@ -56810,7 +56810,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "夜间扫荡祭祀击杀条件"
+                        "id": "夜间扫荡祭祀击杀指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -56844,7 +56844,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "夜间扫荡战士击杀结果",
+                                "id": "夜间扫荡战士击杀指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "sectantWarrior"
@@ -56857,7 +56857,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "夜间扫荡战士击杀条件"
+                        "id": "夜间扫荡战士击杀指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -58384,15 +58384,29 @@
                     "value": "1"
                 },
                 {
-                    "id": "61029298e5b13723fc7609b6",
+                    "id": "Mega弹药箱兑换RW",
+                    "type": "AssortmentUnlock",
                     "index": 2,
+                    "target": "Mega弹药箱兑换RW1",
+                    "items": [
+                        {
+                            "_id": "Mega弹药箱兑换RW1",
+                            "_tpl": "MEGA弹药箱"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "traderId": "5a7c2eca46aef81a7ca2145d"
+                },
+                {
+                    "id": "61029298e5b13723fc7609b6",
+                    "index": 3,
                     "target": "Crafting",
                     "type": "Skill",
                     "value": "100"
                 },
                 {
                     "id": "61029397e5b13723fc7609b7",
-                    "index": 3,
+                    "index": 4,
                     "target": "Intellect",
                     "type": "Skill",
                     "value": "100"
@@ -66190,8 +66204,52 @@
                     "value": "20"
                 },
                 {
-                    "id": "62b0436755426a3430409ff1",
+                    "id": "Boss狗牌_转轮榴弹RW",
+                    "type": "AssortmentUnlock",
                     "index": 6,
+                    "target": "Boss狗牌_转轮榴弹",
+                    "items": [
+                        {
+                            "_id": "Boss狗牌_转轮榴弹",
+                            "_tpl": "6275303a9f372d6ea97f9ec7",
+                            "upd": {
+                                "FireMode": {
+                                    "FireMode": "single"
+                                },
+                                "StackObjectsCount": 999999
+                            }
+                        },
+                        {
+                            "_id": "629744d002667c48a467ea00",
+                            "_tpl": "571659bb2459771fb2755a12",
+                            "parentId": "Boss狗牌_转轮榴弹",
+                            "slotId": "mod_pistol_grip"
+                        },
+                        {
+                            "_id": "629744d002667c48a467ea01",
+                            "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+                            "parentId": "Boss狗牌_转轮榴弹",
+                            "slotId": "mod_stock"
+                        },
+                        {
+                            "_id": "629744d002667c48a467ea02",
+                            "_tpl": "627bce33f21bc425b06ab967",
+                            "parentId": "Boss狗牌_转轮榴弹",
+                            "slotId": "mod_magazine"
+                        },
+                        {
+                            "_id": "629744d002667c48a467ea03",
+                            "_tpl": "6284bd5f95250a29bc628a30",
+                            "parentId": "Boss狗牌_转轮榴弹",
+                            "slotId": "mod_scope"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "traderId": "5935c25fb3acc3127c3d8cd9"
+                },
+                {
+                    "id": "62b0436755426a3430409ff1",
+                    "index": 7,
                     "target": "5c0647fdd443bc2504c2d371",
                     "type": "TraderStanding",
                     "value": "0.02"
@@ -71805,8 +71863,22 @@
                     "unknown": true
                 },
                 {
-                    "id": "63a6ceb308f1f30563550380",
+                    "id": "邪教徒护符RW",
+                    "type": "AssortmentUnlock",
                     "index": 2,
+                    "target": "邪教徒护符RW1",
+                    "items": [
+                        {
+                            "_id": "邪教徒护符RW1",
+                            "_tpl": "64d0b40fbe2eed70e254e2d4"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "traderId": "Persicaria"
+                },
+                {
+                    "id": "63a6ceb308f1f30563550380",
+                    "index": 3,
                     "target": "638f541a29ffd1183d187f57",
                     "type": "TraderStanding",
                     "value": "0.03"
@@ -90708,7 +90780,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaWarTask1K11",
+                                "id": "PersicariaWarTask1Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -90719,7 +90791,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaWarTask1K1"
+                        "id": "PersicariaWarTask1Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -90850,7 +90922,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaWarTask2K11",
+                                "id": "PersicariaWarTask2Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -90861,7 +90933,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaWarTask2K1"
+                        "id": "PersicariaWarTask2Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -91000,7 +91072,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaWarTask3K11",
+                                "id": "PersicariaWarTask3Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -91011,7 +91083,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaWarTask3K1"
+                        "id": "PersicariaWarTask3Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -91120,7 +91192,7 @@
                                 "FireMode": {
                                     "FireMode": "single"
                                 },
-                                "StackObjectsCount": 1000
+                                "StackObjectsCount": 999999
                             }
                         },
                         {
@@ -91198,7 +91270,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaWarTask4K11",
+                                "id": "PersicariaWarTask4Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -91209,7 +91281,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaWarTask4K1"
+                        "id": "PersicariaWarTask4Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -91325,7 +91397,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask1K11",
+                                "id": "PersicariaDeadTask1Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossBully"
@@ -91338,7 +91410,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask1K1"
+                        "id": "PersicariaDeadTask1Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -91542,7 +91614,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask2K11",
+                                "id": "PersicariaDeadTask2Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossTagilla"
@@ -91555,7 +91627,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask2K1"
+                        "id": "PersicariaDeadTask2Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -91741,7 +91813,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask3K11",
+                                "id": "PersicariaDeadTask3Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossSanitar"
@@ -91754,7 +91826,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask3K1"
+                        "id": "PersicariaDeadTask3Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -91958,7 +92030,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask4K11",
+                                "id": "PersicariaDeadTask4Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossKilla"
@@ -91971,7 +92043,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask4K1"
+                        "id": "PersicariaDeadTask4Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -92171,7 +92243,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask5K11",
+                                "id": "PersicariaDeadTask5Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossKojaniy"
@@ -92184,7 +92256,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask5K1"
+                        "id": "PersicariaDeadTask5Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -92370,7 +92442,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask6K11",
+                                "id": "PersicariaDeadTask6Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossGluhar"
@@ -92383,7 +92455,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask6K1"
+                        "id": "PersicariaDeadTask6Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -92551,7 +92623,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask8K11",
+                                "id": "PersicariaDeadTask8Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossBoar"
@@ -92564,7 +92636,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask8K1"
+                        "id": "PersicariaDeadTask8Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -92732,7 +92804,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask9K11",
+                                "id": "PersicariaDeadTask9Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossKolontay"
@@ -92745,7 +92817,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask9K1"
+                        "id": "PersicariaDeadTask9Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -92931,7 +93003,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask7K11",
+                                "id": "PersicariaDeadTask7Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "bossKnight"
@@ -92944,7 +93016,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask7K1"
+                        "id": "PersicariaDeadTask7Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -92996,7 +93068,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask7K2",
+                                "id": "PersicariaDeadTask7Kill2指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "followerBirdEye"
@@ -93009,7 +93081,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask7K2"
+                        "id": "PersicariaDeadTask7Kill2指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -93061,7 +93133,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaDeadTask7K3",
+                                "id": "PersicariaDeadTask7Kill3指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     "followerBigPipe"
@@ -93074,7 +93146,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaDeadTask7K3"
+                        "id": "PersicariaDeadTask7Kill3指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -93288,7 +93360,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaCodTask1K11",
+                                "id": "PersicariaCodTask1Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -93299,7 +93371,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaCodTask1K1"
+                        "id": "PersicariaCodTask1Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -94100,7 +94172,8 @@
                     "visibilityConditions": [],
                     "isEncoded": false,
                     "countInRaid": false,
-                    "globalQuestCounterId": ""
+                    "globalQuestCounterId": "",
+                    "target": ""
                 }
             ],
             "AvailableForStart": [
@@ -94403,12 +94476,12 @@
                             {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "id": "PersicariaLeaveTask1Visit1",
+                                "id": "PersicariaLeaveTask1Visit11指示器目标",
                                 "target": "ter_017_area_1",
                                 "value": 1
                             }
                         ],
-                        "id": "PersicariaLeaveTask1Counter1"
+                        "id": "PersicariaLeaveTask1Visit11指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -94518,7 +94591,7 @@
         "image": "/files/quest/icon/city.png",
         "instantComplete": false,
         "isKey": false,
-        "location": "55f2d3fd4bdc2d5f408b4567",
+        "location": "59fc81d786f774390775787e",
         "name": "PersicariaLeaveTask1 name",
         "note": "PersicariaLeaveTask1 note",
         "restartable": false,
@@ -94643,7 +94716,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "PersicariaBladeTask1K11",
+                                "id": "PersicariaBladeTask1Kill1指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -94654,7 +94727,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "PersicariaBladeTask1K1"
+                        "id": "PersicariaBladeTask1Kill1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95185,7 +95258,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "白甲-蓝甲进度",
+                                "id": "白甲-蓝甲进度指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -95196,7 +95269,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "白甲-蓝甲进度"
+                        "id": "白甲-蓝甲进度指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95230,7 +95303,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "蓝甲-紫甲进度",
+                                "id": "蓝甲-紫甲进度指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -95241,7 +95314,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "蓝甲-紫甲进度"
+                        "id": "蓝甲-紫甲进度指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95275,7 +95348,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "紫甲-红甲进度",
+                                "id": "紫甲-红甲进度指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -95286,7 +95359,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "紫甲-红甲进度"
+                        "id": "紫甲-红甲进度指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95420,7 +95493,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "白甲-蓝甲进度",
+                                "id": "白甲-蓝甲进度指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -95431,7 +95504,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "白甲-蓝甲进度"
+                        "id": "白甲-蓝甲进度指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95540,7 +95613,7 @@
                                 "FireMode": {
                                     "FireMode": "single"
                                 },
-                                "StackObjectsCount": 9999999
+                                "StackObjectsCount": 999999
                             }
                         },
                         {
@@ -95605,7 +95678,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "蓝甲-紫甲进度",
+                                "id": "蓝甲-紫甲进度指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -95616,7 +95689,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "蓝甲-紫甲进度"
+                        "id": "蓝甲-紫甲进度指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95720,7 +95793,7 @@
                                 "FireMode": {
                                     "FireMode": "single"
                                 },
-                                "StackObjectsCount": 9999999
+                                "StackObjectsCount": 999999
                             }
                         },
                         {
@@ -95791,7 +95864,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "紫甲-红甲进度",
+                                "id": "紫甲-红甲进度指示器条件",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -95802,7 +95875,7 @@
                                 "weaponModsInclusive": []
                             }
                         ],
-                        "id": "紫甲-红甲进度"
+                        "id": "紫甲-红甲进度指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -95912,7 +95985,7 @@
                                 "FireMode": {
                                     "FireMode": "single"
                                 },
-                                "StackObjectsCount": 9999999
+                                "StackObjectsCount": 999999
                             }
                         },
                         {
@@ -96167,12 +96240,12 @@
                             {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "id": "契约战争踩点需求1",
+                                "id": "序幕-契约战争踩点1指示器目标",
                                 "target": "Sandbox_1_MedicalArea_exploration",
                                 "value": 1
                             }
                         ],
-                        "id": "契约战争踩点内容1"
+                        "id": "序幕-契约战争踩点1指示器"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
@@ -96246,7 +96319,8 @@
                     "visibilityConditions": [],
                     "isEncoded": false,
                     "countInRaid": false,
-                    "globalQuestCounterId": ""
+                    "globalQuestCounterId": "",
+                    "target": ""
                 }
             ],
             "AvailableForStart": [
@@ -96340,7 +96414,8 @@
                     "visibilityConditions": [],
                     "isEncoded": false,
                     "countInRaid": false,
-                    "globalQuestCounterId": ""
+                    "globalQuestCounterId": "",
+                    "target": ""
                 }
             ],
             "AvailableForStart": [

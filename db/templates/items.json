@@ -1433,7 +1433,7 @@
                       "5c093db286f7740a1b2617e3",
                       "5e2af55f86f7746d4159f07c",
                       "5c0a840b86f7742ffa4f2482",
-                      "5b7c710788a4506dec015957",
+                      "迷你垃圾箱",
                       "5c127c4486f7745625356c13",
                       "5aafbcd986f7745e590fff23",
                       "59fb016586f7746d0d4b423a",
@@ -4239,7 +4239,7 @@
                     "5c093db286f7740a1b2617e3",
                     "5e2af55f86f7746d4159f07c",
                     "5c0a840b86f7742ffa4f2482",
-                    "5b7c710788a4506dec015957",
+                    "迷你垃圾箱",
                     "5c127c4486f7745625356c13",
                     "5aafbcd986f7745e590fff23",
                     "59fb016586f7746d0d4b423a",
@@ -5061,7 +5061,7 @@
         "BackgroundColor": "orange",
         "Width": 3,
         "Height": 3,
-        "DefaultPrice":600000,
+        "DefaultPrice":898010,
         "RagfairType":"5b5f6fa186f77409407a7eb7",
         "StackMaxSize": 1,
         "ItemSound": "container_metal",
@@ -6900,11 +6900,11 @@
         "Width": 1,
         "Height": 1,
         "RagfairType": "5b47574386f77428ca22b2f4",
-        "DefaultPrice": 1000,
+        "DefaultPrice": 400,
         "StackMaxSize": 1,
         "ItemSound": "jewelry",
         "Prefab": {
-          "path": "assets/content/items/barter/dog_tags/item_dogtags_bear.bundle",
+          "path": "assets/content/dogtags/scav/item_dogtag_t2.bundle",
           "rcid": ""
         },
         "UsePrefab": {
@@ -6968,11 +6968,11 @@
         "Width": 1,
         "Height": 1,
         "RagfairType": "5b47574386f77428ca22b2f4",
-        "DefaultPrice": 3000,
+        "DefaultPrice": 3200,
         "StackMaxSize": 1,
         "ItemSound": "jewelry",
         "Prefab": {
-          "path": "assets/content/dogtags_boss/item_dogtag_t2.bundle",
+          "path": "assets/content/dogtags/boss/item_dogtag_t2.bundle",
           "rcid": ""
         },
         "UsePrefab": {
@@ -7030,17 +7030,17 @@
       "_props": {
         "Name": "邪教徒狗牌",
         "ShortName": "Boss狗牌",
-        "Description": "银-110m制作的身份识别牌，邪教徒们坚信佩戴放射性物质能够让他们更加接近他们的主——某种意义上讲，这其实是对的。",
+        "Description": "银-110m制作的身份识别牌，邪教徒们坚信长期贴身佩戴放射性物质能够让他们更加接近他们的主——某种意义上讲，这其实是对的。",
         "Weight": 0.01,
         "BackgroundColor": "green",
         "Width": 1,
         "Height": 1,
         "RagfairType": "5b47574386f77428ca22b2f4",
-        "DefaultPrice": 2000,
+        "DefaultPrice": 2048,
         "StackMaxSize": 1,
         "ItemSound": "jewelry",
         "Prefab": {
-          "path": "assets/content/items/barter/dog_tags/item_dogtags_bear.bundle",
+          "path": "assets/content/dogtags/sectant/item_dogtag_t2.bundle",
           "rcid": ""
         },
         "UsePrefab": {
@@ -7089,5 +7089,374 @@
         "DogTagQualities": true
       },
       "_proto": "57347cd0245977445a2d6ff1"
+    },
+    "复刻版电台包": {
+      "_id": "复刻版电台包",
+      "_name": "item_equipment_backpack_boss_birdeye",
+      "_parent": "5448e53e4bdc2d60728b4567",
+      "_type": "Item",
+      "_props": {
+        "Name": "Mystery Ranch NICE COMM 3 BVS稳固系统（特别复刻版）",
+        "ShortName": "COMM 3",
+        "Description": "Goons小队成员Birdeye改装过的电台背包的1:1复刻版本，相比原来那套昂贵而复杂的军用无线电系统，一个高容量背包显然更加适合在塔科夫长期驻留的PMC，也更加轻便。",
+        "Weight": 3,
+        "BackgroundColor": "violet",
+        "Width": 4,
+        "Height": 5,
+        "DefaultPrice":180000,
+        "RagfairType":"5b5f6f6c86f774093f2ecf0b",
+        "StackMaxSize": 1,
+        "ItemSound": "gear_backpack",
+        "Prefab": {
+          "path": "assets/content/items/equipment/backpack_boss_birdeye/backpack_boss_birdeye.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": false,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 20,
+        "ExamineExperience": 100,
+        "HideEntrails": true,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": false,
+        "ConflictingItems": [],
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "DiscardLimit": -1,
+        "DropSoundType": "None",
+        "InsuranceDisabled": false,
+        "QuestStashMaxCount": 0,
+        "IsSpecialSlotOnly": false,
+        "IsUnremovable": false,
+        "Grids": [
+          {
+            "_name": "main",
+            "_id": "628bc7fb408e2b2e9c0801b2",
+            "_parent": "复刻版电台包",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "54009119af1c881c07000029"
+                  ],
+                  "ExcludedFilter": [
+                    "566168634bdc2d144c8b456c",
+                    "5795f317245977243854e041"
+                  ]
+                }
+              ],
+              "cellsH": 6,
+              "cellsV": 7,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          }
+        ],
+        "Slots": [],
+        "CanPutIntoDuringTheRaid": true,
+        "CantRemoveFromSlotsDuringRaid": [],
+        "SearchSound": "looting_body_extended",
+        "BlocksArmorVest": false,
+        "speedPenaltyPercent": -6,
+        "mousePenalty": -1,
+        "GridLayoutName": "",
+        "weaponErgonomicPenalty": -5,
+        "LeanWeaponAgainstBody": false
+      },
+      "_proto": "545cdae64bdc2d39198b4568"
+    },
+    "盒装闪光子弹": {
+      "_id": "盒装闪光子弹",
+      "_name": "item_ammo_box_23x75_5_shrapnel_25",
+      "_parent": "543be5cb4bdc2deb348b4568",
+      "_type": "Item",
+      "_props": {
+        "Name": "10发23x75 \"Star\"盒装弹药",
+        "ShortName": "Star",
+        "Description": "一盒10发装的23x75 \"Star\"闪光弹药。",
+        "Weight": 0.01,
+        "RagfairType": "5b47574386f77428ca22b33c",
+        "DefaultPrice": 4900,
+        "BackgroundColor": "yellow",
+        "Width": 2,
+        "Height": 1,
+        "StackMaxSize": 1,
+        "ItemSound": "ammo_pack_generic",
+        "Prefab": {
+          "path": "assets/content/items/ammo/boxes/item_ammo_box_23x75.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": true,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 0,
+        "ExamineExperience": 10,
+        "HideEntrails": true,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": false,
+        "CanRequireOnRagfair": false,
+        "ConflictingItems": [],
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "DiscardLimit": -1,
+        "DropSoundType": "None",
+        "InsuranceDisabled": false,
+        "QuestStashMaxCount": 0,
+        "IsSpecialSlotOnly": false,
+        "IsUnremovable": false,
+        "StackMinRandom": 10,
+        "StackMaxRandom": 10,
+        "ammoCaliber": "Caliber23x75",
+        "StackSlots": [
+          {
+            "_name": "cartridges",
+            "_id": "657024b31419851aef03e710",
+            "_parent": "盒装闪光子弹",
+            "_max_count": 10,
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "5e85a9f4add9fe03027d9bf1"
+                  ]
+                }
+              ]
+            },
+            "_proto": "5748538b2459770af276a261"
+          }
+        ]
+      }
+    },
+    "迷你垃圾箱": {
+      "_id": "迷你垃圾箱",
+      "_name": "item_container_junkbox",
+      "_parent": "5795f317245977243854e041",
+      "_type": "Item",
+      "_props": {
+        "Name": "迷你Scav垃圾箱",
+        "ShortName": "迷你Scav垃圾箱",
+        "Description": "用来存放各种用于以物易物的交换品的箱子。",
+        "Weight": 3,
+        "BackgroundColor": "yellow",
+        "Width": 2,
+        "Height": 2,
+        "DefaultPrice":430964,
+        "RagfairType":"5b5f6fa186f77409407a7eb7",
+        "StackMaxSize": 1,
+        "ItemSound": "container_plastic",
+        "Prefab": {
+          "path": "assets/content/items/containers/item_container_junkbox/item_container_junkbox.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": true,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 30,
+        "ExamineExperience": 10,
+        "HideEntrails": true,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": false,
+        "CanSellOnRagfair": false,
+        "CanRequireOnRagfair": false,
+        "ConflictingItems": [],
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "DiscardLimit": 0,
+        "DropSoundType": "None",
+        "InsuranceDisabled": false,
+        "QuestStashMaxCount": 0,
+        "IsSpecialSlotOnly": false,
+        "IsUnremovable": false,
+        "Grids": [
+          {
+            "_name": "main",
+            "_id": "5b7c710788a4506dec015959",
+            "_parent": "迷你垃圾箱",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "5448eb774bdc2d0a728b4567",
+                    "5448ecbe4bdc2d60728b4568",
+                    "5447e0e74bdc2d3c308b4567"
+                  ],
+                  "ExcludedFilter": []
+                }
+              ],
+              "cellsH": 4,
+              "cellsV": 4,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          }
+        ],
+        "Slots": [],
+        "CanPutIntoDuringTheRaid": true,
+        "CantRemoveFromSlotsDuringRaid": [],
+        "TagColor": 0,
+        "TagName": ""
+      },
+      "_proto": "577e1c9d2459773cd707c525"
+    },
+    "黑wmx200": {
+      "_id": "黑wmx200",
+      "_name": "tactical_all_insight_wmx200",
+      "_parent": "55818b164bdc2ddc698b456c",
+      "_type": "Item",
+      "_props": {
+        "Name": "Insight WMX200战术手电 (BLK)",
+        "ShortName": "WMX200",
+        "Description": "Insight Technologies生产的WMX200战术手电的黑色款，带有常规手电筒以及一束IR激光。",
+        "Weight": 0.21,
+        "BackgroundColor": "blue",
+        "Width": 1,
+        "Height": 1,
+        "DefaultPrice":13258,
+        "RagfairType":"5b5f73ab86f774094242f195",
+        "StackMaxSize": 1,
+        "ItemSound": "mod",
+        "Prefab": {
+          "path": "assets/content/items/mods/wmx200/tactical_all_insight_wmx200.bundle",
+          "rcid": ""
+        },
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "StackObjectsCount": 1,
+        "NotShownInSlot": false,
+        "ExaminedByDefault": true,
+        "ExamineTime": 1,
+        "IsUndiscardable": false,
+        "IsUnsaleable": false,
+        "IsUnbuyable": false,
+        "IsUngivable": false,
+        "IsLockedafterEquip": false,
+        "QuestItem": false,
+        "LootExperience": 10,
+        "ExamineExperience": 10,
+        "HideEntrails": false,
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "MergesWithChildren": true,
+        "CanSellOnRagfair": true,
+        "CanRequireOnRagfair": false,
+        "ConflictingItems": [],
+        "Unlootable": false,
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UnlootableFromSide": [],
+        "AnimationVariantsNumber": 0,
+        "DiscardingBlock": false,
+        "RagFairCommissionModifier": 1,
+        "IsAlwaysAvailableForInsurance": false,
+        "DiscardLimit": -1,
+        "DropSoundType": "None",
+        "InsuranceDisabled": false,
+        "QuestStashMaxCount": 0,
+        "IsSpecialSlotOnly": false,
+        "IsUnremovable": false,
+        "Grids": [],
+        "Slots": [],
+        "CanPutIntoDuringTheRaid": true,
+        "CantRemoveFromSlotsDuringRaid": [],
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": -2,
+        "Velocity": 0,
+        "RaidModdable": true,
+        "ToolModdable": true,
+        "BlocksFolding": false,
+        "BlocksCollapsible": false,
+        "IsAnimated": false,
+        "HasShoulderContact": false,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1,
+        "UniqueAnimationModID": 0,
+        "ModesCount": 2
+      },
+      "_proto": "544909bb4bdc2d6f028b4577"
     }
 }
