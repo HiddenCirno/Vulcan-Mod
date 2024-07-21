@@ -1,11 +1,14 @@
-import { NotifierController } from "../../controllers/NotifierController";
-import { Serializer } from "../../di/Serializer";
-import { HttpServerHelper } from "../../helpers/HttpServerHelper";
-import { IHttpServer } from "../../models/spt/server/IHttpServer";
+/// <reference types="node" />
+import { IncomingMessage, ServerResponse } from "node:http";
+import { NotifierController } from "@spt/controllers/NotifierController";
+import { Serializer } from "@spt/di/Serializer";
+import { HttpServerHelper } from "@spt/helpers/HttpServerHelper";
+import { JsonUtil } from "@spt/utils/JsonUtil";
 export declare class NotifySerializer extends Serializer {
     protected notifierController: NotifierController;
+    protected jsonUtil: JsonUtil;
     protected httpServerHelper: HttpServerHelper;
-    constructor(notifierController: NotifierController, httpServerHelper: HttpServerHelper);
-    serialize(_sessionID: string, req: any, resp: any, body: any, httpServer: IHttpServer): void;
+    constructor(notifierController: NotifierController, jsonUtil: JsonUtil, httpServerHelper: HttpServerHelper);
+    serialize(_sessionID: string, req: IncomingMessage, resp: ServerResponse, _: any): void;
     canHandle(route: string): boolean;
 }

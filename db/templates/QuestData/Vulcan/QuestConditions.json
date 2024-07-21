@@ -1574,7 +1574,14 @@
                     ],
                     "distance": 0,
                     "distancetype": ">=",
-                    "weapon": [],
+                    "weapon": [
+                        "5beed0f50db834001c062b12",
+                        "64ca3d3954fc657e230529cc",
+                        "64637076203536ad5600c990",
+                        "6513ef33e06849f06c0957ca",
+                        "65268d8ecb944ff1e90ea385",
+                        "657857faeff4c850222dff1b"
+                    ],
                     "Mod": [],
                     "location": [],
                     "locationid": "",
@@ -1608,9 +1615,12 @@
             "Data": [
                 {
                     "id": "PersicariaBoxTask1Hand1",
-                    "type": "Hand",
+                    "type": "HandGroup",
                     "inraid": false,
-                    "itemid": "5857a8bc2459772bad15db29",
+                    "itemid": [
+                        "5857a8bc2459772bad15db29",
+                        "665ee77ccf2d642e98220bca"
+                    ],
                     "count": 1
                 }
             ],
@@ -2512,12 +2522,19 @@
             "Data": [
                 {
                 "id": "序幕-契约战争踩点1",
-                "type": "Visit",
+                "type": "Extract",
                 "oneraid": false,
                 "count": 1,
-                "counterid": "契约战争踩点内容1",
-                "zoneid": "Sandbox_1_MedicalArea_exploration",
-                "conditionid": "契约战争踩点需求1"
+                "location": [
+                    "Sandbox",
+                    "Sandbox_high"
+                ],
+                "status": [
+                    "Survived",
+                    "Runner"
+                ],
+                "chosenextractpoint": true,
+                "extractpoint": "Unity_free_exit"
             }
             ],
             "Override": false
@@ -2729,79 +2746,6 @@
                     "inraid": true,
                     "itemid": "阿萨兰之爪",
                     "count": 1
-                }
-            ],
-            "Override": false
-        },
-        "Fail": {
-            "Data": [],
-            "Override": false
-        }
-    },
-    "60e71c11d54b755a3b53eb65": {
-        "Start": {
-            "Data": [],
-            "Override": false
-        },
-        "Finish": {
-            "Data": [
-                {
-                    "id": "夜间扫荡祭祀击杀",
-                    "type": "Kill",
-                    "oneraid": false,
-                    "count": 4,
-                    "counterid": "夜间扫荡祭祀击杀条件",
-                    "bot": "Savage",
-                    "role": [
-                        "sectantPriest"
-                    ],
-                    "conditionid": "夜间扫荡祭祀击杀结果",
-                    "bodyPart": [],
-                    "daytime": [
-                        0,
-                        0
-                    ],
-                    "distance": 0,
-                    "distancetype": ">=",
-                    "weapon": [],
-                    "Mod": [],
-                    "location": [],
-                    "locationid": "",
-                    "havezone": false,
-                    "zone": [],
-                    "zoneid": "",
-                    "haveEquip": false,
-                    "Equip": [],
-                    "EquipID": ""
-                },
-                {
-                    "id": "夜间扫荡战士击杀",
-                    "type": "Kill",
-                    "oneraid": false,
-                    "count": 10,
-                    "counterid": "夜间扫荡战士击杀条件",
-                    "bot": "Savage",
-                    "role": [
-                        "sectantWarrior"
-                    ],
-                    "conditionid": "夜间扫荡战士击杀结果",
-                    "bodyPart": [],
-                    "daytime": [
-                        0,
-                        0
-                    ],
-                    "distance": 0,
-                    "distancetype": ">=",
-                    "weapon": [],
-                    "Mod": [],
-                    "location": [],
-                    "locationid": "",
-                    "havezone": false,
-                    "zone": [],
-                    "zoneid": "",
-                    "haveEquip": false,
-                    "Equip": [],
-                    "EquipID": ""
                 }
             ],
             "Override": false

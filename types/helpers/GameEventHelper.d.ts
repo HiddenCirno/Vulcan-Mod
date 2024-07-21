@@ -1,9 +1,9 @@
-import { DatabaseServer } from "../servers/DatabaseServer";
+import { ISeasonalEventConfig } from "@spt/models/spt/config/ISeasonalEventConfig";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 export declare class GameEventHelper {
     protected databaseServer: DatabaseServer;
-    constructor(databaseServer: DatabaseServer);
-    get EVENT(): Record<string, string>;
-    get christmasEventItems(): string[];
-    itemIsChristmasRelated(itemId: string): boolean;
-    christmasEventEnabled(): boolean;
+    protected configServer: ConfigServer;
+    protected seasonalEventConfig: ISeasonalEventConfig;
+    constructor(databaseServer: DatabaseServer, configServer: ConfigServer);
 }

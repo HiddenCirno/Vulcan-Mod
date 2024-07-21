@@ -594,14 +594,7 @@
                 "_id": "PersicariaWarTask2Rw31",
                 "_tpl": "5449016a4bdc2d6f028b456f",
                 "upd": {
-                    "StackObjectsCount": 500000
-                }
-            },
-            {
-                "_id": "PersicariaWarTask2Rw32",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                    "StackObjectsCount": 330000
+                    "StackObjectsCount": 830000
                 }
             }
         ],
@@ -637,21 +630,7 @@
                 "_id": "PersicariaWarTask3Rw31",
                 "_tpl": "5449016a4bdc2d6f028b456f",
                 "upd": {
-                    "StackObjectsCount": 500000
-                }
-            },
-            {
-                "_id": "PersicariaWarTask3Rw32",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                    "StackObjectsCount": 500000
-                }
-            },
-            {
-                "_id": "PersicariaWarTask3Rw33",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                    "StackObjectsCount": 320000
+                    "StackObjectsCount": 1320000
                 }
             }
         ],
@@ -1377,14 +1356,7 @@
                 "_id": "PersicariaLeaveTask1Rw31",
                 "_tpl": "5449016a4bdc2d6f028b456f",
                 "upd": {
-                    "StackObjectsCount": 500000
-                }
-            },
-            {
-                "_id": "PersicariaLeaveTask1Rw32",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                    "StackObjectsCount": 150000
+                    "StackObjectsCount": 650000
                 }
             }
         ],
@@ -1498,14 +1470,7 @@
                 "_id": "太阳能维修Rw31",
                 "_tpl": "5449016a4bdc2d6f028b456f",
                 "upd": {
-                    "StackObjectsCount": 500000
-                }
-            },
-            {
-                "_id": "太阳能维修Rw32",
-                "_tpl": "5449016a4bdc2d6f028b456f",
-                "upd": {
-                    "StackObjectsCount": 420000
+                    "StackObjectsCount": 920000
                 }
             }
         ],
@@ -2019,5 +1984,22 @@
         "Count": 1,
         "Name": "生意至上纪念币",
         "Desc": "生意至上纪念币"
+    },
+    {
+        "Items": [
+            {
+                "_id": "屠宰场渡鸦之咬",
+                "_tpl": "渡鸦之咬",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "63a9b36cc31b00242d28a99f",
+        "Condition": "Finish",
+        "Type": "Item",
+        "Count": 1,
+        "Name": "屠宰场渡鸦之咬",
+        "Desc": "屠宰场渡鸦之咬"
     }
 ]

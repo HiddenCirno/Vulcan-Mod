@@ -1,9 +1,10 @@
-import { IHttpServer } from "../../models/spt/server/IHttpServer";
-import { Serializer } from "../../di/Serializer";
-import { ImageRouter } from "../ImageRouter";
+/// <reference types="node" />
+import { IncomingMessage, ServerResponse } from "node:http";
+import { Serializer } from "@spt/di/Serializer";
+import { ImageRouter } from "@spt/routers/ImageRouter";
 export declare class ImageSerializer extends Serializer {
     protected imageRouter: ImageRouter;
     constructor(imageRouter: ImageRouter);
-    serialize(sessionID: string, req: any, resp: any, body: any, httpServer: IHttpServer): void;
+    serialize(sessionID: string, req: IncomingMessage, resp: ServerResponse, body: any): void;
     canHandle(route: string): boolean;
 }

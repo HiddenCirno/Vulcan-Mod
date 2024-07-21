@@ -1,131 +1,103 @@
-import { DurabilityLimitsHelper } from "../helpers/DurabilityLimitsHelper";
-import { Inventory as PmcInventory } from "../models/eft/common/tables/IBotBase";
-import { Mods, ModsChances } from "../models/eft/common/tables/IBotType";
-import { Item, Repairable, Upd } from "../models/eft/common/tables/IItem";
-import { Grid, ITemplateItem, Slot } from "../models/eft/common/tables/ITemplateItem";
-import { IBotConfig } from "../models/spt/config/IBotConfig";
-import { ILogger } from "../models/spt/utils/ILogger";
-import { ConfigServer } from "../servers/ConfigServer";
-import { DatabaseServer } from "../servers/DatabaseServer";
-import { HashUtil } from "../utils/HashUtil";
-import { JsonUtil } from "../utils/JsonUtil";
-import { RandomUtil } from "../utils/RandomUtil";
-import { ContainerHelper } from "./ContainerHelper";
-import { InventoryHelper } from "./InventoryHelper";
-import { ItemHelper } from "./ItemHelper";
-import { ProbabilityHelper } from "./ProbabilityHelper";
+import { ApplicationContext } from "@spt/context/ApplicationContext";
+import { ContainerHelper } from "@spt/helpers/ContainerHelper";
+import { DurabilityLimitsHelper } from "@spt/helpers/DurabilityLimitsHelper";
+import { InventoryHelper } from "@spt/helpers/InventoryHelper";
+import { ItemHelper } from "@spt/helpers/ItemHelper";
+import { Inventory } from "@spt/models/eft/common/tables/IBotBase";
+import { Item, Repairable, Upd } from "@spt/models/eft/common/tables/IItem";
+import { Grid, ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
+import { ItemAddedResult } from "@spt/models/enums/ItemAddedResult";
+import { IChooseRandomCompatibleModResult } from "@spt/models/spt/bots/IChooseRandomCompatibleModResult";
+import { EquipmentFilters, IBotConfig, IRandomisedResourceValues } from "@spt/models/spt/config/IBotConfig";
+import { IPmcConfig } from "@spt/models/spt/config/IPmcConfig";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { DatabaseService } from "@spt/services/DatabaseService";
+import { LocalisationService } from "@spt/services/LocalisationService";
+import { RandomUtil } from "@spt/utils/RandomUtil";
 export declare class BotGeneratorHelper {
     protected logger: ILogger;
-    protected jsonUtil: JsonUtil;
-    protected hashUtil: HashUtil;
     protected randomUtil: RandomUtil;
-    protected probabilityHelper: ProbabilityHelper;
-    protected databaseServer: DatabaseServer;
+    protected databaseService: DatabaseService;
     protected durabilityLimitsHelper: DurabilityLimitsHelper;
     protected itemHelper: ItemHelper;
     protected inventoryHelper: InventoryHelper;
     protected containerHelper: ContainerHelper;
+    protected applicationContext: ApplicationContext;
+    protected localisationService: LocalisationService;
     protected configServer: ConfigServer;
     protected botConfig: IBotConfig;
-    constructor(logger: ILogger, jsonUtil: JsonUtil, hashUtil: HashUtil, randomUtil: RandomUtil, probabilityHelper: ProbabilityHelper, databaseServer: DatabaseServer, durabilityLimitsHelper: DurabilityLimitsHelper, itemHelper: ItemHelper, inventoryHelper: InventoryHelper, containerHelper: ContainerHelper, configServer: ConfigServer);
-    generateModsForItem(items: Item[], modPool: Mods, parentId: string, parentTemplate: ITemplateItem, modSpawnChances: ModsChances, isPmc?: boolean): Item[];
+    protected pmcConfig: IPmcConfig;
+    constructor(logger: ILogger, randomUtil: RandomUtil, databaseService: DatabaseService, durabilityLimitsHelper: DurabilityLimitsHelper, itemHelper: ItemHelper, inventoryHelper: InventoryHelper, containerHelper: ContainerHelper, applicationContext: ApplicationContext, localisationService: LocalisationService, configServer: ConfigServer);
     /**
-     * Is this magazine cylinder related (revolvers and grenade launchers)
-     * @param magazineParentName the name of the magazines parent
-     * @returns true if it is cylinder related
+     * Adds properties to an item
+     * e.g. Repairable / HasHinge / Foldable / MaxDurability
+     * @param itemTemplate Item extra properties are being generated for
+     * @param botRole Used by weapons to randomize the durability values. Null for non-equipped items
+     * @returns Item Upd object with extra properties
      */
-    magazineIsCylinderRelated(magazineParentName: string): boolean;
-    /**
-     * randomly choose if a mod should be spawned, 100% for required mods OR mod is ammo slot
-     * never return true for an item that has 0% spawn chance
-     * @param itemSlot slot the item sits in
-     * @param modSlot slot the mod sits in
-     * @param modSpawnChances Chances for various mod spawns
-     * @returns boolean true if it should spawn
-     */
-    protected shouldModBeSpawned(itemSlot: Slot, modSlot: string, modSpawnChances: ModsChances): boolean;
-    /**
-     * Get a list of containers that hold ammo
-     * e.g. mod_magazine
-     * @returns string array
-     */
-    protected getAmmoContainers(): string[];
-    /**
-     * Get the slot details for an item (chamber/cartridge/slot)
-     * @param modSlot e.g patron_in_weapon
-     * @param parentTemplate item template
-     * @returns
-     */
-    protected getModItemSlot(modSlot: string, parentTemplate: ITemplateItem): Slot;
-    /**
-     * With the shotgun revolver (60db29ce99594040e04c4a27) 12.12 introduced CylinderMagazines.
-     * Those magazines (e.g. 60dc519adf4c47305f6d410d) have a "Cartridges" entry with a _max_count=0.
-     * Ammo is not put into the magazine directly but assigned to the magazine's slots: The "camora_xxx" slots.
-     * This function is a helper called by generateModsForItem for mods with parent type "CylinderMagazine"
-     *
-     * @param {object}      items               The items where the CylinderMagazine's camora are appended to
-     * @param {object}      modPool             modPool which should include available cartrigdes
-     * @param {string}      parentId            The CylinderMagazine's UID
-     * @param {object}      parentTemplate      The CylinderMagazine's template
-     */
-    protected fillCamora(items: Item[], modPool: Mods, parentId: string, parentTemplate: ITemplateItem): void;
-    /**
-     * Take a record of camoras and merge the compatable shells into one array
-     * @param camorasWithShells camoras we want to merge into one array
-     * @returns string array of shells fro luitple camora sources
-     */
-    protected mergeCamoraPoolsTogether(camorasWithShells: Record<string, string[]>): string[];
-    generateExtraPropertiesForItem(itemTemplate: ITemplateItem, botRole?: any): {
+    generateExtraPropertiesForItem(itemTemplate: ITemplateItem, botRole?: string): {
         upd?: Upd;
     };
+    /**
+     * Randomize the HpResource for bots e.g (245/400 resources)
+     * @param maxResource Max resource value of medical items
+     * @param randomizationValues Value provided from config
+     * @returns Randomized value from maxHpResource
+     */
+    protected getRandomizedResourceValue(maxResource: number, randomizationValues: IRandomisedResourceValues): number;
+    /**
+     * Get the chance for the weapon attachment or helmet equipment to be set as activated
+     * @param botRole role of bot with weapon/helmet
+     * @param setting the setting of the weapon attachment/helmet equipment to be activated
+     * @param defaultValue default value for the chance of activation if the botrole or bot equipment role is undefined
+     * @returns Percent chance to be active
+     */
+    protected getBotEquipmentSettingFromConfig(botRole: string | undefined, setting: keyof EquipmentFilters, defaultValue: number): number;
     /**
      * Create a repairable object for a weapon that containers durability + max durability properties
      * @param itemTemplate weapon object being generated for
      * @param botRole type of bot being generated for
      * @returns Repairable object
      */
-    protected generateWeaponRepairableProperties(itemTemplate: ITemplateItem, botRole: string): Repairable;
+    protected generateWeaponRepairableProperties(itemTemplate: ITemplateItem, botRole?: string): Repairable;
     /**
      * Create a repairable object for an armor that containers durability + max durability properties
      * @param itemTemplate weapon object being generated for
      * @param botRole type of bot being generated for
      * @returns Repairable object
      */
-    protected generateArmorRepairableProperties(itemTemplate: ITemplateItem, botRole: string): Repairable;
-    protected getModTplFromItemDb(modTpl: string, parentSlot: Slot, modSlot: string, items: Item[]): string;
+    protected generateArmorRepairableProperties(itemTemplate: ITemplateItem, botRole?: string): Repairable;
+    isWeaponModIncompatibleWithCurrentMods(itemsEquipped: Item[], tplToCheck: string, modSlot: string): IChooseRandomCompatibleModResult;
     /**
-     * Sort by spawn chance, highest to lowest, higher is more common
-     * @param unsortedModArray String array to sort
-     * @returns Sorted string array
+     * Can item be added to another item without conflict
+     * @param itemsEquipped Items to check compatibilities with
+     * @param tplToCheck Tpl of the item to check for incompatibilities
+     * @param equipmentSlot Slot the item will be placed into
+     * @returns false if no incompatibilities, also has incompatibility reason
      */
-    protected sortModArray(unsortedModArray: string[]): string[];
+    isItemIncompatibleWithCurrentItems(itemsEquipped: Item[], tplToCheck: string, equipmentSlot: string): IChooseRandomCompatibleModResult;
     /**
-     * Can an item be added to an item without issue
-     * @param items
-     * @param tplToCheck
-     * @param equipmentSlot
-     * @returns true if possible
+     * Convert a bots role to the equipment role used in config/bot.json
+     * @param botRole Role to convert
+     * @returns Equipment role (e.g. pmc / assault / bossTagilla)
      */
-    isItemIncompatibleWithCurrentItems(items: Item[], tplToCheck: string, equipmentSlot: string): boolean;
+    getBotEquipmentRole(botRole: string): string;
     /**
-     * Adds an item with all its childern into specified equipmentSlots, wherever it fits.
-     * @param equipmentSlots
-     * @param parentId
-     * @param parentTpl
-     * @param itemWithChildren
-     * @param inventory
-     * @returns a `boolean` indicating item was added
+     * Adds an item with all its children into specified equipmentSlots, wherever it fits.
+     * @param equipmentSlots Slot to add item+children into
+     * @param rootItemId Root item id to use as mod items parentid
+     * @param rootItemTplId Root itms tpl id
+     * @param itemWithChildren Item to add
+     * @param inventory Inventory to add item+children into
+     * @returns ItemAddedResult result object
      */
-    addItemWithChildrenToEquipmentSlot(equipmentSlots: string[], parentId: string, parentTpl: string, itemWithChildren: Item[], inventory: PmcInventory): boolean;
-    protected itemAllowedInContainer(slot: Grid, itemTpl: string): boolean;
-}
-export declare class ExhaustableArray<T> {
-    private itemPool;
-    private randomUtil;
-    private jsonUtil;
-    private pool;
-    constructor(itemPool: T[], randomUtil: RandomUtil, jsonUtil: JsonUtil);
-    getRandomValue(): T;
-    getFirstValue(): T;
-    hasValues(): boolean;
+    addItemWithChildrenToEquipmentSlot(equipmentSlots: string[], rootItemId: string, rootItemTplId: string, itemWithChildren: Item[], inventory: Inventory, containersIdFull?: Set<string>): ItemAddedResult;
+    /**
+     * Is the provided item allowed inside a container
+     * @param slotGrid Items sub-grid we want to place item inside
+     * @param itemTpl Item tpl being placed
+     * @returns True if allowed
+     */
+    protected itemAllowedInContainer(slotGrid: Grid, itemTpl: string): boolean;
 }

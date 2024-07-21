@@ -1,42 +1,45 @@
-import { QuestHelper } from "../helpers/QuestHelper";
-import { RepairHelper } from "../helpers/RepairHelper";
-import { TraderHelper } from "../helpers/TraderHelper";
-import { IPmcData } from "../models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "../models/eft/itemEvent/IItemEventRouterResponse";
-import { IRepairActionDataRequest } from "../models/eft/repair/IRepairActionDataRequest";
-import { ITraderRepairActionDataRequest } from "../models/eft/repair/ITraderRepairActionDataRequest";
-import { IRepairConfig } from "../models/spt/config/IRepairConfig";
-import { ILogger } from "../models/spt/utils/ILogger";
-import { ItemEventRouter } from "../routers/ItemEventRouter";
-import { ConfigServer } from "../servers/ConfigServer";
-import { DatabaseServer } from "../servers/DatabaseServer";
-import { PaymentService } from "../services/PaymentService";
+import { ProfileHelper } from "@spt/helpers/ProfileHelper";
+import { QuestHelper } from "@spt/helpers/QuestHelper";
+import { RepairHelper } from "@spt/helpers/RepairHelper";
+import { TraderHelper } from "@spt/helpers/TraderHelper";
+import { IPmcData } from "@spt/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt/models/eft/itemEvent/IItemEventRouterResponse";
+import { IRepairActionDataRequest } from "@spt/models/eft/repair/IRepairActionDataRequest";
+import { ITraderRepairActionDataRequest } from "@spt/models/eft/repair/ITraderRepairActionDataRequest";
+import { IRepairConfig } from "@spt/models/spt/config/IRepairConfig";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt/routers/EventOutputHolder";
+import { DatabaseService } from "@spt/services/DatabaseService";
+import { PaymentService } from "@spt/services/PaymentService";
+import { RepairService } from "@spt/services/RepairService";
 export declare class RepairController {
     protected logger: ILogger;
-    protected itemEventRouter: ItemEventRouter;
-    protected databaseServer: DatabaseServer;
+    protected eventOutputHolder: EventOutputHolder;
+    protected databaseService: DatabaseService;
     protected questHelper: QuestHelper;
     protected traderHelper: TraderHelper;
     protected paymentService: PaymentService;
     protected repairHelper: RepairHelper;
-    protected configServer: ConfigServer;
+    protected repairService: RepairService;
+    protected profileHelper: ProfileHelper;
     protected repairConfig: IRepairConfig;
-    protected readonly WEAPON_SKILL_REPAIR_GAIN: number;
-    constructor(logger: ILogger, itemEventRouter: ItemEventRouter, databaseServer: DatabaseServer, questHelper: QuestHelper, traderHelper: TraderHelper, paymentService: PaymentService, repairHelper: RepairHelper, configServer: ConfigServer);
+    constructor(logger: ILogger, eventOutputHolder: EventOutputHolder, databaseService: DatabaseService, questHelper: QuestHelper, traderHelper: TraderHelper, paymentService: PaymentService, repairHelper: RepairHelper, repairService: RepairService, profileHelper: ProfileHelper);
     /**
+     * Handle TraderRepair event
      * Repair with trader
-     * @param pmcData player profile
-     * @param body endpoint request data
      * @param sessionID session id
+     * @param body endpoint request data
+     * @param pmcData player profile
      * @returns item event router action
      */
-    traderRepair(pmcData: IPmcData, body: ITraderRepairActionDataRequest, sessionID: string): IItemEventRouterResponse;
+    traderRepair(sessionID: string, body: ITraderRepairActionDataRequest, pmcData: IPmcData): IItemEventRouterResponse;
     /**
+     * Handle Repair event
      * Repair with repair kit
-     * @param pmcData player profile
-     * @param body endpoint request data
      * @param sessionID session id
+     * @param body endpoint request data
+     * @param pmcData player profile
      * @returns item event router action
      */
-    repairWithKit(pmcData: IPmcData, body: IRepairActionDataRequest, sessionID: string): IItemEventRouterResponse;
+    repairWithKit(sessionID: string, body: IRepairActionDataRequest, pmcData: IPmcData): IItemEventRouterResponse;
 }

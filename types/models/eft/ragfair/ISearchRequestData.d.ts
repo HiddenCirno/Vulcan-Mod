@@ -1,7 +1,8 @@
+import { RagfairSort } from "@spt/models/enums/RagfairSort";
 export interface ISearchRequestData {
     page: number;
     limit: number;
-    sortType: number;
+    sortType: RagfairSort;
     sortDirection: number;
     currency: number;
     priceFrom: number;

@@ -23,7 +23,7 @@
           "Backpack": 40,
           "Earpiece": 0,
           "Eyewear": 0,
-          "FaceCover": 0,
+          "FaceCover": 1,
           "FirstPrimaryWeapon": 100,
           "Headwear": 100,
           "Holster": 100,
@@ -2142,7 +2142,7 @@
           },
           "Earpiece": {},
           "FaceCover": {
-              "5bd073a586f7747e6f135799": 1
+              "作者头": 1
           },
           "ArmBand": {},
           "ArmorVest": {
@@ -2164,7 +2164,9 @@
               "5af99e9186f7747c447120b8": 1
           },
           "Scabbard": {
-              "5c0126f40db834002a125382": 9999,
+              "5c0126f40db834002a125382": 9000,
+              "5bffdd7e0db834001b734a1a": 900,
+              "下界合金剑": 99,
               "Debug战术剑": 1
           },
           "SecondPrimaryWeapon": {},
@@ -2196,7 +2198,8 @@
               "5d80c62a86f7744036212b3f": 1,
               "5ad5d7d286f77450166e0a89": 1,
               "5addaffe86f77470b455f900": 1,
-              "5e42c71586f7747f245e1343": 1
+              "5e42c71586f7747f245e1343": 1,
+              "635267f063651329f75a4ee8": 1
           },
           "SecuredContainer": {
               "5a6086ea4f39f99cd479502f": 1,

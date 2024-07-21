@@ -1,14 +1,17 @@
-import { Item } from "./IItem";
+import { Item } from "@spt/models/eft/common/tables/IItem";
+import { ITraderServiceModel } from "@spt/models/spt/services/ITraderServiceModel";
 export interface ITrader {
-    assort: ITraderAssort;
+    assort?: ITraderAssort;
     base: ITraderBase;
     dialogue?: Record<string, string[]>;
-    questassort: Record<string, Record<string, string>>;
+    questassort?: Record<string, Record<string, string>>;
     suits?: ISuit[];
+    services?: ITraderServiceModel[];
 }
 export interface ITraderBase {
-    refreshAssort: boolean;
+    refreshTraderRagfairOffers: boolean;
     _id: string;
+    availableInRaid: boolean;
     avatar: string;
     balance_dol: number;
     balance_eur: number;
@@ -20,6 +23,8 @@ export interface ITraderBase {
     discount_end: number;
     gridHeight: number;
     insurance: Insurance;
+    items_buy: IItemBuyData;
+    items_buy_prohibited: IItemBuyData;
     location: string;
     loyaltyLevels: LoyaltyLevel[];
     medic: boolean;
@@ -30,6 +35,10 @@ export interface ITraderBase {
     sell_category: string[];
     surname: string;
     unlockedByDefault: boolean;
+}
+export interface IItemBuyData {
+    category: string[];
+    id_list: string[];
 }
 export interface Insurance {
     availability: boolean;
@@ -54,11 +63,12 @@ export interface Repair {
     currency: string;
     currency_coefficient: number;
     excluded_category: string[];
+    /** Doesn't exist in client object */
     excluded_id_list: any[];
-    quality: string;
+    quality: number;
 }
 export interface ITraderAssort {
-    nextResupply?: number;
+    nextResupply: number;
     items: Item[];
     barter_scheme: Record<string, IBarterScheme[][]>;
     loyal_level_items: Record<string, number>;
@@ -67,15 +77,16 @@ export interface IBarterScheme {
     count: number;
     _tpl: string;
     onlyFunctional?: boolean;
+    sptQuestLocked?: boolean;
 }
 export interface ISuit {
     _id: string;
     tid: string;
     suiteId: string;
     isActive: boolean;
-    requirements: Requirements;
+    requirements: ISuitRequirements;
 }
-export interface Requirements {
+export interface ISuitRequirements {
     loyaltyLevel: number;
     profileLevel: number;
     standing: number;

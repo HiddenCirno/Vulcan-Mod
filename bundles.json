@@ -625,17 +625,220 @@
             ]
         },
         {
-            "key": "string",
+            "key": "assets/mods/tactical_all_wilcox_raptar_es.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/glow_particle_bright.bundle",
+                "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+                "assets/systems/effects/collimator.bundle",
+                "assets/systems/effects/laserbeam/laser.bundle",
+                "assets/systems/effects/multiflare/multiflare.bundle",
+                "assets/systems/effects/nightvision.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "coin_coldwing.pack",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
+            "key": "assets/content/weapons/diamond_sword/weapon_miller_bros_m-2_container.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/knife_bayonet.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/fulcrum/client_assets.bundle",
+                "assets/content/weapons/fulcrum/textures/client_assets.bundle",
+                "assets/content/weapons/diamond_sword/client_assets.bundle",
+                "assets/content/weapons/diamond_sword/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/weapons/diamond_sword/textures/client_assets.bundle",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
+            "key": "assets/content/weapons/diamond_sword/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/content/weapons/diamond_sword/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/weapons/netherite_sword/weapon_miller_bros_m-2_container.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/knife_bayonet.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/fulcrum/client_assets.bundle",
+                "assets/content/weapons/fulcrum/textures/client_assets.bundle",
+                "assets/content/weapons/netherite_sword/client_assets.bundle",
+                "assets/content/weapons/netherite_sword/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/weapons/netherite_sword/textures/client_assets.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/weapons/netherite_sword/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/content/weapons/netherite_sword/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/weapons/Raven/weapon_sog_voodoo_hawk_container.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/knife_bayonet.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/fulcrum/client_assets.bundle",
+                "assets/content/weapons/fulcrum/textures/client_assets.bundle",
+                "assets/content/weapons/Raven/client_assets.bundle",
+                "assets/content/weapons/Raven/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/content/weapons/Raven/textures/client_assets.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/content/weapons/Raven/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/content/weapons/Raven/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "mchead_steve.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_pumpkin.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_herobrine.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_creeper.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_enderman.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_zombie.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_skeleton.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_skeletonwither.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_wither.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "mchead_hiddenhiragi.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "bhhand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "bhhead.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "bhleg.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "bhupper.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlkbody.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlklower.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlkhelmet.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlkhand.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlkheadblue.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlklowerblue.pack",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "vlkupblue.pack",
 			"dependencyKeys": [
             ]
         },

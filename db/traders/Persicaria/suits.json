@@ -2,6 +2,8 @@
   {
     "_id": "SuitReshalaCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -24,6 +26,8 @@
   {
     "_id": "SuitReshalaLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -46,6 +50,8 @@
   {
     "_id": "SuitSanitarCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -68,6 +74,8 @@
   {
     "_id": "SuitSanitarLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -90,6 +98,8 @@
   {
     "_id": "SuitGlukahrCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -112,6 +122,8 @@
   {
     "_id": "SuitGlukahrLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -134,6 +146,8 @@
   {
     "_id": "SuitKillaCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -156,6 +170,8 @@
   {
     "_id": "SuitKillaLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -178,6 +194,8 @@
   {
     "_id": "SuitKnightCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -200,6 +218,8 @@
   {
     "_id": "SuitKnightLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -222,6 +242,8 @@
   {
     "_id": "SuitShturmanCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -244,6 +266,8 @@
   {
     "_id": "SuitShturmanLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -266,6 +290,8 @@
   {
     "_id": "SuitTagillaCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -288,6 +314,8 @@
   {
     "_id": "SuitTagillaLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -310,6 +338,8 @@
   {
     "_id": "SuitZryachiyCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -332,6 +362,8 @@
   {
     "_id": "SuitZryachiyLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -354,6 +386,8 @@
   {
     "_id": "SuitBigPipeCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -376,6 +410,8 @@
   {
     "_id": "SuitBigPipeLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -398,6 +434,8 @@
   {
     "_id": "SuitBirdeyeCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -420,6 +458,8 @@
   {
     "_id": "SuitBirdeyeLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -442,6 +482,8 @@
   {
     "_id": "SuitKabanCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -464,6 +506,8 @@
   {
     "_id": "SuitKabanLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -486,6 +530,8 @@
   {
     "_id": "SuitDavidCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -506,6 +552,8 @@
   {
     "_id": "SuitPriestCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -528,6 +576,8 @@
   {
     "_id": "SuitPriestLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -550,6 +600,8 @@
   {
     "_id": "SuitKolontayCoat",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {
@@ -572,6 +624,8 @@
   {
     "_id": "SuitKolontayLower",
     "isActive": true,
+    "externalObtain": false,
+    "internalObtain": true,
     "requirements": {
       "itemRequirements": [
         {

@@ -56,32 +56,6 @@
         "Quest": "PersicariaCyberTask1"
     },
     {
-        "ID": "万能钥匙卡",
-        "Trader": "Persicaria",
-        "Item": [
-            {
-                "_id": "万能钥匙卡",
-                "_tpl": "HackKeyCard",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "BuyRestrictionMax": 1,
-                    "BuyRestrictionCurrent": 0,
-                    "StackObjectsCount": 999999,
-                    "UnlimitedCount": true
-                }
-            }
-        ],
-        "DogTag": {},
-        "Barter": {
-            "5c94bbff86f7747ee735c08f": 1
-        },
-        "TrustLevel": 1,
-        "isWeapon": false,
-        "Locked": true,
-        "Quest": "PersicariaKeyTask3"
-    },
-    {
         "ID": "Salewa1",
         "Trader": "Persicaria",
         "Item": [
@@ -1599,7 +1573,7 @@
         ],
         "DogTag": {},
         "Barter": {
-            "59faff1d86f7746c51718c9c": 1
+            "不死图腾": 1
         },
         "TrustLevel": 4,
         "isWeapon": true,
@@ -2763,7 +2737,7 @@
         "TrustLevel": 2,
         "isWeapon": false,
         "Locked": false,
-        "Quest": "5c0bd01e86f7747cdd799e56"
+        "Quest": ""
     },
     {
         "ID": "大管头巾",
@@ -2793,7 +2767,7 @@
         "TrustLevel": 2,
         "isWeapon": false,
         "Locked": false,
-        "Quest": "5c0bd01e86f7747cdd799e56"
+        "Quest": ""
     },
     {
         "ID": "电台包复制品",
@@ -2805,7 +2779,7 @@
                 "parentId": "hideout",
                 "slotId": "hideout",
                 "upd": {
-                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionMax": 1,
                     "BuyRestrictionCurrent": 0,
                     "StackObjectsCount": 999999,
                     "UnlimitedCount": true
@@ -2822,8 +2796,8 @@
         "Barter": {},
         "TrustLevel": 4,
         "isWeapon": false,
-        "Locked": false,
-        "Quest": "5c0bd01e86f7747cdd799e56"
+        "Locked": true,
+        "Quest": "626bdcc3a371ee3a7a3514c5"
     },
     {
         "ID": "闪光喷",
@@ -3074,33 +3048,33 @@
                     "StackObjectsCount": 999999,
                     "UnlimitedCount": true,
                     "FireMode": {
-                      "FireMode": "single"
+                        "FireMode": "single"
                     }
                 }
             },
             {
-              "_id": "629744d002667c48a467ea00",
-              "_tpl": "571659bb2459771fb2755a12",
-              "parentId": "Boss狗牌_转轮榴弹",
-              "slotId": "mod_pistol_grip"
+                "_id": "629744d002667c48a467ea00",
+                "_tpl": "571659bb2459771fb2755a12",
+                "parentId": "Boss狗牌_转轮榴弹",
+                "slotId": "mod_pistol_grip"
             },
             {
-              "_id": "629744d002667c48a467ea01",
-              "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
-              "parentId": "Boss狗牌_转轮榴弹",
-              "slotId": "mod_stock"
+                "_id": "629744d002667c48a467ea01",
+                "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+                "parentId": "Boss狗牌_转轮榴弹",
+                "slotId": "mod_stock"
             },
             {
-              "_id": "629744d002667c48a467ea02",
-              "_tpl": "627bce33f21bc425b06ab967",
-              "parentId": "Boss狗牌_转轮榴弹",
-              "slotId": "mod_magazine"
+                "_id": "629744d002667c48a467ea02",
+                "_tpl": "627bce33f21bc425b06ab967",
+                "parentId": "Boss狗牌_转轮榴弹",
+                "slotId": "mod_magazine"
             },
             {
-              "_id": "629744d002667c48a467ea03",
-              "_tpl": "6284bd5f95250a29bc628a30",
-              "parentId": "Boss狗牌_转轮榴弹",
-              "slotId": "mod_scope"
+                "_id": "629744d002667c48a467ea03",
+                "_tpl": "6284bd5f95250a29bc628a30",
+                "parentId": "Boss狗牌_转轮榴弹",
+                "slotId": "mod_scope"
             }
         ],
         "DogTag": {
@@ -3114,7 +3088,7 @@
         "TrustLevel": 4,
         "isWeapon": true,
         "Locked": true,
-        "Quest": "626bdcc3a371ee3a7a3514c5"
+        "Quest": "PersicariaDeadTask7"
     },
     {
         "ID": "剧毒刀刃",
@@ -3469,5 +3443,438 @@
         "isWeapon": false,
         "Locked": false,
         "Quest": ""
+    },
+    {
+        "ID": "黑测距",
+        "Trader": "5c0647fdd443bc2504c2d371",
+        "Item": [
+            {
+                "_id": "黑测距",
+                "_tpl": "黑测距仪",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 23100
+        },
+        "TrustLevel": 3,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "BOSS狗牌换Killa头",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换Killa头",
+                "_tpl": "5c0e874186f7745dc7616606",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "18df092d544c7a21c978230f",
+                "_tpl": "6571133d22996eaf11088200",
+                "parentId": "BOSS狗牌换Killa头",
+                "slotId": "Helmet_top"
+            },
+            {
+                "_id": "0f653fbbf9abbd50bbe158fb",
+                "_tpl": "6571138e818110db4600aa71",
+                "parentId": "BOSS狗牌换Killa头",
+                "slotId": "Helmet_back"
+            },
+            {
+                "_id": "b5003dc5075b06dc76ff2426",
+                "_tpl": "657112fa818110db4600aa6b",
+                "parentId": "BOSS狗牌换Killa头",
+                "slotId": "Helmet_ears"
+            },
+            {
+                "_id": "91da93e6059760b187d2ee5c",
+                "_tpl": "5c0e842486f77443a74d2976",
+                "parentId": "BOSS狗牌换Killa头",
+                "slotId": "mod_equipment",
+                "upd": {
+                    "Togglable": {
+                        "On": false
+                    }
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true,
+        "Locked": true,
+        "Quest": "5d25e2e286f77444001e2e48"
+    },
+    {
+        "ID": "BOSS狗牌换电焊面具1",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换电焊面具1",
+                "_tpl": "60a7ad2a2198820d95707a2e",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "60c0c018f7afb4354815096a"
+    },
+    {
+        "ID": "BOSS狗牌换电焊面具2",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换电焊面具2",
+                "_tpl": "60a7ad3a0c5cb24b0134664a",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "60c0c018f7afb4354815096a"
+    },
+    {
+        "ID": "BOSS狗牌换BOSS小帽",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换BOSS小帽",
+                "_tpl": "60a7acf20c5cb24b01346648",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "BOSS狗牌换Reshala包",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换Reshala包",
+                "_tpl": "Reshala背包",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "PersicariaDeadTask1"
+    },
+    {
+        "ID": "BOSS狗牌换警棍",
+        "Trader": "5c0647fdd443bc2504c2d371",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换警棍",
+                "_tpl": "6540d2162ae6d96b540afcaf",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "6578eb36e5020875d64645cd"
+    },
+    {
+        "ID": "BOSS狗牌换PKP",
+        "Trader": "5a7c2eca46aef81a7ca2145d",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换PKP",
+                "_tpl": "64ca3d3954fc657e230529cc",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "817b78a9b95b67b19b5b661f",
+                "_tpl": "64cbad529f7cf7f75c077fd5",
+                "parentId": "BOSS狗牌换PKP",
+                "slotId": "mod_pistolgrip"
+            },
+            {
+                "_id": "1e5ef73443fbabb2b674d738",
+                "_tpl": "646372518610c40fc20204e8",
+                "parentId": "BOSS狗牌换PKP",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "9e63f75c3b990bffb2d03aba",
+                "_tpl": "6492e3a97df7d749100e29ee",
+                "parentId": "BOSS狗牌换PKP",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "d713bcae705061fe8b8389ea",
+                "_tpl": "64639a9aab86f8fd4300146c",
+                "parentId": "BOSS狗牌换PKP",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "d200236b4b67e011b1cbd997",
+                "_tpl": "6464d870bb2c580352070cc4",
+                "parentId": "BOSS狗牌换PKP",
+                "slotId": "mod_bipod"
+            },
+            {
+                "_id": "11737f8a9f598e35cb5766cb",
+                "_tpl": "6492fb8253acae0af00a29b6",
+                "parentId": "BOSS狗牌换PKP",
+                "slotId": "mod_sight_rear"
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true,
+        "Locked": true,
+        "Quest": "64e7b971f9d6fa49d6769b44"
+    },
+    {
+        "ID": "BOSS狗牌换PKM",
+        "Trader": "5a7c2eca46aef81a7ca2145d",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换PKM",
+                "_tpl": "64637076203536ad5600c990",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "256833c13011da40c0bbbbe8",
+                "_tpl": "646371779f5f0ea59a04c204",
+                "parentId": "BOSS狗牌换PKM",
+                "slotId": "mod_pistolgrip"
+            },
+            {
+                "_id": "2ba02933f89f92c84746bfdc",
+                "_tpl": "646372518610c40fc20204e8",
+                "parentId": "BOSS狗牌换PKM",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "7aa8e419df8495a7dd7cb737",
+                "_tpl": "646371a9f2404ab67905c8e6",
+                "parentId": "BOSS狗牌换PKM",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "a46486e4cb5fda143048a103",
+                "_tpl": "646371faf2404ab67905c8e9",
+                "parentId": "BOSS狗牌换PKM",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "8ad319ce62366eeb803a0b78",
+                "_tpl": "6464d870bb2c580352070cc4",
+                "parentId": "BOSS狗牌换PKM",
+                "slotId": "mod_bipod"
+            },
+            {
+                "_id": "58a4f0ad15cf47c363a575b9",
+                "_tpl": "6492fb8253acae0af00a29b6",
+                "parentId": "BOSS狗牌换PKM",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "7922ac494bdc9c0e418ee399",
+                "_tpl": "6492efb8cfcf7c89e701abf3",
+                "parentId": "a46486e4cb5fda143048a103",
+                "slotId": "mod_muzzle"
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true,
+        "Locked": true,
+        "Quest": "64e7b971f9d6fa49d6769b44"
+    },
+    {
+        "ID": "BOSS狗牌换小鹿头套",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换小鹿头套",
+                "_tpl": "63626d904aa74b8fe30ab426",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "625d700cc48e6c62a440fab5"
+    },
+    {
+        "ID": "BOSS狗牌换小鹿帽子",
+        "Trader": "5ac3b934156ae10c4430e83c",
+        "Item": [
+            {
+                "_id": "BOSS狗牌换小鹿帽子",
+                "_tpl": "636270263f2495c26f00b007",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "625d700cc48e6c62a440fab5"
     }
 ]
